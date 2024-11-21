@@ -1,0 +1,2517 @@
+gira_id,gira_nome_rua,gira_freguesia,train_id,train_nome,distance_meters
+012,Avenida dos Estados Unidos da América,Alvalade,12,Santos,4879.75287242
+061,Avenida de Roma,Areeiro,12,Santos,4414.45733681
+062,Avenida de Paris,Areeiro,12,Santos,4305.74691645
+007,Avenida Professor Gama Pinto,Alvalade,12,Santos,5035.27430528
+066,Alameda da Universidade,Alvalade,12,Santos,5178.75608646
+065,Alameda da Universidade,Alvalade,12,Santos,5281.86860064
+040,Avenida Conde de Valbom,Avenidas Novas,12,Santos,3539.39185477
+074,Rua Teixeira de Pascoais,Alvalade,12,Santos,4909.20970342
+096,Rua Prof. Mark Athias,Lumiar,12,Santos,6273.50933176
+054,Praça de Londres,Areeiro,12,Santos,4149.64284163
+052,Largo Frei Heitor Pinto,Alvalade,12,Santos,5600.67485555
+047,Rua Maria Amália Vaz de Carvalho,Alvalade,12,Santos,5184.96426494
+092,Rua Professor Lima Basto,São Domingos de Benfica,12,Santos,3749.39168821
+086,Avenida Duque d'Ávila,Avenidas Novas,12,Santos,3237.36506858
+019,Avenida da República,Avenidas Novas,12,Santos,3361.56017552
+020,Avenida Duque d'Ávila,Avenidas Novas,12,Santos,3437.04107517
+030,Rua da Mesquita,Campolide,12,Santos,3241.56548243
+004,Alameda Dom Afonso Henriques,Areeiro,12,Santos,3942.27970135
+087,Avenida Duque d'Ávila,Avenidas Novas,12,Santos,3290.83149871
+026,Rua Aboím Ascensão,Alvalade,12,Santos,4898.90095235
+084,Avenida Cinco de Outubro,Avenidas Novas,12,Santos,4550.80894163
+002,Avenida da República,Avenidas Novas,12,Santos,4336.61236732
+029,Avenida do Brasil,Alvalade,12,Santos,5636.41020138
+080,Avenida do Brasil,Alvalade,12,Santos,5945.8831495
+082,Campo Grande,Alvalade,12,Santos,5169.29693942
+063,Campo Grande,Alvalade,12,Santos,5791.01626107
+008,Rua Prof. Vieira de Almeida,Lumiar,12,Santos,6147.75799176
+049,Rua Hermano Neves,Lumiar,12,Santos,6076.3372862
+091,Rua Fernando Namora,Lumiar,12,Santos,6254.44078944
+033,Avenida Rovisco Pais,Areeiro,12,Santos,3709.20344065
+077,Azinhaga da Torre do Fato,Lumiar,12,Santos,6340.77160572
+076,Rua Lopes Mendonça,Alvalade,12,Santos,5814.78469485
+045,Rua Marquês do Soveral,Alvalade,12,Santos,5998.04505294
+057,Rua Tomás da Fonseca,São Domingos de Benfica,12,Santos,5691.30775032
+018,Campo Pequeno,Avenidas Novas,12,Santos,4236.06744889
+017,Avenida da República,Avenidas Novas,12,Santos,3888.9117677
+055,Avenida da Liberdade,Santo António,12,Santos,1953.17823081
+095,Praça da Figueira,Santa Maria Maior,12,Santos,1741.7758928
+094,Praça D. Pedro IV,Santa Maria Maior,12,Santos,1637.58394204
+117,Rua da Palma,Santa Maria Maior,12,Santos,2243.67608007
+138,Avenida de Brasília,Belém,12,Santos,4629.49789874
+136,Avenida de Brasília,Belém,12,Santos,2982.02913301
+135,Doca de Alcântara,Estrela,12,Santos,1756.07346223
+133B,Cais do Sodré,Misericórdia,12,Santos,1031.10282605
+129,Avenida Infante Dom Henrique,São Vicente,12,Santos,2988.59043207
+124,Avenida Infante Dom Henrique,Santa Maria Maior,12,Santos,2015.54534095
+118,Largo do Intendente Pina Manique,Arroios,12,Santos,2435.8590052
+132,Avenida da Ribeira das Naus,Santa Maria Maior,12,Santos,1220.56125272
+126,Avenida Vinte e Quatro de Julho,Misericórdia,12,Santos,773.41644966
+127,Avenida Vinte e Quatro de Julho,Misericórdia,12,Santos,584.66087848
+128,Avenida Vinte e Quatro de Julho,Estrela,12,Santos,126.80394703
+130,Avenida Infante Dom Henrique,Santa Maria Maior,12,Santos,2471.98125433
+123,Praça do Município,Santa Maria Maior,12,Santos,1411.78246809
+070,Rua Interior à Alameda da Universidade,Alvalade,12,Santos,5542.92589487
+114,Alameda dos Oceanos,Parque das Nações,12,Santos,9971.04886567
+113,Alameda dos Oceanos,Parque das Nações,12,Santos,9757.31776766
+111,Alameda dos Oceanos,Parque das Nações,12,Santos,9536.36214566
+110,Rua do Bojador,Parque das Nações,12,Santos,9353.13939894
+109,Alameda dos Oceanos,Parque das Nações,12,Santos,9218.90784637
+108,Rua do Bojador,Parque das Nações,12,Santos,8916.0591693
+102,Avenida do Pacífico,Parque das Nações,12,Santos,8422.33651266
+104,Avenida do Índico,Parque das Nações,12,Santos,8646.99566862
+107,Rua do Fogo de Santelmo,Parque das Nações,12,Santos,8075.78393561
+106,Porta do Mar,Parque das Nações,12,Santos,7828.75863697
+105,Alameda dos Oceanos,Parque das Nações,12,Santos,7542.29712177
+141,Rua de Moscavide ao Parque das Nações,Parque das Nações,12,Santos,9506.85874687
+005A,Praça do Duque de Saldanha,Avenidas Novas,12,Santos,3235.13907806
+005B,Praça do Duque de Saldanha,Arroios,12,Santos,3271.88092515
+005C,Praça do Duque de Saldanha,Arroios,12,Santos,3222.45984655
+022A,Avenida Fontes Pereira de Melo,Avenidas Novas,12,Santos,2937.93999056
+053B,Praça do Marquês de Pombal,Santo António,12,Santos,2117.01558635
+053A,Praça do Marquês de Pombal,Santo António,12,Santos,2178.09095345
+075B,Avenida da Liberdade,Santo António,12,Santos,1674.95173455
+101B,Praça Martim Moniz,Santa Maria Maior,12,Santos,1933.4759744
+101A,Praça Martim Moniz,Santa Maria Maior,12,Santos,1906.00444107
+143,Rua Konrad Adenauer,Lumiar,12,Santos,5959.54105294
+144,Avenida da Liberdade,Santo António,12,Santos,1958.30190516
+145,Avenida da Liberdade,Santo António,12,Santos,1781.99382259
+133A,Avenida Vinte e Quatro de Julho,Misericórdia,12,Santos,931.31933636
+147,Alameda da Universidade,Alvalade,12,Santos,5143.96287845
+024A,Avenida Ressano Garcia,Avenidas Novas,12,Santos,3163.27038347
+024B,Avenida António Augusto de Aguiar,Avenidas Novas,12,Santos,3156.23825872
+146,Rua Martens Ferrão,Arroios,12,Santos,2644.22106144
+051,Avenida de António José de Almeida,Areeiro,12,Santos,3821.81135284
+162,Rua Marques da Silva,Arroios,12,Santos,3134.24327723
+158,Rua Passos Manuel,Arroios,12,Santos,3219.66979379
+157,Rua António Pedro,Arroios,12,Santos,3319.88447733
+161,Avenida Almirante Reis,Arroios,12,Santos,2471.11220857
+160,Avenida Almirante Reis,Arroios,12,Santos,2779.06041341
+159,Rua Frei Francisco Foreiro,Arroios,12,Santos,2970.93427474
+242,Rua Luís de Freitas Branco,Lumiar,12,Santos,7181.75641825
+154,Alameda das Linhas de Torres,Lumiar,12,Santos,7509.38290635
+152,Alameda das Linhas de Torres,Lumiar,12,Santos,6658.97149636
+153,Rua Ladislau Patrício,Lumiar,12,Santos,6950.52151376
+151,Alameda das Linhas de Torres,Lumiar,12,Santos,6281.86418095
+150,Rua Fernando Curado Ribeiro,Lumiar,12,Santos,6083.53671034
+170,Avenida Cidade de Luanda,Olivais,12,Santos,7226.1419273
+176,Jardim Eduardo Prado Coelho,Olivais,12,Santos,8218.59871204
+175,Avenida Dr. Francisco Luís Gomes,Olivais,12,Santos,8020.40128682
+177,Rua Cidade de Benguela,Olivais,12,Santos,7618.04133416
+173,Avenida Cidade de Lourenço Marques,Olivais,12,Santos,7194.50774172
+172,Praça Cidade do Luso,Olivais,12,Santos,7435.45366078
+171,Rua Cidade de Bissau,Olivais,12,Santos,7254.67620659
+178,Praça Baden Powell,Olivais,12,Santos,7914.70497787
+174,Avenida de Berlim,Olivais,12,Santos,7855.97073765
+168,Rua Marquês de Fronteira,Campolide,12,Santos,2784.16002173
+166,Rua Dom Francisco Manuel de Melo,Avenidas Novas,12,Santos,2481.59690194
+165,Rua de Campolide,Campolide,12,Santos,2409.43513412
+167,Rua Castilho,Avenidas Novas,12,Santos,2622.41100923
+164,Avenida Engenheiro Duarte Pacheco,Santo António,12,Santos,2061.02325962
+163,Rua Carlos Alberto da Mota Pinto,Campo de Ourique,12,Santos,2037.85814665
+227,Rua Tomás da Anunciação,Campo de Ourique,12,Santos,1521.65824367
+208,Rua da Venezuela,Benfica,12,Santos,5775.78836265
+202,Rua de São Domingos de Benfica,São Domingos de Benfica,12,Santos,4326.16755121
+206,Rua Ten. Coronel Ribeiro dos Reis,Benfica,12,Santos,5284.79817618
+207,Rua José dos Santos Pereira,Benfica,12,Santos,5388.35182686
+203,Rua Conde de Almoster,São Domingos de Benfica,12,Santos,4535.85856977
+218,Azinhaga dos Ulmeiros,Lumiar,12,Santos,7173.43544782
+121,Rua dos Fanqueiros,Santa Maria Maior,12,Santos,1780.36718339
+122,Rua do Crucifixo,Santa Maria Maior,12,Santos,1518.90774986
+209,Estrada de Benfica,Benfica,12,Santos,5624.31952854
+210,Largo da Revista Militar,Benfica,12,Santos,5965.22729729
+211,Avenida do Colégio Militar,Carnide,12,Santos,6266.37262549
+213,Rua Cupertino de Miranda,Carnide,12,Santos,7160.41132623
+214,Rua Padre Américo,Carnide,12,Santos,6724.21017917
+215,Avenida das Nações Unidas,Carnide,12,Santos,6731.5080169
+216,Rua Prof. Mário de Albuquerque,Lumiar,12,Santos,6449.39178576
+217,Rua Prof. Pulido Valente,Lumiar,12,Santos,6453.40038955
+023,Avenida Columbano Bordalo Pinheiro,Campolide,12,Santos,3561.46951702
+056,Avenida Columbano Bordalo Pinheiro,São Domingos de Benfica,12,Santos,3830.73485331
+230,Praça das Indústrias,Alcântara,12,Santos,2451.94422091
+235,Avenida da Índia,Belém,12,Santos,5093.10141418
+236,Largo Luís Alves Miguel,Belém,12,Santos,5710.445735
+252,Rua Luís Pastor de Macedo,Lumiar,12,Santos,6775.85334439
+303,Avenida do Uruguai,Benfica,12,Santos,6389.18481673
+304,Rua Guiomar Torresão,Carnide,12,Santos,6650.09664359
+249,Avenida de Berlim,Olivais,12,Santos,8046.19858005
+312,Rua Cascais,Alcântara,12,Santos,1749.28847974
+319,Avenida da Torre de Belém,Belém,12,Santos,5323.32329717
+409,Rua Fernanda Montemor,Marvila,12,Santos,6618.28835546
+410,Praça David Leandro da Silva,Marvila,12,Santos,6138.68100632
+073,Rua Alfredo Cortês,Alvalade,12,Santos,4574.90117423
+408,Avenida Infante Dom Henrique,Beato,12,Santos,4996.97252
+407,Avenida General Roçadas,Penha de França,12,Santos,2960.83748035
+404,Largo Mendonça e Costa,Penha de França,12,Santos,3683.76961701
+416,Rua do Comércio,Santa Maria Maior,12,Santos,1624.48404502
+417,Rua Interior à Est. da Correia,Carnide,12,Santos,7227.7071397
+064,Rua Prof. Oliveira Marques,Alvalade,12,Santos,5421.90589771
+418,Avenida Infante Dom Henrique,Beato,12,Santos,5194.55703691
+085,Avenida Elias Garcia,Avenidas Novas,12,Santos,3726.90447013
+034,Avenida da República,Avenidas Novas,12,Santos,3638.52399002
+044,Rua do Arco do Cego,Avenidas Novas,12,Santos,3874.29486584
+038,Avenida Barbosa du Bocage,Avenidas Novas,12,Santos,4006.87620202
+003,Rua Professor Lima Basto,São Domingos de Benfica,12,Santos,3953.61330227
+015,Campo Grande,Alvalade,12,Santos,4785.31276387
+069,Rua Prof.ª Teresa Ambrósio,Alvalade,12,Santos,4786.58540853
+039,Campo Grande,Alvalade,12,Santos,4924.59658285
+081,Avenida da Igreja,Alvalade,12,Santos,5094.47275164
+078,Avenida do Rio de Janeiro,Alvalade,12,Santos,5309.51979718
+012,Avenida dos Estados Unidos da América,Alvalade,13,Rossio,3782.57725306
+061,Avenida de Roma,Areeiro,13,Rossio,3219.95428709
+062,Avenida de Paris,Areeiro,13,Rossio,3005.75354643
+007,Avenida Professor Gama Pinto,Alvalade,13,Rossio,4337.58726543
+066,Alameda da Universidade,Alvalade,13,Rossio,4408.58049631
+065,Alameda da Universidade,Alvalade,13,Rossio,4520.13216952
+040,Avenida Conde de Valbom,Avenidas Novas,13,Rossio,2717.89721483
+074,Rua Teixeira de Pascoais,Alvalade,13,Rossio,3703.28551011
+096,Rua Prof. Mark Athias,Lumiar,13,Rossio,5753.42487096
+054,Praça de Londres,Areeiro,13,Rossio,2918.07587309
+052,Largo Frei Heitor Pinto,Alvalade,13,Rossio,4453.89197856
+047,Rua Maria Amália Vaz de Carvalho,Alvalade,13,Rossio,4087.95120387
+092,Rua Professor Lima Basto,São Domingos de Benfica,13,Rossio,3274.6396278
+086,Avenida Duque d'Ávila,Avenidas Novas,13,Rossio,2407.73143816
+019,Avenida da República,Avenidas Novas,13,Rossio,2311.65949995
+020,Avenida Duque d'Ávila,Avenidas Novas,13,Rossio,2296.51462005
+030,Rua da Mesquita,Campolide,13,Rossio,2748.36749887
+004,Alameda Dom Afonso Henriques,Areeiro,13,Rossio,2611.75440842
+087,Avenida Duque d'Ávila,Avenidas Novas,13,Rossio,2344.05711255
+026,Rua Aboím Ascensão,Alvalade,13,Rossio,3917.60842893
+084,Avenida Cinco de Outubro,Avenidas Novas,13,Rossio,3639.4498776
+002,Avenida da República,Avenidas Novas,13,Rossio,3366.79909718
+029,Avenida do Brasil,Alvalade,13,Rossio,4652.50414603
+080,Avenida do Brasil,Alvalade,13,Rossio,4854.49067528
+082,Campo Grande,Alvalade,13,Rossio,4239.47677563
+063,Campo Grande,Alvalade,13,Rossio,4989.08118406
+008,Rua Prof. Vieira de Almeida,Lumiar,13,Rossio,5547.34245082
+049,Rua Hermano Neves,Lumiar,13,Rossio,5550.74539754
+091,Rua Fernando Namora,Lumiar,13,Rossio,5833.26226891
+033,Avenida Rovisco Pais,Areeiro,13,Rossio,2420.32467017
+077,Azinhaga da Torre do Fato,Lumiar,13,Rossio,5976.80027786
+076,Rua Lopes Mendonça,Alvalade,13,Rossio,4657.7812767
+045,Rua Marquês do Soveral,Alvalade,13,Rossio,4827.83310257
+057,Rua Tomás da Fonseca,São Domingos de Benfica,13,Rossio,5200.80581668
+018,Campo Pequeno,Avenidas Novas,13,Rossio,3199.35691793
+017,Avenida da República,Avenidas Novas,13,Rossio,2887.45239022
+055,Avenida da Liberdade,Santo António,13,Rossio,1055.45821144
+095,Praça da Figueira,Santa Maria Maior,13,Rossio,360.59789609
+094,Praça D. Pedro IV,Santa Maria Maior,13,Rossio,313.96623014
+117,Rua da Palma,Santa Maria Maior,13,Rossio,726.32858913
+138,Avenida de Brasília,Belém,13,Rossio,6067.2144126
+136,Avenida de Brasília,Belém,13,Rossio,4445.2936359
+135,Doca de Alcântara,Estrela,13,Rossio,3216.12364729
+133B,Cais do Sodré,Misericórdia,13,Rossio,1056.25890186
+129,Avenida Infante Dom Henrique,São Vicente,13,Rossio,1699.63048723
+124,Avenida Infante Dom Henrique,Santa Maria Maior,13,Rossio,1129.83522923
+118,Largo do Intendente Pina Manique,Arroios,13,Rossio,924.16698346
+132,Avenida da Ribeira das Naus,Santa Maria Maior,13,Rossio,1000.60106534
+126,Avenida Vinte e Quatro de Julho,Misericórdia,13,Rossio,985.56824753
+127,Avenida Vinte e Quatro de Julho,Misericórdia,13,Rossio,1059.59865956
+128,Avenida Vinte e Quatro de Julho,Estrela,13,Rossio,1391.46112394
+130,Avenida Infante Dom Henrique,Santa Maria Maior,13,Rossio,1332.65286498
+123,Praça do Município,Santa Maria Maior,13,Rossio,787.25402649
+070,Rua Interior à Alameda da Universidade,Alvalade,13,Rossio,4721.1892339
+116,Passeio dos Heróis do Mar,Parque das Nações,13,Rossio,9555.58187304
+115,Via do Oriente,Parque das Nações,13,Rossio,8969.64698757
+114,Alameda dos Oceanos,Parque das Nações,13,Rossio,8570.08551686
+113,Alameda dos Oceanos,Parque das Nações,13,Rossio,8337.51883634
+111,Alameda dos Oceanos,Parque das Nações,13,Rossio,8099.58262852
+110,Rua do Bojador,Parque das Nações,13,Rossio,7897.33502439
+109,Alameda dos Oceanos,Parque das Nações,13,Rossio,7775.36475322
+108,Rua do Bojador,Parque das Nações,13,Rossio,7445.22785819
+102,Avenida do Pacífico,Parque das Nações,13,Rossio,6959.03325174
+104,Avenida do Índico,Parque das Nações,13,Rossio,7185.51479558
+107,Rua do Fogo de Santelmo,Parque das Nações,13,Rossio,6587.61758881
+106,Porta do Mar,Parque das Nações,13,Rossio,6337.77286076
+105,Alameda dos Oceanos,Parque das Nações,13,Rossio,6044.86779895
+141,Rua de Moscavide ao Parque das Nações,Parque das Nações,13,Rossio,8083.60475439
+005A,Praça do Duque de Saldanha,Avenidas Novas,13,Rossio,2177.11239818
+005B,Praça do Duque de Saldanha,Arroios,13,Rossio,2186.71657321
+005C,Praça do Duque de Saldanha,Arroios,13,Rossio,2122.14943966
+022A,Avenida Fontes Pereira de Melo,Avenidas Novas,13,Rossio,1915.39646558
+053B,Praça do Marquês de Pombal,Santo António,13,Rossio,1292.77251365
+053A,Praça do Marquês de Pombal,Santo António,13,Rossio,1311.24285643
+075B,Avenida da Liberdade,Santo António,13,Rossio,268.43068047
+101B,Praça Martim Moniz,Santa Maria Maior,13,Rossio,476.11852604
+101A,Praça Martim Moniz,Santa Maria Maior,13,Rossio,435.88722488
+143,Rua Konrad Adenauer,Lumiar,13,Rossio,5314.61955815
+144,Avenida da Liberdade,Santo António,13,Rossio,958.76375373
+145,Avenida da Liberdade,Santo António,13,Rossio,741.51293229
+133A,Avenida Vinte e Quatro de Julho,Misericórdia,13,Rossio,980.43497856
+147,Alameda da Universidade,Alvalade,13,Rossio,4431.63532684
+024A,Avenida Ressano Garcia,Avenidas Novas,13,Rossio,2469.51325067
+024B,Avenida António Augusto de Aguiar,Avenidas Novas,13,Rossio,2445.12894304
+146,Rua Martens Ferrão,Arroios,13,Rossio,1669.58270845
+051,Avenida de António José de Almeida,Areeiro,13,Rossio,2609.10433304
+162,Rua Marques da Silva,Arroios,13,Rossio,1747.76642197
+158,Rua Passos Manuel,Arroios,13,Rossio,1881.59693746
+157,Rua António Pedro,Arroios,13,Rossio,1949.22118447
+161,Avenida Almirante Reis,Arroios,13,Rossio,971.42560062
+160,Avenida Almirante Reis,Arroios,13,Rossio,1324.2094767
+159,Rua Frei Francisco Foreiro,Arroios,13,Rossio,1570.68975623
+242,Rua Luís de Freitas Branco,Lumiar,13,Rossio,6414.39491395
+154,Alameda das Linhas de Torres,Lumiar,13,Rossio,6750.4120876
+152,Alameda das Linhas de Torres,Lumiar,13,Rossio,5856.16118801
+153,Rua Ladislau Patrício,Lumiar,13,Rossio,6157.34383442
+151,Alameda das Linhas de Torres,Lumiar,13,Rossio,5484.75708488
+150,Rua Fernando Curado Ribeiro,Lumiar,13,Rossio,5279.84108564
+170,Avenida Cidade de Luanda,Olivais,13,Rossio,5812.65900206
+176,Jardim Eduardo Prado Coelho,Olivais,13,Rossio,6826.6566799
+175,Avenida Dr. Francisco Luís Gomes,Olivais,13,Rossio,6644.7586882
+177,Rua Cidade de Benguela,Olivais,13,Rossio,6215.79439474
+173,Avenida Cidade de Lourenço Marques,Olivais,13,Rossio,5847.51906247
+172,Praça Cidade do Luso,Olivais,13,Rossio,6076.26742129
+171,Rua Cidade de Bissau,Olivais,13,Rossio,5866.85312822
+178,Praça Baden Powell,Olivais,13,Rossio,6524.5148461
+174,Avenida de Berlim,Olivais,13,Rossio,6480.72683706
+168,Rua Marquês de Fronteira,Campolide,13,Rossio,2220.09729987
+166,Rua Dom Francisco Manuel de Melo,Avenidas Novas,13,Rossio,2133.43069625
+165,Rua de Campolide,Campolide,13,Rossio,2240.63161355
+167,Rua Castilho,Avenidas Novas,13,Rossio,2138.21369863
+164,Avenida Engenheiro Duarte Pacheco,Santo António,13,Rossio,1865.21875179
+163,Rua Carlos Alberto da Mota Pinto,Campo de Ourique,13,Rossio,1944.23677718
+227,Rua Tomás da Anunciação,Campo de Ourique,13,Rossio,2078.65778236
+208,Rua da Venezuela,Benfica,13,Rossio,6047.95624088
+202,Rua de São Domingos de Benfica,São Domingos de Benfica,13,Rossio,4214.34760982
+206,Rua Ten. Coronel Ribeiro dos Reis,Benfica,13,Rossio,5384.04923798
+207,Rua José dos Santos Pereira,Benfica,13,Rossio,5550.78903585
+203,Rua Conde de Almoster,São Domingos de Benfica,13,Rossio,4458.54658527
+218,Azinhaga dos Ulmeiros,Lumiar,13,Rossio,6646.42494905
+121,Rua dos Fanqueiros,Santa Maria Maior,13,Rossio,566.64968561
+122,Rua do Crucifixo,Santa Maria Maior,13,Rossio,574.05876592
+209,Estrada de Benfica,Benfica,13,Rossio,5648.62046257
+210,Largo da Revista Militar,Benfica,13,Rossio,5901.77881439
+211,Avenida do Colégio Militar,Carnide,13,Rossio,6069.68873507
+213,Rua Cupertino de Miranda,Carnide,13,Rossio,6795.94151385
+214,Rua Padre Américo,Carnide,13,Rossio,6359.29634356
+215,Avenida das Nações Unidas,Carnide,13,Rossio,6317.31278603
+216,Rua Prof. Mário de Albuquerque,Lumiar,13,Rossio,5995.80252609
+217,Rua Prof. Pulido Valente,Lumiar,13,Rossio,5881.82945586
+023,Avenida Columbano Bordalo Pinheiro,Campolide,13,Rossio,3001.4620774
+056,Avenida Columbano Bordalo Pinheiro,São Domingos de Benfica,13,Rossio,3488.85545554
+230,Praça das Indústrias,Alcântara,13,Rossio,3910.07404799
+235,Avenida da Índia,Belém,13,Rossio,6509.38364417
+236,Largo Luís Alves Miguel,Belém,13,Rossio,7096.73337534
+252,Rua Luís Pastor de Macedo,Lumiar,13,Rossio,5935.55504646
+303,Avenida do Uruguai,Benfica,13,Rossio,6430.97107756
+304,Rua Guiomar Torresão,Carnide,13,Rossio,6549.04928912
+249,Avenida de Berlim,Olivais,13,Rossio,6632.82959657
+312,Rua Cascais,Alcântara,13,Rossio,3174.65539837
+319,Avenida da Torre de Belém,Belém,13,Rossio,6720.85040727
+409,Rua Fernanda Montemor,Marvila,13,Rossio,5101.46228668
+410,Praça David Leandro da Silva,Marvila,13,Rossio,4621.87896994
+073,Rua Alfredo Cortês,Alvalade,13,Rossio,3513.27356102
+408,Avenida Infante Dom Henrique,Beato,13,Rossio,3496.03006049
+407,Avenida General Roçadas,Penha de França,13,Rossio,1442.88016481
+404,Largo Mendonça e Costa,Penha de França,13,Rossio,2254.92566945
+416,Rua do Comércio,Santa Maria Maior,13,Rossio,778.3935957
+417,Rua Interior à Est. da Correia,Carnide,13,Rossio,7141.31482719
+064,Rua Prof. Oliveira Marques,Alvalade,13,Rossio,4657.86143698
+418,Avenida Infante Dom Henrique,Beato,13,Rossio,3688.47476505
+085,Avenida Elias Garcia,Avenidas Novas,13,Rossio,2761.93970486
+034,Avenida da República,Avenidas Novas,13,Rossio,2614.84688948
+044,Rua do Arco do Cego,Avenidas Novas,13,Rossio,2738.20834818
+038,Avenida Barbosa du Bocage,Avenidas Novas,13,Rossio,2910.12993978
+003,Rua Professor Lima Basto,São Domingos de Benfica,13,Rossio,3601.46492753
+015,Campo Grande,Alvalade,13,Rossio,3840.29800823
+069,Rua Prof.ª Teresa Ambrósio,Alvalade,13,Rossio,4010.31259984
+039,Campo Grande,Alvalade,13,Rossio,4012.74896523
+081,Avenida da Igreja,Alvalade,13,Rossio,4137.82475416
+078,Avenida do Rio de Janeiro,Alvalade,13,Rossio,4136.4691172
+012,Avenida dos Estados Unidos da América,Alvalade,4,Marvila,3107.3383753
+061,Avenida de Roma,Areeiro,4,Marvila,2661.81820924
+062,Avenida de Paris,Areeiro,4,Marvila,2237.2838387
+007,Avenida Professor Gama Pinto,Alvalade,4,Marvila,4610.86350067
+066,Alameda da Universidade,Alvalade,4,Marvila,4437.03270684
+065,Alameda da Universidade,Alvalade,4,Marvila,4517.1854367
+040,Avenida Conde de Valbom,Avenidas Novas,4,Marvila,3791.63286713
+074,Rua Teixeira de Pascoais,Alvalade,4,Marvila,2639.32824098
+096,Rua Prof. Mark Athias,Lumiar,4,Marvila,5953.16766844
+054,Praça de Londres,Areeiro,4,Marvila,2546.23504642
+052,Largo Frei Heitor Pinto,Alvalade,4,Marvila,3115.65339129
+047,Rua Maria Amália Vaz de Carvalho,Alvalade,4,Marvila,3191.8920509
+092,Rua Professor Lima Basto,São Domingos de Benfica,4,Marvila,4694.3213166
+086,Avenida Duque d'Ávila,Avenidas Novas,4,Marvila,3760.18664914
+019,Avenida da República,Avenidas Novas,4,Marvila,3244.52772349
+020,Avenida Duque d'Ávila,Avenidas Novas,4,Marvila,3002.8258223
+030,Rua da Mesquita,Campolide,4,Marvila,4489.56376875
+004,Alameda Dom Afonso Henriques,Areeiro,4,Marvila,2241.02516241
+087,Avenida Duque d'Ávila,Avenidas Novas,4,Marvila,3495.72185252
+026,Rua Aboím Ascensão,Alvalade,4,Marvila,3566.19649987
+084,Avenida Cinco de Outubro,Avenidas Novas,4,Marvila,3711.62623953
+002,Avenida da República,Avenidas Novas,4,Marvila,3467.94216863
+029,Avenida do Brasil,Alvalade,4,Marvila,3853.04827652
+080,Avenida do Brasil,Alvalade,4,Marvila,3535.8537346
+082,Campo Grande,Alvalade,4,Marvila,3858.36794125
+063,Campo Grande,Alvalade,4,Marvila,4646.10166386
+008,Rua Prof. Vieira de Almeida,Lumiar,4,Marvila,5591.36742603
+049,Rua Hermano Neves,Lumiar,4,Marvila,5799.79743021
+091,Rua Fernando Namora,Lumiar,4,Marvila,6270.71116298
+033,Avenida Rovisco Pais,Areeiro,4,Marvila,2487.03859262
+077,Azinhaga da Torre do Fato,Lumiar,4,Marvila,6519.89791862
+076,Rua Lopes Mendonça,Alvalade,4,Marvila,3158.35525265
+045,Rua Marquês do Soveral,Alvalade,4,Marvila,3179.704057
+057,Rua Tomás da Fonseca,São Domingos de Benfica,4,Marvila,5662.02908972
+018,Campo Pequeno,Avenidas Novas,4,Marvila,3232.00696816
+017,Avenida da República,Avenidas Novas,4,Marvila,3325.75444987
+055,Avenida da Liberdade,Santo António,4,Marvila,3916.82311965
+095,Praça da Figueira,Santa Maria Maior,4,Marvila,3820.17241801
+094,Praça D. Pedro IV,Santa Maria Maior,4,Marvila,3924.3228351
+117,Rua da Palma,Santa Maria Maior,4,Marvila,3256.09339444
+138,Avenida de Brasília,Belém,4,Marvila,9898.05687916
+136,Avenida de Brasília,Belém,4,Marvila,8338.77196556
+135,Doca de Alcântara,Estrela,4,Marvila,7131.51781233
+133B,Cais do Sodré,Misericórdia,4,Marvila,4852.8014159
+129,Avenida Infante Dom Henrique,São Vicente,4,Marvila,3103.78465784
+124,Avenida Infante Dom Henrique,Santa Maria Maior,4,Marvila,4063.59872036
+118,Largo do Intendente Pina Manique,Arroios,4,Marvila,3061.91551509
+132,Avenida da Ribeira das Naus,Santa Maria Maior,4,Marvila,4697.69699052
+126,Avenida Vinte e Quatro de Julho,Misericórdia,4,Marvila,4907.87627562
+127,Avenida Vinte e Quatro de Julho,Misericórdia,4,Marvila,5022.54500699
+128,Avenida Vinte e Quatro de Julho,Estrela,4,Marvila,5371.40867868
+130,Avenida Infante Dom Henrique,Santa Maria Maior,4,Marvila,3602.67875425
+123,Praça do Município,Santa Maria Maior,4,Marvila,4396.37511575
+070,Rua Interior à Alameda da Universidade,Alvalade,4,Marvila,4436.82960515
+116,Passeio dos Heróis do Mar,Parque das Nações,4,Marvila,6097.47616884
+115,Via do Oriente,Parque das Nações,4,Marvila,5517.03933329
+114,Alameda dos Oceanos,Parque das Nações,4,Marvila,5034.85821576
+113,Alameda dos Oceanos,Parque das Nações,4,Marvila,4729.75727601
+111,Alameda dos Oceanos,Parque das Nações,4,Marvila,4425.19058168
+110,Rua do Bojador,Parque das Nações,4,Marvila,4143.07373744
+109,Alameda dos Oceanos,Parque das Nações,4,Marvila,4082.91761727
+108,Rua do Bojador,Parque das Nações,4,Marvila,3634.61291183
+102,Avenida do Pacífico,Parque das Nações,4,Marvila,3204.58739324
+104,Avenida do Índico,Parque das Nações,4,Marvila,3430.37938227
+107,Rua do Fogo de Santelmo,Parque das Nações,4,Marvila,2715.09828887
+106,Porta do Mar,Parque das Nações,4,Marvila,2457.31991297
+105,Alameda dos Oceanos,Parque das Nações,4,Marvila,2136.47690323
+141,Rua de Moscavide ao Parque das Nações,Parque das Nações,4,Marvila,4471.78345505
+005A,Praça do Duque de Saldanha,Avenidas Novas,4,Marvila,3253.94204708
+005B,Praça do Duque de Saldanha,Arroios,4,Marvila,3182.90437949
+005C,Praça do Duque de Saldanha,Arroios,4,Marvila,3162.78086021
+022A,Avenida Fontes Pereira de Melo,Avenidas Novas,4,Marvila,3406.65666444
+053B,Praça do Marquês de Pombal,Santo António,4,Marvila,3934.29775845
+053A,Praça do Marquês de Pombal,Santo António,4,Marvila,3868.06777158
+075B,Avenida da Liberdade,Santo António,4,Marvila,3831.458442
+101B,Praça Martim Moniz,Santa Maria Maior,4,Marvila,3616.25659
+101A,Praça Martim Moniz,Santa Maria Maior,4,Marvila,3632.91629105
+143,Rua Konrad Adenauer,Lumiar,4,Marvila,5313.82248723
+144,Avenida da Liberdade,Santo António,4,Marvila,3827.16754447
+145,Avenida da Liberdade,Santo António,4,Marvila,3892.60690115
+133A,Avenida Vinte e Quatro de Julho,Misericórdia,4,Marvila,4840.09235884
+147,Alameda da Universidade,Alvalade,4,Marvila,4616.23771951
+024A,Avenida Ressano Garcia,Avenidas Novas,4,Marvila,4048.75842827
+024B,Avenida António Augusto de Aguiar,Avenidas Novas,4,Marvila,4011.572537
+146,Rua Martens Ferrão,Arroios,4,Marvila,3577.25397522
+051,Avenida de António José de Almeida,Areeiro,4,Marvila,2687.66657432
+162,Rua Marques da Silva,Arroios,4,Marvila,2587.85815999
+158,Rua Passos Manuel,Arroios,4,Marvila,2629.97044777
+157,Rua António Pedro,Arroios,4,Marvila,2485.19575141
+161,Avenida Almirante Reis,Arroios,4,Marvila,3031.2900614
+160,Avenida Almirante Reis,Arroios,4,Marvila,2777.4699205
+159,Rua Frei Francisco Foreiro,Arroios,4,Marvila,2692.15843996
+242,Rua Luís de Freitas Branco,Lumiar,4,Marvila,5694.14558976
+154,Alameda das Linhas de Torres,Lumiar,4,Marvila,5970.83414956
+152,Alameda das Linhas de Torres,Lumiar,4,Marvila,5186.50227073
+153,Rua Ladislau Patrício,Lumiar,4,Marvila,5426.31562013
+151,Alameda das Linhas de Torres,Lumiar,4,Marvila,4960.8283749
+150,Rua Fernando Curado Ribeiro,Lumiar,4,Marvila,4812.07720178
+170,Avenida Cidade de Luanda,Olivais,4,Marvila,2472.36204514
+176,Jardim Eduardo Prado Coelho,Olivais,4,Marvila,3464.25797344
+175,Avenida Dr. Francisco Luís Gomes,Olivais,4,Marvila,3391.90626849
+177,Rua Cidade de Benguela,Olivais,4,Marvila,2876.35737442
+173,Avenida Cidade de Lourenço Marques,Olivais,4,Marvila,2901.88963416
+172,Praça Cidade do Luso,Olivais,4,Marvila,3010.02248242
+171,Rua Cidade de Bissau,Olivais,4,Marvila,2676.17773379
+178,Praça Baden Powell,Olivais,4,Marvila,3209.17451608
+174,Avenida de Berlim,Olivais,4,Marvila,3253.71130312
+168,Rua Marquês de Fronteira,Campolide,4,Marvila,4263.19417992
+166,Rua Dom Francisco Manuel de Melo,Avenidas Novas,4,Marvila,4586.00760217
+165,Rua de Campolide,Campolide,4,Marvila,4859.51311219
+167,Rua Castilho,Avenidas Novas,4,Marvila,4383.50425266
+164,Avenida Engenheiro Duarte Pacheco,Santo António,4,Marvila,4726.17409387
+163,Rua Carlos Alberto da Mota Pinto,Campo de Ourique,4,Marvila,4863.12235138
+227,Rua Tomás da Anunciação,Campo de Ourique,4,Marvila,5531.20215776
+208,Rua da Venezuela,Benfica,4,Marvila,7975.50322694
+202,Rua de São Domingos de Benfica,São Domingos de Benfica,4,Marvila,5896.57348552
+206,Rua Ten. Coronel Ribeiro dos Reis,Benfica,4,Marvila,7117.11376282
+207,Rua José dos Santos Pereira,Benfica,4,Marvila,7368.10116916
+203,Rua Conde de Almoster,São Domingos de Benfica,4,Marvila,6118.21763265
+218,Azinhaga dos Ulmeiros,Lumiar,4,Marvila,6583.8876343
+121,Rua dos Fanqueiros,Santa Maria Maior,4,Marvila,3881.1116862
+122,Rua do Crucifixo,Santa Maria Maior,4,Marvila,4167.19332418
+209,Estrada de Benfica,Benfica,4,Marvila,7165.13154561
+210,Largo da Revista Militar,Benfica,4,Marvila,7169.98153529
+211,Avenida do Colégio Militar,Carnide,4,Marvila,6995.18267137
+213,Rua Cupertino de Miranda,Carnide,4,Marvila,7137.08905927
+214,Rua Padre Américo,Carnide,4,Marvila,6801.0018326
+215,Avenida das Nações Unidas,Carnide,4,Marvila,6641.79094109
+216,Rua Prof. Mário de Albuquerque,Lumiar,4,Marvila,6302.33276036
+217,Rua Prof. Pulido Valente,Lumiar,4,Marvila,5900.46877855
+023,Avenida Columbano Bordalo Pinheiro,Campolide,4,Marvila,4426.69441216
+056,Avenida Columbano Bordalo Pinheiro,São Domingos de Benfica,4,Marvila,5052.88140228
+230,Praça das Indústrias,Alcântara,4,Marvila,7807.74745394
+252,Rua Luís Pastor de Macedo,Lumiar,4,Marvila,5117.24932132
+303,Avenida do Uruguai,Benfica,4,Marvila,7812.3092099
+304,Rua Guiomar Torresão,Carnide,4,Marvila,7587.62294456
+249,Avenida de Berlim,Olivais,4,Marvila,3175.91652407
+312,Rua Cascais,Alcântara,4,Marvila,7062.07090332
+409,Rua Fernanda Montemor,Marvila,4,Marvila,1124.06407396
+410,Praça David Leandro da Silva,Marvila,4,Marvila,646.69533619
+073,Rua Alfredo Cortês,Alvalade,4,Marvila,3186.29099183
+408,Avenida Infante Dom Henrique,Beato,4,Marvila,1056.28395122
+407,Avenida General Roçadas,Penha de França,4,Marvila,2549.81532244
+404,Largo Mendonça e Costa,Penha de França,4,Marvila,2054.56346746
+416,Rua do Comércio,Santa Maria Maior,4,Marvila,4197.09590674
+417,Rua Interior à Est. da Correia,Carnide,4,Marvila,8098.50773228
+064,Rua Prof. Oliveira Marques,Alvalade,4,Marvila,4581.26464373
+418,Avenida Infante Dom Henrique,Beato,4,Marvila,896.51932191
+085,Avenida Elias Garcia,Avenidas Novas,4,Marvila,3427.9703738
+034,Avenida da República,Avenidas Novas,4,Marvila,3271.84975886
+044,Rua do Arco do Cego,Avenidas Novas,4,Marvila,2918.65331637
+038,Avenida Barbosa du Bocage,Avenidas Novas,4,Marvila,3030.44479685
+003,Rua Professor Lima Basto,São Domingos de Benfica,4,Marvila,5084.59894443
+015,Campo Grande,Alvalade,4,Marvila,3663.54291063
+069,Rua Prof.ª Teresa Ambrósio,Alvalade,4,Marvila,4241.33268932
+039,Campo Grande,Alvalade,4,Marvila,3829.87426599
+081,Avenida da Igreja,Alvalade,4,Marvila,3727.35453067
+078,Avenida do Rio de Janeiro,Alvalade,4,Marvila,2885.54540237
+012,Avenida dos Estados Unidos da América,Alvalade,9,Benfica,5018.72414909
+061,Avenida de Roma,Areeiro,9,Benfica,5299.5935768
+062,Avenida de Paris,Areeiro,9,Benfica,5700.3551246
+007,Avenida Professor Gama Pinto,Alvalade,9,Benfica,3589.95794599
+066,Alameda da Universidade,Alvalade,9,Benfica,3852.60713693
+065,Alameda da Universidade,Alvalade,9,Benfica,3832.33010883
+040,Avenida Conde de Valbom,Avenidas Novas,9,Benfica,4191.10677404
+074,Rua Teixeira de Pascoais,Alvalade,9,Benfica,5468.38745483
+096,Rua Prof. Mark Athias,Lumiar,9,Benfica,3117.376967
+054,Praça de Londres,Areeiro,9,Benfica,5390.85195803
+052,Largo Frei Heitor Pinto,Alvalade,9,Benfica,5440.7086013
+047,Rua Maria Amália Vaz de Carvalho,Alvalade,9,Benfica,5092.74954183
+092,Rua Professor Lima Basto,São Domingos de Benfica,9,Benfica,3269.21668304
+086,Avenida Duque d'Ávila,Avenidas Novas,9,Benfica,4310.63083708
+019,Avenida da República,Avenidas Novas,9,Benfica,4807.10102891
+020,Avenida Duque d'Ávila,Avenidas Novas,9,Benfica,5044.39470281
+030,Rua da Mesquita,Campolide,9,Benfica,3601.99285877
+004,Alameda Dom Afonso Henriques,Areeiro,9,Benfica,5736.54536362
+087,Avenida Duque d'Ávila,Avenidas Novas,9,Benfica,4564.88352972
+026,Rua Aboím Ascensão,Alvalade,9,Benfica,4584.98606114
+084,Avenida Cinco de Outubro,Avenidas Novas,9,Benfica,4311.24002388
+002,Avenida da República,Avenidas Novas,9,Benfica,4501.64674546
+029,Avenida do Brasil,Alvalade,9,Benfica,4760.07696491
+080,Avenida do Brasil,Alvalade,9,Benfica,5327.15700529
+082,Campo Grande,Alvalade,9,Benfica,4436.77682116
+063,Campo Grande,Alvalade,9,Benfica,4078.57406734
+008,Rua Prof. Vieira de Almeida,Lumiar,9,Benfica,3390.58441289
+049,Rua Hermano Neves,Lumiar,9,Benfica,3083.51166125
+091,Rua Fernando Namora,Lumiar,9,Benfica,2732.37252474
+033,Avenida Rovisco Pais,Areeiro,9,Benfica,5529.69133787
+077,Azinhaga da Torre do Fato,Lumiar,9,Benfica,2541.10544149
+076,Rua Lopes Mendonça,Alvalade,9,Benfica,5571.45235713
+045,Rua Marquês do Soveral,Alvalade,9,Benfica,5712.14027077
+057,Rua Tomás da Fonseca,São Domingos de Benfica,9,Benfica,2880.83515648
+018,Campo Pequeno,Avenidas Novas,9,Benfica,4718.89824358
+017,Avenida da República,Avenidas Novas,9,Benfica,4614.22154827
+055,Avenida da Liberdade,Santo António,9,Benfica,5058.16213518
+095,Praça da Figueira,Santa Maria Maior,9,Benfica,6345.85267465
+094,Praça D. Pedro IV,Santa Maria Maior,9,Benfica,6311.66743947
+117,Rua da Palma,Santa Maria Maior,9,Benfica,6216.84271848
+138,Avenida de Brasília,Belém,9,Benfica,5674.98475604
+136,Avenida de Brasília,Belém,9,Benfica,5377.04841398
+135,Doca de Alcântara,Estrela,9,Benfica,5240.93227202
+133B,Cais do Sodré,Misericórdia,9,Benfica,6516.08420849
+129,Avenida Infante Dom Henrique,São Vicente,9,Benfica,7531.70064206
+124,Avenida Infante Dom Henrique,Santa Maria Maior,9,Benfica,7114.37174549
+118,Largo do Intendente Pina Manique,Arroios,9,Benfica,6209.7019572
+132,Avenida da Ribeira das Naus,Santa Maria Maior,9,Benfica,6631.28902025
+126,Avenida Vinte e Quatro de Julho,Misericórdia,9,Benfica,6226.71831124
+127,Avenida Vinte e Quatro de Julho,Misericórdia,9,Benfica,6069.27826903
+128,Avenida Vinte e Quatro de Julho,Estrela,9,Benfica,5736.83170011
+130,Avenida Infante Dom Henrique,Santa Maria Maior,9,Benfica,7304.4793284
+123,Praça do Município,Santa Maria Maior,9,Benfica,6615.78339196
+070,Rua Interior à Alameda da Universidade,Alvalade,9,Benfica,4097.80081516
+115,Via do Oriente,Parque das Nações,9,Benfica,9956.77980556
+114,Alameda dos Oceanos,Parque das Nações,9,Benfica,9849.17358386
+113,Alameda dos Oceanos,Parque das Nações,9,Benfica,9845.51029836
+111,Alameda dos Oceanos,Parque das Nações,9,Benfica,9831.39754524
+110,Rua do Bojador,Parque das Nações,9,Benfica,9885.92924739
+109,Alameda dos Oceanos,Parque das Nações,9,Benfica,9645.05889738
+108,Rua do Bojador,Parque das Nações,9,Benfica,9712.53360844
+102,Avenida do Pacífico,Parque das Nações,9,Benfica,9232.16495602
+104,Avenida do Índico,Parque das Nações,9,Benfica,9386.82963521
+107,Rua do Fogo de Santelmo,Parque das Nações,9,Benfica,9284.30335764
+106,Porta do Mar,Parque das Nações,9,Benfica,9135.52299718
+105,Alameda dos Oceanos,Parque das Nações,9,Benfica,9019.80145848
+141,Rua de Moscavide ao Parque das Nações,Parque das Nações,9,Benfica,9675.44091135
+005A,Praça do Duque de Saldanha,Avenidas Novas,9,Benfica,4848.00978538
+005B,Praça do Duque de Saldanha,Arroios,9,Benfica,4910.88883684
+005C,Praça do Duque de Saldanha,Arroios,9,Benfica,4956.35259423
+022A,Avenida Fontes Pereira de Melo,Avenidas Novas,9,Benfica,4831.05859197
+053B,Praça do Marquês de Pombal,Santo António,9,Benfica,4857.01170941
+053A,Praça do Marquês de Pombal,Santo António,9,Benfica,4879.28828708
+075B,Avenida da Liberdade,Santo António,9,Benfica,5826.34255064
+101B,Praça Martim Moniz,Santa Maria Maior,9,Benfica,6374.8680247
+101A,Praça Martim Moniz,Santa Maria Maior,9,Benfica,6329.86769953
+143,Rua Konrad Adenauer,Lumiar,9,Benfica,3512.50572845
+144,Avenida da Liberdade,Santo António,9,Benfica,5186.91057497
+145,Avenida da Liberdade,Santo António,9,Benfica,5339.88472885
+133A,Avenida Vinte e Quatro de Julho,Misericórdia,9,Benfica,6380.1003486
+147,Alameda da Universidade,Alvalade,9,Benfica,3644.11720258
+024A,Avenida Ressano Garcia,Avenidas Novas,9,Benfica,4050.25863799
+024B,Avenida António Augusto de Aguiar,Avenidas Novas,9,Benfica,4089.57949046
+146,Rua Martens Ferrão,Arroios,9,Benfica,4830.32724017
+051,Avenida de António José de Almeida,Areeiro,9,Benfica,5277.67706519
+162,Rua Marques da Silva,Arroios,9,Benfica,5792.75125594
+158,Rua Passos Manuel,Arroios,9,Benfica,5635.89052518
+157,Rua António Pedro,Arroios,9,Benfica,5765.94465202
+161,Avenida Almirante Reis,Arroios,9,Benfica,6130.53990226
+160,Avenida Almirante Reis,Arroios,9,Benfica,5989.79436163
+159,Rua Frei Francisco Foreiro,Arroios,9,Benfica,5816.32523692
+242,Rua Luís de Freitas Branco,Lumiar,9,Benfica,4492.79882835
+154,Alameda das Linhas de Torres,Lumiar,9,Benfica,4639.05014992
+152,Alameda das Linhas de Torres,Lumiar,9,Benfica,4386.91507967
+153,Rua Ladislau Patrício,Lumiar,9,Benfica,4482.51289145
+151,Alameda das Linhas de Torres,Lumiar,9,Benfica,4211.86467572
+150,Rua Fernando Curado Ribeiro,Lumiar,9,Benfica,4170.33474642
+170,Avenida Cidade de Luanda,Olivais,9,Benfica,7875.00186011
+176,Jardim Eduardo Prado Coelho,Olivais,9,Benfica,8407.58318394
+175,Avenida Dr. Francisco Luís Gomes,Olivais,9,Benfica,8136.72743483
+177,Rua Cidade de Benguela,Olivais,9,Benfica,8056.71397192
+173,Avenida Cidade de Lourenço Marques,Olivais,9,Benfica,7365.24110734
+172,Praça Cidade do Luso,Olivais,9,Benfica,7608.72744783
+171,Rua Cidade de Bissau,Olivais,9,Benfica,7693.87656275
+178,Praça Baden Powell,Olivais,9,Benfica,8172.45161899
+174,Avenida de Berlim,Olivais,9,Benfica,8016.19696786
+168,Rua Marquês de Fronteira,Campolide,9,Benfica,4026.43069378
+166,Rua Dom Francisco Manuel de Melo,Avenidas Novas,9,Benfica,3929.32549514
+165,Rua de Campolide,Campolide,9,Benfica,3769.09414383
+167,Rua Castilho,Avenidas Novas,9,Benfica,4012.21057806
+164,Avenida Engenheiro Duarte Pacheco,Santo António,9,Benfica,4133.94460512
+163,Rua Carlos Alberto da Mota Pinto,Campo de Ourique,9,Benfica,4054.46202704
+227,Rua Tomás da Anunciação,Campo de Ourique,9,Benfica,4216.76422561
+208,Rua da Venezuela,Benfica,9,Benfica,51.45785904
+202,Rua de São Domingos de Benfica,São Domingos de Benfica,9,Benfica,2050.5349015
+206,Rua Ten. Coronel Ribeiro dos Reis,Benfica,9,Benfica,836.54957115
+207,Rua José dos Santos Pereira,Benfica,9,Benfica,575.02040466
+203,Rua Conde de Almoster,São Domingos de Benfica,9,Benfica,1820.16574091
+218,Azinhaga dos Ulmeiros,Lumiar,9,Benfica,3529.11160653
+121,Rua dos Fanqueiros,Santa Maria Maior,9,Benfica,6564.31710193
+122,Rua do Crucifixo,Santa Maria Maior,9,Benfica,6508.27669745
+209,Estrada de Benfica,Benfica,9,Benfica,974.11423946
+210,Largo da Revista Militar,Benfica,9,Benfica,1313.42934254
+211,Avenida do Colégio Militar,Carnide,9,Benfica,1887.66908232
+213,Rua Cupertino de Miranda,Carnide,9,Benfica,2913.88162331
+214,Rua Padre Américo,Carnide,9,Benfica,2693.21224978
+215,Avenida das Nações Unidas,Carnide,9,Benfica,2882.18044938
+216,Rua Prof. Mário de Albuquerque,Lumiar,9,Benfica,2919.84020973
+217,Rua Prof. Pulido Valente,Lumiar,9,Benfica,3377.64287229
+023,Avenida Columbano Bordalo Pinheiro,Campolide,9,Benfica,3562.66248584
+056,Avenida Columbano Bordalo Pinheiro,São Domingos de Benfica,9,Benfica,2915.19316472
+230,Praça das Indústrias,Alcântara,9,Benfica,5252.15521412
+235,Avenida da Índia,Belém,9,Benfica,5680.40851792
+236,Largo Luís Alves Miguel,Belém,9,Benfica,5720.62884671
+252,Rua Luís Pastor de Macedo,Lumiar,9,Benfica,4596.3373415
+303,Avenida do Uruguai,Benfica,9,Benfica,1090.67610224
+304,Rua Guiomar Torresão,Carnide,9,Benfica,1706.92655311
+249,Avenida de Berlim,Olivais,9,Benfica,8457.74126717
+312,Rua Cascais,Alcântara,9,Benfica,5068.51029932
+319,Avenida da Torre de Belém,Belém,9,Benfica,5620.25293415
+409,Rua Fernanda Montemor,Marvila,9,Benfica,8813.99179083
+410,Praça David Leandro da Silva,Marvila,9,Benfica,8455.46329989
+073,Rua Alfredo Cortês,Alvalade,9,Benfica,4832.98131422
+408,Avenida Infante Dom Henrique,Beato,9,Benfica,8237.26399246
+407,Avenida General Roçadas,Penha de França,9,Benfica,6609.90639855
+404,Largo Mendonça e Costa,Penha de França,9,Benfica,6111.56567679
+416,Rua do Comércio,Santa Maria Maior,9,Benfica,6715.23064248
+417,Rua Interior à Est. da Correia,Carnide,9,Benfica,2036.87425474
+064,Rua Prof. Oliveira Marques,Alvalade,9,Benfica,3859.01121462
+418,Avenida Infante Dom Henrique,Beato,9,Benfica,8313.54055218
+085,Avenida Elias Garcia,Avenidas Novas,9,Benfica,4526.24132269
+034,Avenida da República,Avenidas Novas,9,Benfica,4700.66997443
+044,Rua do Arco do Cego,Avenidas Novas,9,Benfica,5028.78661589
+038,Avenida Barbosa du Bocage,Avenidas Novas,9,Benfica,4906.91741083
+003,Rua Professor Lima Basto,São Domingos de Benfica,9,Benfica,2865.84437631
+015,Campo Grande,Alvalade,9,Benfica,4440.48946615
+069,Rua Prof.ª Teresa Ambrósio,Alvalade,9,Benfica,3859.05191137
+039,Campo Grande,Alvalade,9,Benfica,4336.31463353
+081,Avenida da Igreja,Alvalade,9,Benfica,4524.50256324
+078,Avenida do Rio de Janeiro,Alvalade,9,Benfica,5453.18611234
+012,Avenida dos Estados Unidos da América,Alvalade,14,Caís do Sodré,4762.54059475
+061,Avenida de Roma,Areeiro,14,Caís do Sodré,4223.01703798
+062,Avenida de Paris,Areeiro,14,Caís do Sodré,4028.13810849
+007,Avenida Professor Gama Pinto,Alvalade,14,Caís do Sodré,5169.81457607
+066,Alameda da Universidade,Alvalade,14,Caís do Sodré,5272.97292149
+065,Alameda da Universidade,Alvalade,14,Caís do Sodré,5381.95954484
+040,Avenida Conde de Valbom,Avenidas Novas,14,Caís do Sodré,3580.63342733
+074,Rua Teixeira de Pascoais,Alvalade,14,Caís do Sodré,4711.30441898
+096,Rua Prof. Mark Athias,Lumiar,14,Caís do Sodré,6516.14846215
+054,Praça de Londres,Areeiro,14,Caís do Sodré,3927.98657586
+052,Largo Frei Heitor Pinto,Alvalade,14,Caís do Sodré,5450.84854702
+047,Rua Maria Amália Vaz de Carvalho,Alvalade,14,Caís do Sodré,5069.64637127
+092,Rua Professor Lima Basto,São Domingos de Benfica,14,Caís do Sodré,3984.22548142
+086,Avenida Duque d'Ávila,Avenidas Novas,14,Caís do Sodré,3266.69279905
+019,Avenida da República,Avenidas Novas,14,Caís do Sodré,3259.80946618
+020,Avenida Duque d'Ávila,Avenidas Novas,14,Caís do Sodré,3275.92765504
+030,Rua da Mesquita,Campolide,14,Caís do Sodré,3453.85102521
+004,Alameda Dom Afonso Henriques,Areeiro,14,Caís do Sodré,3636.62865611
+087,Avenida Duque d'Ávila,Avenidas Novas,14,Caís do Sodré,3252.21018399
+026,Rua Aboím Ascensão,Alvalade,14,Caís do Sodré,4860.43872909
+084,Avenida Cinco de Outubro,Avenidas Novas,14,Caís do Sodré,4553.60232203
+002,Avenida da República,Avenidas Novas,14,Caís do Sodré,4300.24526895
+029,Avenida do Brasil,Alvalade,14,Caís do Sodré,5601.27070426
+080,Avenida do Brasil,Alvalade,14,Caís do Sodré,5838.10145777
+082,Campo Grande,Alvalade,14,Caís do Sodré,5166.11981358
+063,Campo Grande,Alvalade,14,Caís do Sodré,5871.34781742
+008,Rua Prof. Vieira de Almeida,Lumiar,14,Caís do Sodré,6346.12578896
+049,Rua Hermano Neves,Lumiar,14,Caís do Sodré,6314.60235146
+091,Rua Fernando Namora,Lumiar,14,Caís do Sodré,6548.45791151
+033,Avenida Rovisco Pais,Areeiro,14,Caís do Sodré,3438.81648217
+077,Azinhaga da Torre do Fato,Lumiar,14,Caís do Sodré,6664.31469498
+076,Rua Lopes Mendonça,Alvalade,14,Caís do Sodré,5657.9816919
+045,Rua Marquês do Soveral,Alvalade,14,Caís do Sodré,5831.66259545
+057,Rua Tomás da Fonseca,São Domingos de Benfica,14,Caís do Sodré,5944.93795562
+018,Campo Pequeno,Avenidas Novas,14,Caís do Sodré,4155.05288593
+017,Avenida da República,Avenidas Novas,14,Caís do Sodré,3826.76132201
+055,Avenida da Liberdade,Santo António,14,Caís do Sodré,1877.07787448
+095,Praça da Figueira,Santa Maria Maior,14,Caís do Sodré,1097.97522396
+094,Praça D. Pedro IV,Santa Maria Maior,14,Caís do Sodré,995.46972241
+117,Rua da Palma,Santa Maria Maior,14,Caís do Sodré,1702.03487259
+138,Avenida de Brasília,Belém,14,Caís do Sodré,5431.50946321
+136,Avenida de Brasília,Belém,14,Caís do Sodré,3776.77765839
+135,Doca de Alcântara,Estrela,14,Caís do Sodré,2565.68535877
+133B,Cais do Sodré,Misericórdia,14,Caís do Sodré,204.01709255
+129,Avenida Infante Dom Henrique,São Vicente,14,Caís do Sodré,2199.62279464
+124,Avenida Infante Dom Henrique,Santa Maria Maior,14,Caís do Sodré,1185.66764155
+118,Largo do Intendente Pina Manique,Arroios,14,Caís do Sodré,1912.34597179
+132,Avenida da Ribeira das Naus,Santa Maria Maior,14,Caís do Sodré,382.92954976
+126,Avenida Vinte e Quatro de Julho,Misericórdia,14,Caís do Sodré,98.07218275
+127,Avenida Vinte e Quatro de Julho,Misericórdia,14,Caís do Sodré,276.51445319
+128,Avenida Vinte e Quatro de Julho,Estrela,14,Caís do Sodré,742.17205547
+130,Avenida Infante Dom Henrique,Santa Maria Maior,14,Caís do Sodré,1661.71435486
+123,Praça do Município,Santa Maria Maior,14,Caís do Sodré,598.42883086
+070,Rua Interior à Alameda da Universidade,Alvalade,14,Caís do Sodré,5609.54210066
+115,Via do Oriente,Parque das Nações,14,Caís do Sodré,9993.61988524
+114,Alameda dos Oceanos,Parque das Nações,14,Caís do Sodré,9590.28931103
+113,Alameda dos Oceanos,Parque das Nações,14,Caís do Sodré,9353.21115604
+111,Alameda dos Oceanos,Parque das Nações,14,Caís do Sodré,9109.73976178
+110,Rua do Bojador,Parque das Nações,14,Caís do Sodré,8898.94290066
+109,Alameda dos Oceanos,Parque das Nações,14,Caís do Sodré,8783.04005471
+108,Rua do Bojador,Parque das Nações,14,Caís do Sodré,8437.98661415
+102,Avenida do Pacífico,Parque das Nações,14,Caís do Sodré,7957.45033744
+104,Avenida do Índico,Parque das Nações,14,Caís do Sodré,8184.729993
+107,Rua do Fogo de Santelmo,Parque das Nações,14,Caís do Sodré,7566.57287003
+106,Porta do Mar,Parque das Nações,14,Caís do Sodré,7314.08819105
+105,Alameda dos Oceanos,Parque das Nações,14,Caís do Sodré,7013.6088866
+141,Rua de Moscavide ao Parque das Nações,Parque das Nações,14,Caís do Sodré,9098.44412825
+005A,Praça do Duque de Saldanha,Avenidas Novas,14,Caís do Sodré,3125.70319314
+005B,Praça do Duque de Saldanha,Arroios,14,Caís do Sodré,3145.46936036
+005C,Praça do Duque de Saldanha,Arroios,14,Caís do Sodré,3085.12004457
+022A,Avenida Fontes Pereira de Melo,Avenidas Novas,14,Caís do Sodré,2843.88505713
+053B,Praça do Marquês de Pombal,Santo António,14,Caís do Sodré,2096.70166917
+053A,Praça do Marquês de Pombal,Santo António,14,Caís do Sodré,2139.14620331
+075B,Avenida da Liberdade,Santo António,14,Caís do Sodré,1272.59902189
+101B,Praça Martim Moniz,Santa Maria Maior,14,Caís do Sodré,1302.04289834
+101A,Praça Martim Moniz,Santa Maria Maior,14,Caís do Sodré,1289.01584909
+143,Rua Konrad Adenauer,Lumiar,14,Caís do Sodré,6131.89444077
+144,Avenida da Liberdade,Santo António,14,Caís do Sodré,1825.99288965
+145,Avenida da Liberdade,Santo António,14,Caís do Sodré,1605.88720167
+133A,Avenida Vinte e Quatro de Julho,Misericórdia,14,Caís do Sodré,95.34684543
+147,Alameda da Universidade,Alvalade,14,Caís do Sodré,5271.28340947
+024A,Avenida Ressano Garcia,Avenidas Novas,14,Caís do Sodré,3266.71773604
+024B,Avenida António Augusto de Aguiar,Avenidas Novas,14,Caís do Sodré,3249.94924495
+146,Rua Martens Ferrão,Arroios,14,Caís do Sodré,2569.40806505
+051,Avenida de António José de Almeida,Areeiro,14,Caís do Sodré,3612.54915759
+162,Rua Marques da Silva,Arroios,14,Caís do Sodré,2774.71601201
+158,Rua Passos Manuel,Arroios,14,Caís do Sodré,2904.8864296
+157,Rua António Pedro,Arroios,14,Caís do Sodré,2975.78718557
+161,Avenida Almirante Reis,Arroios,14,Caís do Sodré,1975.95553387
+160,Avenida Almirante Reis,Arroios,14,Caís do Sodré,2346.63468925
+159,Rua Frei Francisco Foreiro,Arroios,14,Caís do Sodré,2597.77047521
+242,Rua Luís de Freitas Branco,Lumiar,14,Caís do Sodré,7290.59280073
+154,Alameda das Linhas de Torres,Lumiar,14,Caís do Sodré,7624.64055999
+152,Alameda das Linhas de Torres,Lumiar,14,Caís do Sodré,6743.98275978
+153,Rua Ladislau Patrício,Lumiar,14,Caís do Sodré,7042.79194982
+151,Alameda das Linhas de Torres,Lumiar,14,Caís do Sodré,6368.24255295
+150,Rua Fernando Curado Ribeiro,Lumiar,14,Caís do Sodré,6164.74818502
+170,Avenida Cidade de Luanda,Olivais,14,Caís do Sodré,6832.11230055
+176,Jardim Eduardo Prado Coelho,Olivais,14,Caís do Sodré,7849.46570043
+175,Avenida Dr. Francisco Luís Gomes,Olivais,14,Caís do Sodré,7669.78362831
+177,Rua Cidade de Benguela,Olivais,14,Caís do Sodré,7237.24045883
+173,Avenida Cidade de Lourenço Marques,Olivais,14,Caís do Sodré,6874.51018773
+172,Praça Cidade do Luso,Olivais,14,Caís do Sodré,7102.77342734
+171,Rua Cidade de Bissau,Olivais,14,Caís do Sodré,6890.8693741
+178,Praça Baden Powell,Olivais,14,Caís do Sodré,7547.77633614
+174,Avenida de Berlim,Olivais,14,Caís do Sodré,7505.86567585
+168,Rua Marquês de Fronteira,Campolide,14,Caís do Sodré,2943.20389502
+166,Rua Dom Francisco Manuel de Melo,Avenidas Novas,14,Caís do Sodré,2735.82827934
+165,Rua de Campolide,Campolide,14,Caís do Sodré,2747.3002277
+167,Rua Castilho,Avenidas Novas,14,Caís do Sodré,2815.35105906
+164,Avenida Engenheiro Duarte Pacheco,Santo António,14,Caís do Sodré,2361.9867277
+163,Rua Carlos Alberto da Mota Pinto,Campo de Ourique,14,Caís do Sodré,2386.78953736
+227,Rua Tomás da Anunciação,Campo de Ourique,14,Caís do Sodré,2126.9622973
+208,Rua da Venezuela,Benfica,14,Caís do Sodré,6375.84300981
+202,Rua de São Domingos de Benfica,São Domingos de Benfica,14,Caís do Sodré,4748.04360272
+206,Rua Ten. Coronel Ribeiro dos Reis,Benfica,14,Caís do Sodré,5811.15226696
+207,Rua José dos Santos Pereira,Benfica,14,Caís do Sodré,5941.74728759
+203,Rua Conde de Almoster,São Domingos de Benfica,14,Caís do Sodré,4976.54926262
+218,Azinhaga dos Ulmeiros,Lumiar,14,Caís do Sodré,7417.92017347
+121,Rua dos Fanqueiros,Santa Maria Maior,14,Caís do Sodré,1054.20270286
+122,Rua do Crucifixo,Santa Maria Maior,14,Caís do Sodré,767.76684433
+209,Estrada de Benfica,Benfica,14,Caís do Sodré,6122.10830275
+210,Largo da Revista Militar,Benfica,14,Caís do Sodré,6427.56909362
+211,Avenida do Colégio Militar,Carnide,14,Caís do Sodré,6670.27743676
+213,Rua Cupertino de Miranda,Carnide,14,Caís do Sodré,7488.93732274
+214,Rua Padre Américo,Carnide,14,Caís do Sodré,7049.89460974
+215,Avenida das Nações Unidas,Carnide,14,Caís do Sodré,7032.34713086
+216,Rua Prof. Mário de Albuquerque,Lumiar,14,Caís do Sodré,6728.12995499
+217,Rua Prof. Pulido Valente,Lumiar,14,Caís do Sodré,6669.60705112
+023,Avenida Columbano Bordalo Pinheiro,Campolide,14,Caís do Sodré,3747.58534745
+056,Avenida Columbano Bordalo Pinheiro,São Domingos de Benfica,14,Caís do Sodré,4134.22229103
+230,Praça das Indústrias,Alcântara,14,Caís do Sodré,3254.63135157
+235,Avenida da Índia,Belém,14,Caís do Sodré,5903.70846111
+236,Largo Luís Alves Miguel,Belém,14,Caís do Sodré,6530.17094562
+252,Rua Luís Pastor de Macedo,Lumiar,14,Caís do Sodré,6838.52262665
+303,Avenida do Uruguai,Benfica,14,Caís do Sodré,6900.47436583
+304,Rua Guiomar Torresão,Carnide,14,Caís do Sodré,7100.62907591
+249,Avenida de Berlim,Olivais,14,Caís do Sodré,7651.529076
+312,Rua Cascais,Alcântara,14,Caís do Sodré,2574.1305129
+319,Avenida da Torre de Belém,Belém,14,Caís do Sodré,6140.30021709
+409,Rua Fernanda Montemor,Marvila,14,Caís do Sodré,6021.77929785
+410,Praça David Leandro da Silva,Marvila,14,Caís do Sodré,5544.37097877
+073,Rua Alfredo Cortês,Alvalade,14,Caís do Sodré,4480.21504289
+408,Avenida Infante Dom Henrique,Beato,14,Caís do Sodré,4315.26857772
+407,Avenida General Roçadas,Penha de França,14,Caís do Sodré,2371.42238498
+404,Largo Mendonça e Costa,Penha de França,14,Caís do Sodré,3278.03674512
+416,Rua do Comércio,Santa Maria Maior,14,Caís do Sodré,820.16488322
+417,Rua Interior à Est. da Correia,Carnide,14,Caís do Sodré,7688.30567705
+064,Rua Prof. Oliveira Marques,Alvalade,14,Caís do Sodré,5521.85862862
+418,Avenida Infante Dom Henrique,Beato,14,Caís do Sodré,4522.1857147
+085,Avenida Elias Garcia,Avenidas Novas,14,Caís do Sodré,3685.44649256
+034,Avenida da República,Avenidas Novas,14,Caís do Sodré,3558.4079252
+044,Rua do Arco do Cego,Avenidas Novas,14,Caís do Sodré,3721.52414466
+038,Avenida Barbosa du Bocage,Avenidas Novas,14,Caís do Sodré,3882.89500291
+003,Rua Professor Lima Basto,São Domingos de Benfica,14,Caís do Sodré,4254.53311276
+015,Campo Grande,Alvalade,14,Caís do Sodré,4769.25160703
+069,Rua Prof.ª Teresa Ambrósio,Alvalade,14,Caís do Sodré,4873.27969804
+039,Campo Grande,Alvalade,14,Caís do Sodré,4930.73242024
+081,Avenida da Igreja,Alvalade,14,Caís do Sodré,5073.53725647
+078,Avenida do Rio de Janeiro,Alvalade,14,Caís do Sodré,5138.66876818
+012,Avenida dos Estados Unidos da América,Alvalade,7,Sete Rios,2367.87307289
+061,Avenida de Roma,Areeiro,7,Sete Rios,2495.56789343
+062,Avenida de Paris,Areeiro,7,Sete Rios,2856.32437537
+007,Avenida Professor Gama Pinto,Alvalade,7,Sete Rios,1422.79840101
+066,Alameda da Universidade,Alvalade,7,Sete Rios,1673.63266477
+065,Alameda da Universidade,Alvalade,7,Sete Rios,1736.25736058
+040,Avenida Conde de Valbom,Avenidas Novas,7,Sete Rios,1316.048044
+074,Rua Teixeira de Pascoais,Alvalade,7,Sete Rios,2759.03728176
+096,Rua Prof. Mark Athias,Lumiar,7,Sete Rios,2382.99644951
+054,Praça de Londres,Areeiro,7,Sete Rios,2542.76632857
+052,Largo Frei Heitor Pinto,Alvalade,7,Sete Rios,2970.70624141
+047,Rua Maria Amália Vaz de Carvalho,Alvalade,7,Sete Rios,2539.16333115
+092,Rua Professor Lima Basto,São Domingos de Benfica,7,Sete Rios,394.04700576
+086,Avenida Duque d'Ávila,Avenidas Novas,7,Sete Rios,1458.76330904
+019,Avenida da República,Avenidas Novas,7,Sete Rios,1938.24796036
+020,Avenida Duque d'Ávila,Avenidas Novas,7,Sete Rios,2172.43621472
+030,Rua da Mesquita,Campolide,7,Sete Rios,826.7095045
+004,Alameda Dom Afonso Henriques,Areeiro,7,Sete Rios,2864.5701802
+087,Avenida Duque d'Ávila,Avenidas Novas,7,Sete Rios,1702.19715004
+026,Rua Aboím Ascensão,Alvalade,7,Sete Rios,2022.07342414
+084,Avenida Cinco de Outubro,Avenidas Novas,7,Sete Rios,1651.33305779
+002,Avenida da República,Avenidas Novas,7,Sete Rios,1744.5935939
+029,Avenida do Brasil,Alvalade,7,Sete Rios,2512.43416
+080,Avenida do Brasil,Alvalade,7,Sete Rios,3044.42833342
+082,Campo Grande,Alvalade,7,Sete Rios,2042.51527607
+063,Campo Grande,Alvalade,7,Sete Rios,2229.6372435
+008,Rua Prof. Vieira de Almeida,Lumiar,7,Sete Rios,2300.57602002
+049,Rua Hermano Neves,Lumiar,7,Sete Rios,2190.21597811
+091,Rua Fernando Namora,Lumiar,7,Sete Rios,2357.12659956
+033,Avenida Rovisco Pais,Areeiro,7,Sete Rios,2654.50767822
+077,Azinhaga da Torre do Fato,Lumiar,7,Sete Rios,2460.54403396
+076,Rua Lopes Mendonça,Alvalade,7,Sete Rios,3155.13662477
+045,Rua Marquês do Soveral,Alvalade,7,Sete Rios,3333.42066297
+057,Rua Tomás da Fonseca,São Domingos de Benfica,7,Sete Rios,1799.01789963
+018,Campo Pequeno,Avenidas Novas,7,Sete Rios,1919.56425711
+017,Avenida da República,Avenidas Novas,7,Sete Rios,1759.36850453
+055,Avenida da Liberdade,Santo António,7,Sete Rios,2509.37486336
+095,Praça da Figueira,Santa Maria Maior,7,Sete Rios,3859.85946151
+094,Praça D. Pedro IV,Santa Maria Maior,7,Sete Rios,3856.5956231
+117,Rua da Palma,Santa Maria Maior,7,Sete Rios,3572.32099249
+138,Avenida de Brasília,Belém,7,Sete Rios,6191.42295881
+136,Avenida de Brasília,Belém,7,Sete Rios,5122.70773032
+135,Doca de Alcântara,Estrela,7,Sete Rios,4347.93754176
+133B,Cais do Sodré,Misericórdia,7,Sete Rios,4358.00553327
+129,Avenida Infante Dom Henrique,São Vicente,7,Sete Rios,4865.53801133
+124,Avenida Infante Dom Henrique,Santa Maria Maior,7,Sete Rios,4675.57461242
+118,Largo do Intendente Pina Manique,Arroios,7,Sete Rios,3517.46743817
+132,Avenida da Ribeira das Naus,Santa Maria Maior,7,Sete Rios,4411.28120774
+126,Avenida Vinte e Quatro de Julho,Misericórdia,7,Sete Rios,4110.92579119
+127,Avenida Vinte e Quatro de Julho,Misericórdia,7,Sete Rios,4009.74164851
+128,Avenida Vinte e Quatro de Julho,Estrela,7,Sete Rios,3853.94090908
+130,Avenida Infante Dom Henrique,Santa Maria Maior,7,Sete Rios,4745.41642584
+123,Praça do Município,Santa Maria Maior,7,Sete Rios,4298.99941123
+070,Rua Interior à Alameda da Universidade,Alvalade,7,Sete Rios,2062.52954803
+116,Passeio dos Heróis do Mar,Parque das Nações,7,Sete Rios,8453.69383466
+115,Via do Oriente,Parque das Nações,7,Sete Rios,7934.92438932
+114,Alameda dos Oceanos,Parque das Nações,7,Sete Rios,7712.91783721
+113,Alameda dos Oceanos,Parque das Nações,7,Sete Rios,7627.921581
+111,Alameda dos Oceanos,Parque das Nações,7,Sete Rios,7537.5980718
+110,Rua do Bojador,Parque das Nações,7,Sete Rios,7512.7667975
+109,Alameda dos Oceanos,Parque das Nações,7,Sete Rios,7297.71191482
+108,Rua do Bojador,Parque das Nações,7,Sete Rios,7248.65975746
+102,Avenida do Pacífico,Parque das Nações,7,Sete Rios,6743.71912166
+104,Avenida do Índico,Parque das Nações,7,Sete Rios,6926.47236732
+107,Rua do Fogo de Santelmo,Parque das Nações,7,Sete Rios,6687.62626642
+106,Porta do Mar,Parque das Nações,7,Sete Rios,6508.24855816
+105,Alameda dos Oceanos,Parque das Nações,7,Sete Rios,6348.15989274
+141,Rua de Moscavide ao Parque das Nações,Parque das Nações,7,Sete Rios,7420.7242036
+005A,Praça do Duque de Saldanha,Avenidas Novas,7,Sete Rios,1989.4292055
+005B,Praça do Duque de Saldanha,Arroios,7,Sete Rios,2048.91578053
+005C,Praça do Duque de Saldanha,Arroios,7,Sete Rios,2099.07095079
+022A,Avenida Fontes Pereira de Melo,Avenidas Novas,7,Sete Rios,2015.02378816
+053B,Praça do Marquês de Pombal,Santo António,7,Sete Rios,2275.82820718
+053A,Praça do Marquês de Pombal,Santo António,7,Sete Rios,2271.90205569
+075B,Avenida da Liberdade,Santo António,7,Sete Rios,3328.47062469
+101B,Praça Martim Moniz,Santa Maria Maior,7,Sete Rios,3831.39010693
+101A,Praça Martim Moniz,Santa Maria Maior,7,Sete Rios,3790.10778508
+143,Rua Konrad Adenauer,Lumiar,7,Sete Rios,2159.21225107
+144,Avenida da Liberdade,Santo António,7,Sete Rios,2621.54510973
+145,Avenida da Liberdade,Santo António,7,Sete Rios,2822.4351368
+133A,Avenida Vinte e Quatro de Julho,Misericórdia,7,Sete Rios,4227.99468675
+147,Alameda da Universidade,Alvalade,7,Sete Rios,1534.60337586
+024A,Avenida Ressano Garcia,Avenidas Novas,7,Sete Rios,1227.41018566
+024B,Avenida António Augusto de Aguiar,Avenidas Novas,7,Sete Rios,1264.98420623
+146,Rua Martens Ferrão,Arroios,7,Sete Rios,2080.40122776
+051,Avenida de António José de Almeida,Areeiro,7,Sete Rios,2406.61872537
+162,Rua Marques da Silva,Arroios,7,Sete Rios,2956.82096123
+158,Rua Passos Manuel,Arroios,7,Sete Rios,2786.67952706
+157,Rua António Pedro,Arroios,7,Sete Rios,2910.27403049
+161,Avenida Almirante Reis,Arroios,7,Sete Rios,3425.2254518
+160,Avenida Almirante Reis,Arroios,7,Sete Rios,3214.51135331
+159,Rua Frei Francisco Foreiro,Arroios,7,Sete Rios,3002.94593393
+242,Rua Luís de Freitas Branco,Lumiar,7,Sete Rios,3448.96491941
+154,Alameda das Linhas de Torres,Lumiar,7,Sete Rios,3753.26597768
+152,Alameda das Linhas de Torres,Lumiar,7,Sete Rios,3004.95760274
+153,Rua Ladislau Patrício,Lumiar,7,Sete Rios,3262.76611533
+151,Alameda das Linhas de Torres,Lumiar,7,Sete Rios,2652.29950618
+150,Rua Fernando Curado Ribeiro,Lumiar,7,Sete Rios,2486.21862885
+170,Avenida Cidade de Luanda,Olivais,7,Sete Rios,5362.40823718
+176,Jardim Eduardo Prado Coelho,Olivais,7,Sete Rios,6081.84515689
+175,Avenida Dr. Francisco Luís Gomes,Olivais,7,Sete Rios,5821.34877023
+177,Rua Cidade de Benguela,Olivais,7,Sete Rios,5622.82368136
+173,Avenida Cidade de Lourenço Marques,Olivais,7,Sete Rios,4976.39620088
+172,Praça Cidade do Luso,Olivais,7,Sete Rios,5237.07890309
+171,Rua Cidade de Bissau,Olivais,7,Sete Rios,5236.006074
+178,Praça Baden Powell,Olivais,7,Sete Rios,5807.97076862
+174,Avenida de Berlim,Olivais,7,Sete Rios,5677.01015934
+168,Rua Marquês de Fronteira,Campolide,7,Sete Rios,1345.6171884
+166,Rua Dom Francisco Manuel de Melo,Avenidas Novas,7,Sete Rios,1468.95422784
+165,Rua de Campolide,Campolide,7,Sete Rios,1491.1452883
+167,Rua Castilho,Avenidas Novas,7,Sete Rios,1420.48811696
+164,Avenida Engenheiro Duarte Pacheco,Santo António,7,Sete Rios,1856.78702806
+163,Rua Carlos Alberto da Mota Pinto,Campo de Ourique,7,Sete Rios,1863.47125851
+227,Rua Tomás da Anunciação,Campo de Ourique,7,Sete Rios,2531.76337155
+208,Rua da Venezuela,Benfica,7,Sete Rios,2916.85703688
+202,Rua de São Domingos de Benfica,São Domingos de Benfica,7,Sete Rios,825.08894561
+206,Rua Ten. Coronel Ribeiro dos Reis,Benfica,7,Sete Rios,2085.77431259
+207,Rua José dos Santos Pereira,Benfica,7,Sete Rios,2320.09339472
+203,Rua Conde de Almoster,São Domingos de Benfica,7,Sete Rios,1064.72013841
+218,Azinhaga dos Ulmeiros,Lumiar,7,Sete Rios,3277.98747142
+121,Rua dos Fanqueiros,Santa Maria Maior,7,Sete Rios,4095.02940292
+122,Rua do Crucifixo,Santa Maria Maior,7,Sete Rios,4124.54299429
+209,Estrada de Benfica,Benfica,7,Sete Rios,2232.06175965
+210,Largo da Revista Militar,Benfica,7,Sete Rios,2398.02767462
+211,Avenida do Colégio Militar,Carnide,7,Sete Rios,2513.63140786
+213,Rua Cupertino de Miranda,Carnide,7,Sete Rios,3285.07398487
+214,Rua Padre Américo,Carnide,7,Sete Rios,2846.12673296
+215,Avenida das Nações Unidas,Carnide,7,Sete Rios,2837.54308588
+216,Rua Prof. Mário de Albuquerque,Lumiar,7,Sete Rios,2549.46756167
+217,Rua Prof. Pulido Valente,Lumiar,7,Sete Rios,2580.71841376
+023,Avenida Columbano Bordalo Pinheiro,Campolide,7,Sete Rios,694.75510764
+056,Avenida Columbano Bordalo Pinheiro,São Domingos de Benfica,7,Sete Rios,70.3178089
+230,Praça das Indústrias,Alcântara,7,Sete Rios,4738.8043908
+235,Avenida da Índia,Belém,7,Sete Rios,6427.62342983
+236,Largo Luís Alves Miguel,Belém,7,Sete Rios,6758.30670934
+252,Rua Luís Pastor de Macedo,Lumiar,7,Sete Rios,3169.83898061
+303,Avenida do Uruguai,Benfica,7,Sete Rios,2985.32334741
+304,Rua Guiomar Torresão,Carnide,7,Sete Rios,3011.97869698
+249,Avenida de Berlim,Olivais,7,Sete Rios,6056.8134572
+312,Rua Cascais,Alcântara,7,Sete Rios,4184.02851236
+319,Avenida da Torre de Belém,Belém,7,Sete Rios,6501.36071848
+409,Rua Fernanda Montemor,Marvila,7,Sete Rios,6007.66213473
+410,Praça David Leandro da Silva,Marvila,7,Sete Rios,5624.88090935
+073,Rua Alfredo Cortês,Alvalade,7,Sete Rios,2111.42260962
+408,Avenida Infante Dom Henrique,Beato,7,Sete Rios,5363.92558441
+407,Avenida General Roçadas,Penha de França,7,Sete Rios,3840.19652207
+404,Largo Mendonça e Costa,Penha de França,7,Sete Rios,3240.52652131
+416,Rua do Comércio,Santa Maria Maior,7,Sete Rios,4332.94743302
+417,Rua Interior à Est. da Correia,Carnide,7,Sete Rios,3602.55412255
+064,Rua Prof. Oliveira Marques,Alvalade,7,Sete Rios,1852.71346212
+418,Avenida Infante Dom Henrique,Beato,7,Sete Rios,5438.37772253
+085,Avenida Elias Garcia,Avenidas Novas,7,Sete Rios,1657.07471337
+034,Avenida da República,Avenidas Novas,7,Sete Rios,1826.62550377
+044,Rua do Arco do Cego,Avenidas Novas,7,Sete Rios,2164.60693332
+038,Avenida Barbosa du Bocage,Avenidas Novas,7,Sete Rios,2059.20592085
+003,Rua Professor Lima Basto,São Domingos de Benfica,7,Sete Rios,55.22741252
+015,Campo Grande,Alvalade,7,Sete Rios,1857.42509789
+069,Rua Prof.ª Teresa Ambrósio,Alvalade,7,Sete Rios,1416.98481155
+039,Campo Grande,Alvalade,7,Sete Rios,1842.41508021
+081,Avenida da Igreja,Alvalade,7,Sete Rios,2066.97581979
+078,Avenida do Rio de Janeiro,Alvalade,7,Sete Rios,2870.21024521
+012,Avenida dos Estados Unidos da América,Alvalade,16,Santa Apolónia,4146.66584205
+061,Avenida de Roma,Areeiro,16,Santa Apolónia,3496.68292601
+062,Avenida de Paris,Areeiro,16,Santa Apolónia,3089.28766908
+007,Avenida Professor Gama Pinto,Alvalade,16,Santa Apolónia,5187.60055159
+066,Alameda da Universidade,Alvalade,16,Santa Apolónia,5167.27405925
+065,Alameda da Universidade,Alvalade,16,Santa Apolónia,5278.0431155
+040,Avenida Conde de Valbom,Avenidas Novas,16,Santa Apolónia,3660.5492512
+074,Rua Teixeira de Pascoais,Alvalade,16,Santa Apolónia,3872.08480309
+096,Rua Prof. Mark Athias,Lumiar,16,Santa Apolónia,6685.23416259
+054,Praça de Londres,Areeiro,16,Santa Apolónia,3181.81738435
+052,Largo Frei Heitor Pinto,Alvalade,16,Santa Apolónia,4641.66244751
+047,Rua Maria Amália Vaz de Carvalho,Alvalade,16,Santa Apolónia,4410.50548557
+092,Rua Professor Lima Basto,São Domingos de Benfica,16,Santa Apolónia,4461.45822661
+086,Avenida Duque d'Ávila,Avenidas Novas,16,Santa Apolónia,3410.39741117
+019,Avenida da República,Avenidas Novas,16,Santa Apolónia,3059.92852093
+020,Avenida Duque d'Ávila,Avenidas Novas,16,Santa Apolónia,2904.92023444
+030,Rua da Mesquita,Campolide,16,Santa Apolónia,3995.588259
+004,Alameda Dom Afonso Henriques,Areeiro,16,Santa Apolónia,2715.16113149
+087,Avenida Duque d'Ávila,Avenidas Novas,16,Santa Apolónia,3224.54272642
+026,Rua Aboím Ascensão,Alvalade,16,Santa Apolónia,4450.05846195
+084,Avenida Cinco de Outubro,Avenidas Novas,16,Santa Apolónia,4310.25865786
+002,Avenida da República,Avenidas Novas,16,Santa Apolónia,3998.18052028
+029,Avenida do Brasil,Alvalade,16,Santa Apolónia,5096.33574503
+080,Avenida do Brasil,Alvalade,16,Santa Apolónia,5102.29124888
+082,Campo Grande,Alvalade,16,Santa Apolónia,4807.3795333
+063,Campo Grande,Alvalade,16,Santa Apolónia,5655.38388388
+008,Rua Prof. Vieira de Almeida,Lumiar,16,Santa Apolónia,6407.91219343
+049,Rua Hermano Neves,Lumiar,16,Santa Apolónia,6488.96539654
+091,Rua Fernando Namora,Lumiar,16,Santa Apolónia,6856.83504778
+033,Avenida Rovisco Pais,Areeiro,16,Santa Apolónia,2688.80723989
+077,Azinhaga da Torre do Fato,Lumiar,16,Santa Apolónia,7045.51347881
+076,Rua Lopes Mendonça,Alvalade,16,Santa Apolónia,4804.12110373
+045,Rua Marquês do Soveral,Alvalade,16,Santa Apolónia,4931.42841096
+057,Rua Tomás da Fonseca,São Domingos de Benfica,16,Santa Apolónia,6195.87349076
+018,Campo Pequeno,Avenidas Novas,16,Santa Apolónia,3759.88921587
+017,Avenida da República,Avenidas Novas,16,Santa Apolónia,3563.23171706
+055,Avenida da Liberdade,Santo António,16,Santa Apolónia,2469.60676111
+095,Praça da Figueira,Santa Maria Maior,16,Santa Apolónia,1419.46189757
+094,Praça D. Pedro IV,Santa Maria Maior,16,Santa Apolónia,1509.69442
+117,Rua da Palma,Santa Maria Maior,16,Santa Apolónia,1301.69746814
+138,Avenida de Brasília,Belém,16,Santa Apolónia,7726.05910662
+136,Avenida de Brasília,Belém,16,Santa Apolónia,6078.46457482
+135,Doca de Alcântara,Estrela,16,Santa Apolónia,4852.72588744
+133B,Cais do Sodré,Misericórdia,16,Santa Apolónia,2191.06761512
+129,Avenida Infante Dom Henrique,São Vicente,16,Santa Apolónia,178.36964083
+124,Avenida Infante Dom Henrique,Santa Maria Maior,16,Santa Apolónia,1226.39258543
+118,Largo do Intendente Pina Manique,Arroios,16,Santa Apolónia,1306.3430261
+132,Avenida da Ribeira das Naus,Santa Maria Maior,16,Santa Apolónia,2001.82460844
+126,Avenida Vinte e Quatro de Julho,Misericórdia,16,Santa Apolónia,2354.97766742
+127,Avenida Vinte e Quatro de Julho,Misericórdia,16,Santa Apolónia,2524.17293087
+128,Avenida Vinte e Quatro de Julho,Estrela,16,Santa Apolónia,2976.85287041
+130,Avenida Infante Dom Henrique,Santa Maria Maior,16,Santa Apolónia,719.36254264
+123,Praça do Município,Santa Maria Maior,16,Santa Apolónia,1727.92024224
+070,Rua Interior à Alameda da Universidade,Alvalade,16,Santa Apolónia,5385.64665386
+116,Passeio dos Heróis do Mar,Parque das Nações,16,Santa Apolónia,8961.75827651
+115,Via do Oriente,Parque das Nações,16,Santa Apolónia,8374.8933651
+114,Alameda dos Oceanos,Parque das Nações,16,Santa Apolónia,7914.48744368
+113,Alameda dos Oceanos,Parque das Nações,16,Santa Apolónia,7627.09750765
+111,Alameda dos Oceanos,Parque das Nações,16,Santa Apolónia,7335.97484112
+110,Rua do Bojador,Parque das Nações,16,Santa Apolónia,7065.50651147
+109,Alameda dos Oceanos,Parque das Nações,16,Santa Apolónia,6995.44922215
+108,Rua do Bojador,Parque das Nações,16,Santa Apolónia,6560.14803988
+102,Avenida do Pacífico,Parque das Nações,16,Santa Apolónia,6123.44746259
+104,Avenida do Índico,Parque das Nações,16,Santa Apolónia,6350.45290221
+107,Rua do Fogo de Santelmo,Parque das Nações,16,Santa Apolónia,5639.36877333
+106,Porta do Mar,Parque das Nações,16,Santa Apolónia,5381.50081187
+105,Alameda dos Oceanos,Parque das Nações,16,Santa Apolónia,5057.44063188
+141,Rua de Moscavide ao Parque das Nações,Parque das Nações,16,Santa Apolónia,7368.31095401
+005A,Praça do Duque de Saldanha,Avenidas Novas,16,Santa Apolónia,2954.35407711
+005B,Praça do Duque de Saldanha,Arroios,16,Santa Apolónia,2920.07490894
+005C,Praça do Duque de Saldanha,Arroios,16,Santa Apolónia,2853.1733356
+022A,Avenida Fontes Pereira de Melo,Avenidas Novas,16,Santa Apolónia,2830.10094445
+053B,Praça do Marquês de Pombal,Santo António,16,Santa Apolónia,2657.68116211
+053A,Praça do Marquês de Pombal,Santo António,16,Santa Apolónia,2632.96900273
+075B,Avenida da Liberdade,Santo António,16,Santa Apolónia,1804.93020294
+101B,Praça Martim Moniz,Santa Maria Maior,16,Santa Apolónia,1281.82903421
+101A,Praça Martim Moniz,Santa Maria Maior,16,Santa Apolónia,1324.6438647
+143,Rua Konrad Adenauer,Lumiar,16,Santa Apolónia,6142.1461075
+144,Avenida da Liberdade,Santo António,16,Santa Apolónia,2338.9711644
+145,Avenida da Liberdade,Santo António,16,Santa Apolónia,2219.51370898
+133A,Avenida Vinte e Quatro de Julho,Misericórdia,16,Santa Apolónia,2230.90797335
+147,Alameda da Universidade,Alvalade,16,Santa Apolónia,5255.90723665
+024A,Avenida Ressano Garcia,Avenidas Novas,16,Santa Apolónia,3596.17094774
+024B,Avenida António Augusto de Aguiar,Avenidas Novas,16,Santa Apolónia,3560.58368596
+146,Rua Martens Ferrão,Arroios,16,Santa Apolónia,2735.54442198
+051,Avenida de António José de Almeida,Areeiro,16,Santa Apolónia,2990.45225809
+162,Rua Marques da Silva,Arroios,16,Santa Apolónia,2027.27948863
+158,Rua Passos Manuel,Arroios,16,Santa Apolónia,2233.15849193
+157,Rua António Pedro,Arroios,16,Santa Apolónia,2177.83284414
+161,Avenida Almirante Reis,Arroios,16,Santa Apolónia,1392.9970484
+160,Avenida Almirante Reis,Arroios,16,Santa Apolónia,1634.69721997
+159,Rua Frei Francisco Foreiro,Arroios,16,Santa Apolónia,1907.95700064
+242,Rua Luís de Freitas Branco,Lumiar,16,Santa Apolónia,7029.28646024
+154,Alameda das Linhas de Torres,Lumiar,16,Santa Apolónia,7358.72231495
+152,Alameda das Linhas de Torres,Lumiar,16,Santa Apolónia,6458.24683385
+153,Rua Ladislau Patrício,Lumiar,16,Santa Apolónia,6753.58779598
+151,Alameda das Linhas de Torres,Lumiar,16,Santa Apolónia,6119.11535155
+150,Rua Fernando Curado Ribeiro,Lumiar,16,Santa Apolónia,5920.7932494
+170,Avenida Cidade de Luanda,Olivais,16,Santa Apolónia,5222.35017051
+176,Jardim Eduardo Prado Coelho,Olivais,16,Santa Apolónia,6256.94357759
+175,Avenida Dr. Francisco Luís Gomes,Olivais,16,Santa Apolónia,6132.6604705
+177,Rua Cidade de Benguela,Olivais,16,Santa Apolónia,5641.55269914
+173,Avenida Cidade de Lourenço Marques,Olivais,16,Santa Apolónia,5460.40807393
+172,Praça Cidade do Luso,Olivais,16,Santa Apolónia,5641.19138061
+171,Rua Cidade de Bissau,Olivais,16,Santa Apolónia,5358.09143154
+178,Praça Baden Powell,Olivais,16,Santa Apolónia,5973.75637932
+174,Avenida de Berlim,Olivais,16,Santa Apolónia,5977.57757672
+168,Rua Marquês de Fronteira,Campolide,16,Santa Apolónia,3510.32496784
+166,Rua Dom Francisco Manuel de Melo,Avenidas Novas,16,Santa Apolónia,3585.21755785
+165,Rua de Campolide,Campolide,16,Santa Apolónia,3769.36647312
+167,Rua Castilho,Avenidas Novas,16,Santa Apolónia,3503.53000295
+164,Avenida Engenheiro Duarte Pacheco,Santo António,16,Santa Apolónia,3441.17024912
+163,Rua Carlos Alberto da Mota Pinto,Campo de Ourique,16,Santa Apolónia,3548.82284475
+227,Rua Tomás da Anunciação,Campo de Ourique,16,Santa Apolónia,3822.91062079
+208,Rua da Venezuela,Benfica,16,Santa Apolónia,7560.34216895
+202,Rua de São Domingos de Benfica,São Domingos de Benfica,16,Santa Apolónia,5579.3689476
+206,Rua Ten. Coronel Ribeiro dos Reis,Benfica,16,Santa Apolónia,6820.70163011
+207,Rua José dos Santos Pereira,Benfica,16,Santa Apolónia,7017.98157611
+203,Rua Conde de Almoster,São Domingos de Benfica,16,Santa Apolónia,5830.44479765
+218,Azinhaga dos Ulmeiros,Lumiar,16,Santa Apolónia,7525.65911128
+121,Rua dos Fanqueiros,Santa Maria Maior,16,Santa Apolónia,1321.69355421
+122,Rua do Crucifixo,Santa Maria Maior,16,Santa Apolónia,1578.87644227
+209,Estrada de Benfica,Benfica,16,Santa Apolónia,7029.01248491
+210,Largo da Revista Militar,Benfica,16,Santa Apolónia,7213.36474547
+211,Avenida do Colégio Militar,Carnide,16,Santa Apolónia,7275.12628819
+213,Rua Cupertino de Miranda,Carnide,16,Santa Apolónia,7828.21404144
+214,Rua Padre Américo,Carnide,16,Santa Apolónia,7409.40683457
+215,Avenida das Nações Unidas,Carnide,16,Santa Apolónia,7323.59355996
+216,Rua Prof. Mário de Albuquerque,Lumiar,16,Santa Apolónia,6980.11753492
+217,Rua Prof. Pulido Valente,Lumiar,16,Santa Apolónia,6753.04783003
+023,Avenida Columbano Bordalo Pinheiro,Campolide,16,Santa Apolónia,4153.74993685
+056,Avenida Columbano Bordalo Pinheiro,São Domingos de Benfica,16,Santa Apolónia,4755.19236176
+230,Praça das Indústrias,Alcântara,16,Santa Apolónia,5548.86735522
+235,Avenida da Índia,Belém,16,Santa Apolónia,8186.26079727
+236,Largo Luís Alves Miguel,Belém,16,Santa Apolónia,8794.13235448
+252,Rua Luís Pastor de Macedo,Lumiar,16,Santa Apolónia,6483.17854565
+303,Avenida do Uruguai,Benfica,16,Santa Apolónia,7795.989424
+304,Rua Guiomar Torresão,Carnide,16,Santa Apolónia,7809.71581441
+249,Avenida de Berlim,Olivais,16,Santa Apolónia,6001.79909635
+312,Rua Cascais,Alcântara,16,Santa Apolónia,4837.79952486
+319,Avenida da Torre de Belém,Belém,16,Santa Apolónia,8410.94076462
+409,Rua Fernanda Montemor,Marvila,16,Santa Apolónia,3940.90885651
+410,Praça David Leandro da Silva,Marvila,16,Santa Apolónia,3486.34207383
+073,Rua Alfredo Cortês,Alvalade,16,Santa Apolónia,3979.17696854
+408,Avenida Infante Dom Henrique,Beato,16,Santa Apolónia,2104.22753314
+407,Avenida General Roçadas,Penha de França,16,Santa Apolónia,1046.77078577
+404,Largo Mendonça e Costa,Penha de França,16,Santa Apolónia,2151.45964087
+416,Rua do Comércio,Santa Maria Maior,16,Santa Apolónia,1505.38784718
+417,Rua Interior à Est. da Correia,Carnide,16,Santa Apolónia,8394.17522033
+064,Rua Prof. Oliveira Marques,Alvalade,16,Santa Apolónia,5400.07666479
+418,Avenida Infante Dom Henrique,Beato,16,Santa Apolónia,2323.84248022
+085,Avenida Elias Garcia,Avenidas Novas,16,Santa Apolónia,3516.45508245
+034,Avenida da República,Avenidas Novas,16,Santa Apolónia,3320.39052646
+044,Rua do Arco do Cego,Avenidas Novas,16,Santa Apolónia,3231.84941339
+038,Avenida Barbosa du Bocage,Avenidas Novas,16,Santa Apolónia,3431.85246302
+003,Rua Professor Lima Basto,São Domingos de Benfica,16,Santa Apolónia,4848.365659
+015,Campo Grande,Alvalade,16,Santa Apolónia,4436.15713414
+069,Rua Prof.ª Teresa Ambrósio,Alvalade,16,Santa Apolónia,4804.73828671
+039,Campo Grande,Alvalade,16,Santa Apolónia,4632.89498027
+081,Avenida da Igreja,Alvalade,16,Santa Apolónia,4678.94308085
+078,Avenida do Rio de Janeiro,Alvalade,16,Santa Apolónia,4311.1239515
+012,Avenida dos Estados Unidos da América,Alvalade,5,Roma Areeiro,772.34713727
+061,Avenida de Roma,Areeiro,5,Roma Areeiro,463.94141739
+062,Avenida de Paris,Areeiro,5,Roma Areeiro,523.39228997
+007,Avenida Professor Gama Pinto,Alvalade,5,Roma Areeiro,2272.27064691
+066,Alameda da Universidade,Alvalade,5,Roma Areeiro,2099.34373171
+065,Alameda da Universidade,Alvalade,5,Roma Areeiro,2182.6029215
+040,Avenida Conde de Valbom,Avenidas Novas,5,Roma Areeiro,1796.24989526
+074,Rua Teixeira de Pascoais,Alvalade,5,Roma Areeiro,327.28643697
+096,Rua Prof. Mark Athias,Lumiar,5,Roma Areeiro,3635.65669515
+054,Praça de Londres,Areeiro,5,Roma Areeiro,640.58048368
+052,Largo Frei Heitor Pinto,Alvalade,5,Roma Areeiro,1059.92778408
+047,Rua Maria Amália Vaz de Carvalho,Alvalade,5,Roma Areeiro,918.25916184
+092,Rua Professor Lima Basto,São Domingos de Benfica,5,Roma Areeiro,2570.59080643
+086,Avenida Duque d'Ávila,Avenidas Novas,5,Roma Areeiro,1921.38880627
+019,Avenida da República,Avenidas Novas,5,Roma Areeiro,1527.19208982
+020,Avenida Duque d'Ávila,Avenidas Novas,5,Roma Areeiro,1377.51465585
+030,Rua da Mesquita,Campolide,5,Roma Areeiro,2538.31907061
+004,Alameda Dom Afonso Henriques,Areeiro,5,Roma Areeiro,928.34499888
+087,Avenida Duque d'Ávila,Avenidas Novas,5,Roma Areeiro,1711.5236392
+026,Rua Aboím Ascensão,Alvalade,5,Roma Areeiro,1227.54121097
+084,Avenida Cinco de Outubro,Avenidas Novas,5,Roma Areeiro,1395.48044922
+002,Avenida da República,Avenidas Novas,5,Roma Areeiro,1197.88043735
+029,Avenida do Brasil,Alvalade,5,Roma Areeiro,1629.5165867
+080,Avenida do Brasil,Alvalade,5,Roma Areeiro,1524.50192279
+082,Campo Grande,Alvalade,5,Roma Areeiro,1534.31257512
+063,Campo Grande,Alvalade,5,Roma Areeiro,2362.35150824
+008,Rua Prof. Vieira de Almeida,Lumiar,5,Roma Areeiro,3283.13101555
+049,Rua Hermano Neves,Lumiar,5,Roma Areeiro,3474.2344386
+091,Rua Fernando Namora,Lumiar,5,Roma Areeiro,3938.69797853
+033,Avenida Rovisco Pais,Areeiro,5,Roma Areeiro,1098.67784166
+077,Azinhaga da Torre do Fato,Lumiar,5,Roma Areeiro,4184.83918566
+076,Rua Lopes Mendonça,Alvalade,5,Roma Areeiro,1223.16494356
+045,Rua Marquês do Soveral,Alvalade,5,Roma Areeiro,1362.54520829
+057,Rua Tomás da Fonseca,São Domingos de Benfica,5,Roma Areeiro,3323.22904302
+018,Campo Pequeno,Avenidas Novas,5,Roma Areeiro,1010.97999911
+017,Avenida da República,Avenidas Novas,5,Roma Areeiro,1250.19037213
+055,Avenida da Liberdade,Santo António,5,Roma Areeiro,2841.45834703
+095,Praça da Figueira,Santa Maria Maior,5,Roma Areeiro,3577.96406466
+094,Praça D. Pedro IV,Santa Maria Maior,5,Roma Areeiro,3651.64137621
+117,Rua da Palma,Santa Maria Maior,5,Roma Areeiro,2965.70451706
+138,Avenida de Brasília,Belém,5,Roma Areeiro,8546.25855073
+136,Avenida de Brasília,Belém,5,Roma Areeiro,7158.66332013
+135,Doca de Alcântara,Estrela,5,Roma Areeiro,6069.72946092
+133B,Cais do Sodré,Misericórdia,5,Roma Areeiro,4573.70740589
+129,Avenida Infante Dom Henrique,São Vicente,5,Roma Areeiro,3726.12835925
+124,Avenida Infante Dom Henrique,Santa Maria Maior,5,Roma Areeiro,4223.1376534
+118,Largo do Intendente Pina Manique,Arroios,5,Roma Areeiro,2769.21247333
+132,Avenida da Ribeira das Naus,Santa Maria Maior,5,Roma Areeiro,4497.46703425
+126,Avenida Vinte e Quatro de Julho,Misericórdia,5,Roma Areeiro,4483.49508485
+127,Avenida Vinte e Quatro de Julho,Misericórdia,5,Roma Areeiro,4511.05499462
+128,Avenida Vinte e Quatro de Julho,Estrela,5,Roma Areeiro,4675.78230034
+130,Avenida Infante Dom Henrique,Santa Maria Maior,5,Roma Areeiro,3965.97586783
+123,Praça do Município,Santa Maria Maior,5,Roma Areeiro,4233.50463984
+070,Rua Interior à Alameda da Universidade,Alvalade,5,Roma Areeiro,2130.61694452
+116,Passeio dos Heróis do Mar,Parque das Nações,5,Roma Areeiro,6168.55571347
+115,Via do Oriente,Parque das Nações,5,Roma Areeiro,5595.57508633
+114,Alameda dos Oceanos,Parque das Nações,5,Roma Areeiro,5256.83587599
+113,Alameda dos Oceanos,Parque das Nações,5,Roma Areeiro,5085.50200201
+111,Alameda dos Oceanos,Parque das Nações,5,Roma Areeiro,4916.76533209
+110,Rua do Bojador,Parque das Nações,5,Roma Areeiro,4810.86537059
+109,Alameda dos Oceanos,Parque das Nações,5,Roma Areeiro,4630.60285051
+108,Rua do Bojador,Parque das Nações,5,Roma Areeiro,4467.92509095
+102,Avenida do Pacífico,Parque das Nações,5,Roma Areeiro,3954.73488918
+104,Avenida do Índico,Parque das Nações,5,Roma Areeiro,4158.63832262
+107,Rua do Fogo de Santelmo,Parque das Nações,5,Roma Areeiro,3809.76510041
+106,Porta do Mar,Parque das Nações,5,Roma Areeiro,3612.84168535
+105,Alameda dos Oceanos,Parque das Nações,5,Roma Areeiro,3431.41294901
+141,Rua de Moscavide ao Parque das Nações,Parque das Nações,5,Roma Areeiro,4847.99453822
+005A,Praça do Duque de Saldanha,Avenidas Novas,5,Roma Areeiro,1624.68746664
+005B,Praça do Duque de Saldanha,Arroios,5,Roma Areeiro,1569.26291694
+005C,Praça do Duque de Saldanha,Arroios,5,Roma Areeiro,1602.1167943
+022A,Avenida Fontes Pereira de Melo,Avenidas Novas,5,Roma Areeiro,1909.21844046
+053B,Praça do Marquês de Pombal,Santo António,5,Roma Areeiro,2716.57759772
+053A,Praça do Marquês de Pombal,Santo António,5,Roma Areeiro,2648.00144275
+075B,Avenida da Liberdade,Santo António,5,Roma Areeiro,3265.07868182
+101B,Praça Martim Moniz,Santa Maria Maior,5,Roma Areeiro,3411.27609467
+101A,Praça Martim Moniz,Santa Maria Maior,5,Roma Areeiro,3397.70202938
+143,Rua Konrad Adenauer,Lumiar,5,Roma Areeiro,3002.80738376
+144,Avenida da Liberdade,Santo António,5,Roma Areeiro,2826.89961872
+145,Avenida da Liberdade,Santo António,5,Roma Areeiro,3009.08136849
+133A,Avenida Vinte e Quatro de Julho,Misericórdia,5,Roma Areeiro,4497.55065163
+147,Alameda da Universidade,Alvalade,5,Roma Areeiro,2276.67772469
+024A,Avenida Ressano Garcia,Avenidas Novas,5,Roma Areeiro,2182.64798042
+024B,Avenida António Augusto de Aguiar,Avenidas Novas,5,Roma Areeiro,2155.80628703
+146,Rua Martens Ferrão,Arroios,5,Roma Areeiro,2194.49336488
+051,Avenida de António José de Almeida,Areeiro,5,Roma Areeiro,968.93878232
+162,Rua Marques da Silva,Arroios,5,Roma Areeiro,1796.65375975
+158,Rua Passos Manuel,Arroios,5,Roma Areeiro,1639.56090076
+157,Rua António Pedro,Arroios,5,Roma Areeiro,1592.65797871
+161,Avenida Almirante Reis,Arroios,5,Roma Areeiro,2674.03108179
+160,Avenida Almirante Reis,Arroios,5,Roma Areeiro,2269.96285329
+159,Rua Frei Francisco Foreiro,Arroios,5,Roma Areeiro,1975.1961248
+242,Rua Luís de Freitas Branco,Lumiar,5,Roma Areeiro,3578.56628649
+154,Alameda das Linhas de Torres,Lumiar,5,Roma Areeiro,3890.58097048
+152,Alameda das Linhas de Torres,Lumiar,5,Roma Areeiro,3025.20549072
+153,Rua Ladislau Patrício,Lumiar,5,Roma Areeiro,3300.33319979
+151,Alameda das Linhas de Torres,Lumiar,5,Roma Areeiro,2740.40511225
+150,Rua Fernando Curado Ribeiro,Lumiar,5,Roma Areeiro,2567.21585126
+170,Avenida Cidade de Luanda,Olivais,5,Roma Areeiro,2608.59551333
+176,Jardim Eduardo Prado Coelho,Olivais,5,Roma Areeiro,3511.76038018
+175,Avenida Dr. Francisco Luís Gomes,Olivais,5,Roma Areeiro,3288.20689152
+177,Rua Cidade de Benguela,Olivais,5,Roma Areeiro,2950.23880968
+173,Avenida Cidade de Lourenço Marques,Olivais,5,Roma Areeiro,2436.25610777
+172,Praça Cidade do Luso,Olivais,5,Roma Areeiro,2688.59917261
+171,Rua Cidade de Bissau,Olivais,5,Roma Areeiro,2563.83547289
+178,Praça Baden Powell,Olivais,5,Roma Areeiro,3210.6824346
+174,Avenida de Berlim,Olivais,5,Roma Areeiro,3125.83579804
+168,Rua Marquês de Fronteira,Campolide,5,Roma Areeiro,2534.27240634
+166,Rua Dom Francisco Manuel de Melo,Avenidas Novas,5,Roma Areeiro,2937.31553621
+165,Rua de Campolide,Campolide,5,Roma Areeiro,3205.81648033
+167,Rua Castilho,Avenidas Novas,5,Roma Areeiro,2706.81459735
+164,Avenida Engenheiro Duarte Pacheco,Santo António,5,Roma Areeiro,3242.57686702
+163,Rua Carlos Alberto da Mota Pinto,Campo de Ourique,5,Roma Areeiro,3366.34568998
+227,Rua Tomás da Anunciação,Campo de Ourique,5,Roma Areeiro,4188.58246244
+208,Rua da Venezuela,Benfica,5,Roma Areeiro,5730.05203678
+202,Rua de São Domingos de Benfica,São Domingos de Benfica,5,Roma Areeiro,3698.83516006
+206,Rua Ten. Coronel Ribeiro dos Reis,Benfica,5,Roma Areeiro,4862.50055291
+207,Rua José dos Santos Pereira,Benfica,5,Roma Areeiro,5120.64519469
+203,Rua Conde de Almoster,São Domingos de Benfica,5,Roma Areeiro,3898.60219751
+218,Azinhaga dos Ulmeiros,Lumiar,5,Roma Areeiro,4323.61200718
+121,Rua dos Fanqueiros,Santa Maria Maior,5,Roma Areeiro,3761.94225101
+122,Rua do Crucifixo,Santa Maria Maior,5,Roma Areeiro,3978.76197861
+209,Estrada de Benfica,Benfica,5,Roma Areeiro,4872.7882665
+210,Largo da Revista Militar,Benfica,5,Roma Areeiro,4848.71507033
+211,Avenida do Colégio Militar,Carnide,5,Roma Areeiro,4656.62363544
+213,Rua Cupertino de Miranda,Carnide,5,Roma Areeiro,4826.81686847
+214,Rua Padre Américo,Carnide,5,Roma Areeiro,4475.67077833
+215,Avenida das Nações Unidas,Carnide,5,Roma Areeiro,4324.82157665
+216,Rua Prof. Mário de Albuquerque,Lumiar,5,Roma Areeiro,3981.05921337
+217,Rua Prof. Pulido Valente,Lumiar,5,Roma Areeiro,3605.28172316
+023,Avenida Columbano Bordalo Pinheiro,Campolide,5,Roma Areeiro,2364.4540431
+056,Avenida Columbano Bordalo Pinheiro,São Domingos de Benfica,5,Roma Areeiro,2915.24065487
+230,Praça das Indústrias,Alcântara,5,Roma Areeiro,6665.46945744
+235,Avenida da Índia,Belém,5,Roma Areeiro,8877.33099321
+236,Largo Luís Alves Miguel,Belém,5,Roma Areeiro,9317.19103597
+252,Rua Luís Pastor de Macedo,Lumiar,5,Roma Areeiro,3005.35840425
+303,Avenida do Uruguai,Benfica,5,Roma Areeiro,5491.64751077
+304,Rua Guiomar Torresão,Carnide,5,Roma Areeiro,5249.40777087
+249,Avenida de Berlim,Olivais,5,Roma Areeiro,3394.61733163
+312,Rua Cascais,Alcântara,5,Roma Areeiro,5952.97213897
+319,Avenida da Torre de Belém,Belém,5,Roma Areeiro,9007.53596078
+409,Rua Fernanda Montemor,Marvila,5,Roma Areeiro,3120.77382286
+410,Praça David Leandro da Silva,Marvila,5,Roma Areeiro,2784.12497485
+073,Rua Alfredo Cortês,Alvalade,5,Roma Areeiro,866.56364545
+408,Avenida Infante Dom Henrique,Beato,5,Roma Areeiro,2970.65672291
+407,Avenida General Roçadas,Penha de França,5,Roma Areeiro,2611.06561436
+404,Largo Mendonça e Costa,Penha de França,5,Roma Areeiro,1444.66665315
+416,Rua do Comércio,Santa Maria Maior,5,Roma Areeiro,4117.09684649
+417,Rua Interior à Est. da Correia,Carnide,5,Roma Areeiro,5759.05719312
+064,Rua Prof. Oliveira Marques,Alvalade,5,Roma Areeiro,2254.35060149
+418,Avenida Infante Dom Henrique,Beato,5,Roma Areeiro,2956.17462771
+085,Avenida Elias Garcia,Avenidas Novas,5,Roma Areeiro,1413.5662725
+034,Avenida da República,Avenidas Novas,5,Roma Areeiro,1355.42015892
+044,Rua do Arco do Cego,Avenidas Novas,5,Roma Areeiro,996.2795255
+038,Avenida Barbosa du Bocage,Avenidas Novas,5,Roma Areeiro,968.70307979
+003,Rua Professor Lima Basto,São Domingos de Benfica,5,Roma Areeiro,2917.94387467
+015,Campo Grande,Alvalade,5,Roma Areeiro,1325.25853292
+069,Rua Prof.ª Teresa Ambrósio,Alvalade,5,Roma Areeiro,1908.93338406
+039,Campo Grande,Alvalade,5,Roma Areeiro,1490.49526618
+081,Avenida da Igreja,Alvalade,5,Roma Areeiro,1399.66176359
+078,Avenida do Rio de Janeiro,Alvalade,5,Roma Areeiro,732.51811451
+012,Avenida dos Estados Unidos da América,Alvalade,11,Alcântara Mar,5825.72466868
+061,Avenida de Roma,Areeiro,11,Alcântara Mar,5487.61861712
+062,Avenida de Paris,Areeiro,11,Alcântara Mar,5493.12674882
+007,Avenida Professor Gama Pinto,Alvalade,11,Alcântara Mar,5568.03451715
+066,Alameda da Universidade,Alvalade,11,Alcântara Mar,5773.24966409
+065,Alameda da Universidade,Alvalade,11,Alcântara Mar,5860.00789654
+040,Avenida Conde de Valbom,Avenidas Novas,11,Alcântara Mar,4352.36424802
+074,Rua Teixeira de Pascoais,Alvalade,11,Alcântara Mar,5966.28984889
+096,Rua Prof. Mark Athias,Lumiar,11,Alcântara Mar,6532.84219442
+054,Praça de Londres,Areeiro,11,Alcântara Mar,5276.36556133
+052,Largo Frei Heitor Pinto,Alvalade,11,Alcântara Mar,6560.89166108
+047,Rua Maria Amália Vaz de Carvalho,Alvalade,11,Alcântara Mar,6112.95748553
+092,Rua Professor Lima Basto,São Domingos de Benfica,11,Alcântara Mar,4212.96115405
+086,Avenida Duque d'Ávila,Avenidas Novas,11,Alcântara Mar,4102.27981258
+019,Avenida da República,Avenidas Novas,11,Alcântara Mar,4393.52374228
+020,Avenida Duque d'Ávila,Avenidas Novas,11,Alcântara Mar,4537.53603335
+030,Rua da Mesquita,Campolide,11,Alcântara Mar,3812.65704108
+004,Alameda Dom Afonso Henriques,Areeiro,11,Alcântara Mar,5180.65197251
+087,Avenida Duque d'Ávila,Avenidas Novas,11,Alcântara Mar,4245.70345786
+026,Rua Aboím Ascensão,Alvalade,11,Alcântara Mar,5726.60530028
+084,Avenida Cinco de Outubro,Avenidas Novas,11,Alcântara Mar,5336.45868513
+002,Avenida da República,Avenidas Novas,11,Alcântara Mar,5197.07162522
+029,Avenida do Brasil,Alvalade,11,Alcântara Mar,6420.95729027
+080,Avenida do Brasil,Alvalade,11,Alcântara Mar,6830.20138977
+082,Campo Grande,Alvalade,11,Alcântara Mar,5926.39613112
+063,Campo Grande,Alvalade,11,Alcântara Mar,6376.20951904
+008,Rua Prof. Vieira de Almeida,Lumiar,11,Alcântara Mar,6499.65905021
+049,Rua Hermano Neves,Lumiar,11,Alcântara Mar,6353.95153513
+091,Rua Fernando Namora,Lumiar,11,Alcântara Mar,6410.22333356
+033,Avenida Rovisco Pais,Areeiro,11,Alcântara Mar,4920.39524749
+077,Azinhaga da Torre do Fato,Lumiar,11,Alcântara Mar,6430.32737649
+076,Rua Lopes Mendonça,Alvalade,11,Alcântara Mar,6776.93154258
+045,Rua Marquês do Soveral,Alvalade,11,Alcântara Mar,6967.58286959
+057,Rua Tomás da Fonseca,São Domingos de Benfica,11,Alcântara Mar,5958.94008391
+018,Campo Pequeno,Avenidas Novas,11,Alcântara Mar,5168.82760334
+017,Avenida da República,Avenidas Novas,11,Alcântara Mar,4820.7947996
+055,Avenida da Liberdade,Santo António,11,Alcântara Mar,3148.87832216
+095,Praça da Figueira,Santa Maria Maior,11,Alcântara Mar,3343.68970906
+094,Praça D. Pedro IV,Santa Maria Maior,11,Alcântara Mar,3242.46123876
+117,Rua da Palma,Santa Maria Maior,11,Alcântara Mar,3777.69982986
+138,Avenida de Brasília,Belém,11,Alcântara Mar,3003.43750156
+136,Avenida de Brasília,Belém,11,Alcântara Mar,1370.64019038
+135,Doca de Alcântara,Estrela,11,Alcântara Mar,156.71018754
+133B,Cais do Sodré,Misericórdia,11,Alcântara Mar,2626.13188469
+129,Avenida Infante Dom Henrique,São Vicente,11,Alcântara Mar,4618.3029173
+124,Avenida Infante Dom Henrique,Santa Maria Maior,11,Alcântara Mar,3634.96597181
+118,Largo do Intendente Pina Manique,Arroios,11,Alcântara Mar,3949.26703767
+132,Avenida da Ribeira das Naus,Santa Maria Maior,11,Alcântara Mar,2822.78481767
+126,Avenida Vinte e Quatro de Julho,Misericórdia,11,Alcântara Mar,2395.93942411
+127,Avenida Vinte e Quatro de Julho,Misericórdia,11,Alcântara Mar,2212.50157227
+128,Avenida Vinte e Quatro de Julho,Estrela,11,Alcântara Mar,1747.79724845
+130,Avenida Infante Dom Henrique,Santa Maria Maior,11,Alcântara Mar,4100.88548081
+123,Praça do Município,Santa Maria Maior,11,Alcântara Mar,3037.76692817
+070,Rua Interior à Alameda da Universidade,Alvalade,11,Alcântara Mar,6164.39040725
+102,Avenida do Pacífico,Parque das Nações,11,Alcântara Mar,9745.65885752
+104,Avenida do Índico,Parque das Nações,11,Alcântara Mar,9964.86879582
+107,Rua do Fogo de Santelmo,Parque das Nações,11,Alcântara Mar,9455.61549516
+106,Porta do Mar,Parque das Nações,11,Alcântara Mar,9217.21108519
+105,Alameda dos Oceanos,Parque das Nações,11,Alcântara Mar,8949.37627197
+005A,Praça do Duque de Saldanha,Avenidas Novas,11,Alcântara Mar,4289.24049044
+005B,Praça do Duque de Saldanha,Arroios,11,Alcântara Mar,4343.85264643
+005C,Praça do Duque de Saldanha,Arroios,11,Alcântara Mar,4312.73105818
+022A,Avenida Fontes Pereira de Melo,Avenidas Novas,11,Alcântara Mar,4004.61393187
+053B,Praça do Marquês de Pombal,Santo António,11,Alcântara Mar,3219.88202875
+053A,Praça do Marquês de Pombal,Santo António,11,Alcântara Mar,3290.6323622
+075B,Avenida da Liberdade,Santo António,11,Alcântara Mar,3171.69342991
+101B,Praça Martim Moniz,Santa Maria Maior,11,Alcântara Mar,3524.59089615
+101A,Praça Martim Moniz,Santa Maria Maior,11,Alcântara Mar,3492.2750293
+143,Rua Konrad Adenauer,Lumiar,11,Alcântara Mar,6370.04526955
+144,Avenida da Liberdade,Santo António,11,Alcântara Mar,3208.64490577
+145,Avenida da Liberdade,Santo António,11,Alcântara Mar,3103.55471219
+133A,Avenida Vinte e Quatro de Julho,Misericórdia,11,Alcântara Mar,2544.55054362
+147,Alameda da Universidade,Alvalade,11,Alcântara Mar,5682.57057166
+024A,Avenida Ressano Garcia,Avenidas Novas,11,Alcântara Mar,3925.91834676
+024B,Avenida António Augusto de Aguiar,Avenidas Novas,11,Alcântara Mar,3934.9430807
+146,Rua Martens Ferrão,Arroios,11,Alcântara Mar,3724.47649955
+051,Avenida de António José de Almeida,Areeiro,11,Alcântara Mar,4953.17760478
+162,Rua Marques da Silva,Arroios,11,Alcântara Mar,4475.24830163
+158,Rua Passos Manuel,Arroios,11,Alcântara Mar,4510.55354771
+157,Rua António Pedro,Arroios,11,Alcântara Mar,4634.27431204
+161,Avenida Almirante Reis,Arroios,11,Alcântara Mar,3963.74147249
+160,Avenida Almirante Reis,Arroios,11,Alcântara Mar,4206.82029322
+159,Rua Frei Francisco Foreiro,Arroios,11,Alcântara Mar,4335.17017858
+242,Rua Luís de Freitas Branco,Lumiar,11,Alcântara Mar,7659.12637009
+154,Alameda das Linhas de Torres,Lumiar,11,Alcântara Mar,7964.25013411
+152,Alameda das Linhas de Torres,Lumiar,11,Alcântara Mar,7198.17968686
+153,Rua Ladislau Patrício,Lumiar,11,Alcântara Mar,7465.94250153
+151,Alameda das Linhas de Torres,Lumiar,11,Alcântara Mar,6833.94099765
+150,Rua Fernando Curado Ribeiro,Lumiar,11,Alcântara Mar,6653.41907963
+170,Avenida Cidade de Luanda,Olivais,11,Alcântara Mar,8475.98936664
+176,Jardim Eduardo Prado Coelho,Olivais,11,Alcântara Mar,9421.36460859
+175,Avenida Dr. Francisco Luís Gomes,Olivais,11,Alcântara Mar,9201.18517526
+177,Rua Cidade de Benguela,Olivais,11,Alcântara Mar,8844.80606542
+173,Avenida Cidade de Lourenço Marques,Olivais,11,Alcântara Mar,8348.03107348
+172,Praça Cidade do Luso,Olivais,11,Alcântara Mar,8601.60328064
+171,Rua Cidade de Bissau,Olivais,11,Alcântara Mar,8465.17694959
+178,Praça Baden Powell,Olivais,11,Alcântara Mar,9118.84368827
+174,Avenida de Berlim,Olivais,11,Alcântara Mar,9038.56189515
+168,Rua Marquês de Fronteira,Campolide,11,Alcântara Mar,3517.56297784
+166,Rua Dom Francisco Manuel de Melo,Avenidas Novas,11,Alcântara Mar,3118.00702103
+165,Rua de Campolide,Campolide,11,Alcântara Mar,2912.37104695
+167,Rua Castilho,Avenidas Novas,11,Alcântara Mar,3331.29618842
+164,Avenida Engenheiro Duarte Pacheco,Santo António,11,Alcântara Mar,2727.83012949
+163,Rua Carlos Alberto da Mota Pinto,Campo de Ourique,11,Alcântara Mar,2627.34149853
+227,Rua Tomás da Anunciação,Campo de Ourique,11,Alcântara Mar,1784.58583898
+208,Rua da Venezuela,Benfica,11,Alcântara Mar,5217.86220705
+202,Rua de São Domingos de Benfica,São Domingos de Benfica,11,Alcântara Mar,4336.9150685
+206,Rua Ten. Coronel Ribeiro dos Reis,Benfica,11,Alcântara Mar,4958.1327462
+207,Rua José dos Santos Pereira,Benfica,11,Alcântara Mar,4982.85006551
+203,Rua Conde de Almoster,São Domingos de Benfica,11,Alcântara Mar,4482.26731786
+218,Azinhaga dos Ulmeiros,Lumiar,11,Alcântara Mar,7391.55694815
+121,Rua dos Fanqueiros,Santa Maria Maior,11,Alcântara Mar,3403.73132921
+122,Rua do Crucifixo,Santa Maria Maior,11,Alcântara Mar,3148.00101005
+209,Estrada de Benfica,Benfica,11,Alcântara Mar,5349.7238712
+210,Largo da Revista Militar,Benfica,11,Alcântara Mar,5759.05719238
+211,Avenida do Colégio Militar,Carnide,11,Alcântara Mar,6182.27867112
+213,Rua Cupertino de Miranda,Carnide,11,Alcântara Mar,7204.64179984
+214,Rua Padre Américo,Carnide,11,Alcântara Mar,6791.96253162
+215,Avenida das Nações Unidas,Carnide,11,Alcântara Mar,6851.49340042
+216,Rua Prof. Mário de Albuquerque,Lumiar,11,Alcântara Mar,6627.56474813
+217,Rua Prof. Pulido Valente,Lumiar,11,Alcântara Mar,6756.64155348
+023,Avenida Columbano Bordalo Pinheiro,Campolide,11,Alcântara Mar,4135.68859345
+056,Avenida Columbano Bordalo Pinheiro,São Domingos de Benfica,11,Alcântara Mar,4151.85790715
+230,Praça das Indústrias,Alcântara,11,Alcântara Mar,835.35731993
+235,Avenida da Índia,Belém,11,Alcântara Mar,3463.15212539
+236,Largo Luís Alves Miguel,Belém,11,Alcântara Mar,4081.84497942
+252,Rua Luís Pastor de Macedo,Lumiar,11,Alcântara Mar,7350.12874183
+303,Avenida do Uruguai,Benfica,11,Alcântara Mar,6040.46435989
+304,Rua Guiomar Torresão,Carnide,11,Alcântara Mar,6439.42320758
+249,Avenida de Berlim,Olivais,11,Alcântara Mar,9284.91768131
+312,Rua Cascais,Alcântara,11,Alcântara Mar,141.65214666
+319,Avenida da Torre de Belém,Belém,11,Alcântara Mar,3693.59437505
+409,Rua Fernanda Montemor,Marvila,11,Alcântara Mar,8105.03298116
+410,Praça David Leandro da Silva,Marvila,11,Alcântara Mar,7627.61486722
+073,Rua Alfredo Cortês,Alvalade,11,Alcântara Mar,5505.48296869
+408,Avenida Infante Dom Henrique,Beato,11,Alcântara Mar,6569.21385015
+407,Avenida General Roçadas,Penha de França,11,Alcântara Mar,4497.98216851
+404,Largo Mendonça e Costa,Penha de França,11,Alcântara Mar,5041.12816296
+416,Rua do Comércio,Santa Maria Maior,11,Alcântara Mar,3253.10653174
+417,Rua Interior à Est. da Correia,Carnide,11,Alcântara Mar,6970.06948469
+064,Rua Prof. Oliveira Marques,Alvalade,11,Alcântara Mar,5992.24215285
+418,Avenida Infante Dom Henrique,Beato,11,Alcântara Mar,6758.58120931
+085,Avenida Elias Garcia,Avenidas Novas,11,Alcântara Mar,4643.13102808
+034,Avenida da República,Avenidas Novas,11,Alcântara Mar,4616.4498081
+044,Rua do Arco do Cego,Avenidas Novas,11,Alcântara Mar,4930.48989658
+038,Avenida Barbosa du Bocage,Avenidas Novas,11,Alcântara Mar,5015.43281242
+003,Rua Professor Lima Basto,São Domingos de Benfica,11,Alcântara Mar,4265.67894495
+015,Campo Grande,Alvalade,11,Alcântara Mar,5585.1395909
+069,Rua Prof.ª Teresa Ambrósio,Alvalade,11,Alcântara Mar,5419.27475452
+039,Campo Grande,Alvalade,11,Alcântara Mar,5680.92296966
+081,Avenida da Igreja,Alvalade,11,Alcântara Mar,5883.86745697
+078,Avenida do Rio de Janeiro,Alvalade,11,Alcântara Mar,6311.72430571
+012,Avenida dos Estados Unidos da América,Alvalade,3,Chelas,2329.5519908
+061,Avenida de Roma,Areeiro,3,Chelas,1825.94365761
+062,Avenida de Paris,Areeiro,3,Chelas,1381.03265319
+007,Avenida Professor Gama Pinto,Alvalade,3,Chelas,3803.54245586
+066,Alameda da Universidade,Alvalade,3,Chelas,3648.88249025
+065,Alameda da Universidade,Alvalade,3,Chelas,3736.03214004
+040,Avenida Conde de Valbom,Avenidas Novas,3,Chelas,2921.10473277
+074,Rua Teixeira de Pascoais,Alvalade,3,Chelas,1878.28964561
+096,Rua Prof. Mark Athias,Lumiar,3,Chelas,5193.98711077
+054,Praça de Londres,Areeiro,3,Chelas,1684.8361748
+052,Largo Frei Heitor Pinto,Alvalade,3,Chelas,2469.60310612
+047,Rua Maria Amália Vaz de Carvalho,Alvalade,3,Chelas,2459.35933163
+092,Rua Professor Lima Basto,São Domingos de Benfica,3,Chelas,3825.33509829
+086,Avenida Duque d'Ávila,Avenidas Novas,3,Chelas,2892.57764915
+019,Avenida da República,Avenidas Novas,3,Chelas,2378.0474212
+020,Avenida Duque d'Ávila,Avenidas Novas,3,Chelas,2137.4598499
+030,Rua da Mesquita,Campolide,3,Chelas,3620.44988164
+004,Alameda Dom Afonso Henriques,Areeiro,3,Chelas,1371.50648055
+087,Avenida Duque d'Ávila,Avenidas Novas,3,Chelas,2628.63841406
+026,Rua Aboím Ascensão,Alvalade,3,Chelas,2778.15705387
+084,Avenida Cinco de Outubro,Avenidas Novas,3,Chelas,2885.20137738
+002,Avenida da República,Avenidas Novas,3,Chelas,2626.7068486
+029,Avenida do Brasil,Alvalade,3,Chelas,3154.50704669
+080,Avenida do Brasil,Alvalade,3,Chelas,2922.40028979
+082,Campo Grande,Alvalade,3,Chelas,3092.86731431
+063,Campo Grande,Alvalade,3,Chelas,3915.69496792
+008,Rua Prof. Vieira de Almeida,Lumiar,3,Chelas,4841.73664245
+049,Rua Hermano Neves,Lumiar,3,Chelas,5030.97894386
+091,Rua Fernando Namora,Lumiar,3,Chelas,5491.78646102
+033,Avenida Rovisco Pais,Areeiro,3,Chelas,1621.63889495
+077,Azinhaga da Torre do Fato,Lumiar,3,Chelas,5734.79479611
+076,Rua Lopes Mendonça,Alvalade,3,Chelas,2556.91835727
+045,Rua Marquês do Soveral,Alvalade,3,Chelas,2620.50961012
+057,Rua Tomás da Fonseca,São Domingos de Benfica,3,Chelas,4867.01185855
+018,Campo Pequeno,Avenidas Novas,3,Chelas,2383.70824652
+017,Avenida da República,Avenidas Novas,3,Chelas,2460.02075498
+055,Avenida da Liberdade,Santo António,3,Chelas,3148.73134459
+095,Praça da Figueira,Santa Maria Maior,3,Chelas,3262.92269915
+094,Praça D. Pedro IV,Santa Maria Maior,3,Chelas,3362.01953793
+117,Rua da Palma,Santa Maria Maior,3,Chelas,2654.00637033
+138,Avenida de Brasília,Belém,3,Chelas,9137.96474283
+136,Avenida de Brasília,Belém,3,Chelas,7609.6131918
+135,Doca de Alcântara,Estrela,3,Chelas,6420.9948841
+133B,Cais do Sodré,Misericórdia,3,Chelas,4319.66005941
+129,Avenida Infante Dom Henrique,São Vicente,3,Chelas,2834.3492193
+124,Avenida Infante Dom Henrique,Santa Maria Maior,3,Chelas,3653.80387444
+118,Largo do Intendente Pina Manique,Arroios,3,Chelas,2446.08330847
+132,Avenida da Ribeira das Naus,Santa Maria Maior,3,Chelas,4185.32357388
+126,Avenida Vinte e Quatro de Julho,Misericórdia,3,Chelas,4331.82001521
+127,Avenida Vinte e Quatro de Julho,Misericórdia,3,Chelas,4423.8929094
+128,Avenida Vinte e Quatro de Julho,Estrela,3,Chelas,4729.27647383
+130,Avenida Infante Dom Henrique,Santa Maria Maior,3,Chelas,3250.99397177
+123,Praça do Município,Santa Maria Maior,3,Chelas,3886.79349897
+070,Rua Interior à Alameda da Universidade,Alvalade,3,Chelas,3688.47332718
+116,Passeio dos Heróis do Mar,Parque das Nações,3,Chelas,6332.45876449
+115,Via do Oriente,Parque das Nações,3,Chelas,5743.75733723
+114,Alameda dos Oceanos,Parque das Nações,3,Chelas,5302.64238227
+113,Alameda dos Oceanos,Parque das Nações,3,Chelas,5038.30198705
+111,Alameda dos Oceanos,Parque das Nações,3,Chelas,4774.66570704
+110,Rua do Bojador,Parque das Nações,3,Chelas,4548.32141355
+109,Alameda dos Oceanos,Parque das Nações,3,Chelas,4442.37656838
+108,Rua do Bojador,Parque das Nações,3,Chelas,4083.81653305
+102,Avenida do Pacífico,Parque das Nações,3,Chelas,3604.76882428
+104,Avenida do Índico,Parque das Nações,3,Chelas,3832.47946926
+107,Rua do Fogo de Santelmo,Parque das Nações,3,Chelas,3223.59575407
+106,Porta do Mar,Parque das Nações,3,Chelas,2975.46574646
+105,Alameda dos Oceanos,Parque das Nações,3,Chelas,2690.82664743
+141,Rua de Moscavide ao Parque das Nações,Parque das Nações,3,Chelas,4780.5871717
+005A,Praça do Duque de Saldanha,Avenidas Novas,3,Chelas,2392.53872045
+005B,Praça do Duque de Saldanha,Arroios,3,Chelas,2321.30770102
+005C,Praça do Duque de Saldanha,Arroios,3,Chelas,2304.5330665
+022A,Avenida Fontes Pereira de Melo,Avenidas Novas,3,Chelas,2559.56277277
+053B,Praça do Marquês de Pombal,Santo António,3,Chelas,3140.2881007
+053A,Praça do Marquês de Pombal,Santo António,3,Chelas,3071.80893032
+075B,Avenida da Liberdade,Santo António,3,Chelas,3179.54269649
+101B,Praça Martim Moniz,Santa Maria Maior,3,Chelas,3061.19566531
+101A,Praça Martim Moniz,Santa Maria Maior,3,Chelas,3069.0642106
+143,Rua Konrad Adenauer,Lumiar,3,Chelas,4561.4726994
+144,Avenida da Liberdade,Santo António,3,Chelas,3071.25698649
+145,Avenida da Liberdade,Santo António,3,Chelas,3164.25609674
+133A,Avenida Vinte e Quatro de Julho,Misericórdia,3,Chelas,4286.94164914
+147,Alameda da Universidade,Alvalade,3,Chelas,3818.08641506
+024A,Avenida Ressano Garcia,Avenidas Novas,3,Chelas,3181.50320426
+024B,Avenida António Augusto de Aguiar,Avenidas Novas,3,Chelas,3144.6098491
+146,Rua Martens Ferrão,Arroios,3,Chelas,2748.02657318
+051,Avenida de António José de Almeida,Areeiro,3,Chelas,1817.09259673
+162,Rua Marques da Silva,Arroios,3,Chelas,1805.12420762
+158,Rua Passos Manuel,Arroios,3,Chelas,1814.88117045
+157,Rua António Pedro,Arroios,3,Chelas,1674.55639386
+161,Avenida Almirante Reis,Arroios,3,Chelas,2393.85834255
+160,Avenida Almirante Reis,Arroios,3,Chelas,2077.76469925
+159,Rua Frei Francisco Foreiro,Arroios,3,Chelas,1934.15832695
+242,Rua Luís de Freitas Branco,Lumiar,3,Chelas,5065.99481781
+154,Alameda das Linhas de Torres,Lumiar,3,Chelas,5362.17958184
+152,Alameda das Linhas de Torres,Lumiar,3,Chelas,4531.50627761
+153,Rua Ladislau Patrício,Lumiar,3,Chelas,4791.14366575
+151,Alameda das Linhas de Torres,Lumiar,3,Chelas,4272.02508465
+150,Rua Fernando Curado Ribeiro,Lumiar,3,Chelas,4108.00386542
+170,Avenida Cidade de Luanda,Olivais,3,Chelas,2572.34188552
+176,Jardim Eduardo Prado Coelho,Olivais,3,Chelas,3609.21351351
+175,Avenida Dr. Francisco Luís Gomes,Olivais,3,Chelas,3474.87466029
+177,Rua Cidade de Benguela,Olivais,3,Chelas,2991.08576731
+173,Avenida Cidade de Lourenço Marques,Olivais,3,Chelas,2807.84785334
+172,Praça Cidade do Luso,Olivais,3,Chelas,2981.51066217
+171,Rua Cidade de Bissau,Olivais,3,Chelas,2697.76009694
+178,Praça Baden Powell,Olivais,3,Chelas,3320.74067144
+174,Avenida de Berlim,Olivais,3,Chelas,3318.45693481
+168,Rua Marquês de Fronteira,Campolide,3,Chelas,3406.79642676
+166,Rua Dom Francisco Manuel de Melo,Avenidas Novas,3,Chelas,3740.98609958
+165,Rua de Campolide,Campolide,3,Chelas,4016.60887603
+167,Rua Castilho,Avenidas Novas,3,Chelas,3533.30662437
+164,Avenida Engenheiro Duarte Pacheco,Santo António,3,Chelas,3904.71627767
+163,Rua Carlos Alberto da Mota Pinto,Campo de Ourique,3,Chelas,4041.49825524
+227,Rua Tomás da Anunciação,Campo de Ourique,3,Chelas,4743.8619988
+208,Rua da Venezuela,Benfica,3,Chelas,7112.79521897
+202,Rua de São Domingos de Benfica,São Domingos de Benfica,3,Chelas,5030.41216101
+206,Rua Ten. Coronel Ribeiro dos Reis,Benfica,3,Chelas,6256.91058984
+207,Rua José dos Santos Pereira,Benfica,3,Chelas,6506.31998717
+203,Rua Conde de Almoster,São Domingos de Benfica,3,Chelas,5254.0764258
+218,Azinhaga dos Ulmeiros,Lumiar,3,Chelas,5873.79889487
+121,Rua dos Fanqueiros,Santa Maria Maior,3,Chelas,3366.39394391
+122,Rua do Crucifixo,Santa Maria Maior,3,Chelas,3641.25246616
+209,Estrada de Benfica,Benfica,3,Chelas,6314.58655914
+210,Largo da Revista Militar,Benfica,3,Chelas,6333.69844905
+211,Avenida do Colégio Militar,Carnide,3,Chelas,6182.17826363
+213,Rua Cupertino de Miranda,Carnide,3,Chelas,6385.45965855
+214,Rua Padre Américo,Carnide,3,Chelas,6031.87721106
+215,Avenida das Nações Unidas,Carnide,3,Chelas,5883.0241179
+216,Rua Prof. Mário de Albuquerque,Lumiar,3,Chelas,5538.65895077
+217,Rua Prof. Pulido Valente,Lumiar,3,Chelas,5162.68880058
+023,Avenida Columbano Bordalo Pinheiro,Campolide,3,Chelas,3556.32687248
+056,Avenida Columbano Bordalo Pinheiro,São Domingos de Benfica,3,Chelas,4183.93143778
+230,Praça das Indústrias,Alcântara,3,Chelas,7083.82059292
+235,Avenida da Índia,Belém,3,Chelas,9525.7727504
+252,Rua Luís Pastor de Macedo,Lumiar,3,Chelas,4486.80310538
+303,Avenida do Uruguai,Benfica,3,Chelas,6974.70422558
+304,Rua Guiomar Torresão,Carnide,3,Chelas,6772.61890483
+249,Avenida de Berlim,Olivais,3,Chelas,3369.38459713
+312,Rua Cascais,Alcântara,3,Chelas,6339.82355404
+319,Avenida da Torre de Belém,Belém,3,Chelas,9694.33231991
+409,Rua Fernanda Montemor,Marvila,3,Chelas,1908.12676606
+410,Praça David Leandro da Silva,Marvila,3,Chelas,1463.15124313
+073,Rua Alfredo Cortês,Alvalade,3,Chelas,2368.45003627
+408,Avenida Infante Dom Henrique,Beato,3,Chelas,1435.68169468
+407,Avenida General Roçadas,Penha de França,3,Chelas,2007.75982106
+404,Largo Mendonça e Costa,Penha de França,3,Chelas,1245.71164117
+416,Rua do Comércio,Santa Maria Maior,3,Chelas,3708.04916429
+417,Rua Interior à Est. da Correia,Carnide,3,Chelas,7296.01226944
+064,Rua Prof. Oliveira Marques,Alvalade,3,Chelas,3811.73714759
+418,Avenida Infante Dom Henrique,Beato,3,Chelas,1401.00701207
+085,Avenida Elias Garcia,Avenidas Novas,3,Chelas,2558.68717482
+034,Avenida da República,Avenidas Novas,3,Chelas,2401.31743961
+044,Rua do Arco do Cego,Avenidas Novas,3,Chelas,2049.98583238
+038,Avenida Barbosa du Bocage,Avenidas Novas,3,Chelas,2167.42091556
+003,Rua Professor Lima Basto,São Domingos de Benfica,3,Chelas,4217.30599226
+015,Campo Grande,Alvalade,3,Chelas,2860.20232003
+069,Rua Prof.ª Teresa Ambrósio,Alvalade,3,Chelas,3424.07451353
+039,Campo Grande,Alvalade,3,Chelas,3036.88469043
+081,Avenida da Igreja,Alvalade,3,Chelas,2957.84858565
+078,Avenida do Rio de Janeiro,Alvalade,3,Chelas,2194.37196226
+012,Avenida dos Estados Unidos da América,Alvalade,6,Entrecampos,764.06412319
+061,Avenida de Roma,Areeiro,6,Entrecampos,900.84088254
+062,Avenida de Paris,Areeiro,6,Entrecampos,1338.27855157
+007,Avenida Professor Gama Pinto,Alvalade,6,Entrecampos,1180.9445631
+066,Alameda da Universidade,Alvalade,6,Entrecampos,1135.22406584
+065,Alameda da Universidade,Alvalade,6,Entrecampos,1246.16963362
+040,Avenida Conde de Valbom,Avenidas Novas,6,Entrecampos,779.52101129
+074,Rua Teixeira de Pascoais,Alvalade,6,Entrecampos,1117.72032278
+096,Rua Prof. Mark Athias,Lumiar,6,Entrecampos,2676.36920603
+054,Praça de Londres,Areeiro,6,Entrecampos,1053.92702047
+052,Largo Frei Heitor Pinto,Alvalade,6,Entrecampos,1464.81090808
+047,Rua Maria Amália Vaz de Carvalho,Alvalade,6,Entrecampos,1007.67778835
+092,Rua Professor Lima Basto,São Domingos de Benfica,6,Entrecampos,1305.48289239
+086,Avenida Duque d'Ávila,Avenidas Novas,6,Entrecampos,1060.98757045
+019,Avenida da República,Avenidas Novas,6,Entrecampos,1052.17132247
+020,Avenida Duque d'Ávila,Avenidas Novas,6,Entrecampos,1140.93590995
+030,Rua da Mesquita,Campolide,6,Entrecampos,1408.1726149
+004,Alameda Dom Afonso Henriques,Areeiro,6,Entrecampos,1498.33654995
+087,Avenida Duque d'Ávila,Avenidas Novas,6,Entrecampos,1025.09187102
+026,Rua Aboím Ascensão,Alvalade,6,Entrecampos,607.32604709
+084,Avenida Cinco de Outubro,Avenidas Novas,6,Entrecampos,288.01348587
+002,Avenida da República,Avenidas Novas,6,Entrecampos,102.68054221
+029,Avenida do Brasil,Alvalade,6,Entrecampos,1341.93007924
+080,Avenida do Brasil,Alvalade,6,Entrecampos,1700.83935601
+082,Campo Grande,Alvalade,6,Entrecampos,889.0136428
+063,Campo Grande,Alvalade,6,Entrecampos,1656.90388354
+008,Rua Prof. Vieira de Almeida,Lumiar,6,Entrecampos,2380.37802507
+049,Rua Hermano Neves,Lumiar,6,Entrecampos,2486.98950528
+091,Rua Fernando Namora,Lumiar,6,Entrecampos,2898.21530681
+033,Avenida Rovisco Pais,Areeiro,6,Entrecampos,1396.53934945
+077,Azinhaga da Torre do Fato,Lumiar,6,Entrecampos,3117.58700414
+076,Rua Lopes Mendonça,Alvalade,6,Entrecampos,1675.19806119
+045,Rua Marquês do Soveral,Alvalade,6,Entrecampos,1866.09986004
+057,Rua Tomás da Fonseca,São Domingos de Benfica,6,Entrecampos,2241.6841131
+018,Campo Pequeno,Avenidas Novas,6,Entrecampos,334.80790082
+017,Avenida da República,Avenidas Novas,6,Entrecampos,481.99923093
+055,Avenida da Liberdade,Santo António,6,Entrecampos,2404.85933132
+095,Praça da Figueira,Santa Maria Maior,6,Entrecampos,3540.24092026
+094,Praça D. Pedro IV,Santa Maria Maior,6,Entrecampos,3582.17151026
+117,Rua da Palma,Santa Maria Maior,6,Entrecampos,3034.37410017
+138,Avenida de Brasília,Belém,6,Entrecampos,7534.50704191
+136,Avenida de Brasília,Belém,6,Entrecampos,6265.37988016
+135,Doca de Alcântara,Estrela,6,Entrecampos,5282.40832074
+133B,Cais do Sodré,Misericórdia,6,Entrecampos,4369.07817391
+129,Avenida Infante Dom Henrique,São Vicente,6,Entrecampos,4134.51438519
+124,Avenida Infante Dom Henrique,Santa Maria Maior,6,Entrecampos,4314.68077487
+118,Largo do Intendente Pina Manique,Arroios,6,Entrecampos,2891.53452339
+132,Avenida da Ribeira das Naus,Santa Maria Maior,6,Entrecampos,4348.31880899
+126,Avenida Vinte e Quatro de Julho,Misericórdia,6,Entrecampos,4201.88214993
+127,Avenida Vinte e Quatro de Julho,Misericórdia,6,Entrecampos,4173.05681833
+128,Avenida Vinte e Quatro de Julho,Estrela,6,Entrecampos,4206.37819993
+130,Avenida Infante Dom Henrique,Santa Maria Maior,6,Entrecampos,4204.49753445
+123,Praça do Município,Santa Maria Maior,6,Entrecampos,4139.53610001
+070,Rua Interior à Alameda da Universidade,Alvalade,6,Entrecampos,1384.87483328
+116,Passeio dos Heróis do Mar,Parque das Nações,6,Entrecampos,7036.12783139
+115,Via do Oriente,Parque das Nações,6,Entrecampos,6490.28691256
+114,Alameda dos Oceanos,Parque das Nações,6,Entrecampos,6219.1919012
+113,Alameda dos Oceanos,Parque das Nações,6,Entrecampos,6100.10702723
+111,Alameda dos Oceanos,Parque das Nações,6,Entrecampos,5980.12276936
+110,Rua do Bojador,Parque das Nações,6,Entrecampos,5926.66760808
+109,Alameda dos Oceanos,Parque das Nações,6,Entrecampos,5722.59444372
+108,Rua do Bojador,Parque das Nações,6,Entrecampos,5636.28241875
+102,Avenida do Pacífico,Parque das Nações,6,Entrecampos,5127.45548915
+104,Avenida do Índico,Parque das Nações,6,Entrecampos,5316.99883592
+107,Rua do Fogo de Santelmo,Parque das Nações,6,Entrecampos,5049.54509984
+106,Porta do Mar,Parque das Nações,6,Entrecampos,4867.39836085
+105,Alameda dos Oceanos,Parque das Nações,6,Entrecampos,4706.44286587
+141,Rua de Moscavide ao Parque das Nações,Parque das Nações,6,Entrecampos,5880.19903519
+005A,Praça do Duque de Saldanha,Avenidas Novas,6,Entrecampos,1184.45068472
+005B,Praça do Duque de Saldanha,Arroios,6,Entrecampos,1187.14144509
+005C,Praça do Duque de Saldanha,Arroios,6,Entrecampos,1255.85069704
+022A,Avenida Fontes Pereira de Melo,Avenidas Novas,6,Entrecampos,1441.3870874
+053B,Praça do Marquês de Pombal,Santo António,6,Entrecampos,2200.5343399
+053A,Praça do Marquês de Pombal,Santo António,6,Entrecampos,2149.12668755
+075B,Avenida da Liberdade,Santo António,6,Entrecampos,3087.41157052
+101B,Praça Martim Moniz,Santa Maria Maior,6,Entrecampos,3428.20226784
+101A,Praça Martim Moniz,Santa Maria Maior,6,Entrecampos,3399.31855095
+143,Rua Konrad Adenauer,Lumiar,6,Entrecampos,2111.29906661
+144,Avenida da Liberdade,Santo António,6,Entrecampos,2451.3149587
+145,Avenida da Liberdade,Santo António,6,Entrecampos,2673.0626791
+133A,Avenida Vinte e Quatro de Julho,Misericórdia,6,Entrecampos,4263.76354774
+147,Alameda da Universidade,Alvalade,6,Entrecampos,1234.80528309
+024A,Avenida Ressano Garcia,Avenidas Novas,6,Entrecampos,1203.5748737
+024B,Avenida António Augusto de Aguiar,Avenidas Novas,6,Entrecampos,1195.48214105
+146,Rua Martens Ferrão,Arroios,6,Entrecampos,1707.76713424
+051,Avenida de António José de Almeida,Areeiro,6,Entrecampos,1084.87914612
+162,Rua Marques da Silva,Arroios,6,Entrecampos,2005.11103094
+158,Rua Passos Manuel,Arroios,6,Entrecampos,1799.06923931
+157,Rua António Pedro,Arroios,6,Entrecampos,1860.85023636
+161,Avenida Almirante Reis,Arroios,6,Entrecampos,2785.93047266
+160,Avenida Almirante Reis,Arroios,6,Entrecampos,2433.92790943
+159,Rua Frei Francisco Foreiro,Arroios,6,Entrecampos,2135.90788044
+242,Rua Luís de Freitas Branco,Lumiar,6,Entrecampos,3075.62932335
+154,Alameda das Linhas de Torres,Lumiar,6,Entrecampos,3411.69117176
+152,Alameda das Linhas de Torres,Lumiar,6,Entrecampos,2510.12611473
+153,Rua Ladislau Patrício,Lumiar,6,Entrecampos,2811.80125405
+151,Alameda das Linhas de Torres,Lumiar,6,Entrecampos,2145.19188332
+150,Rua Fernando Curado Ribeiro,Lumiar,6,Entrecampos,1940.62694499
+170,Avenida Cidade de Luanda,Olivais,6,Entrecampos,3749.34119637
+176,Jardim Eduardo Prado Coelho,Olivais,6,Entrecampos,4531.28661962
+175,Avenida Dr. Francisco Luís Gomes,Olivais,6,Entrecampos,4280.3984053
+177,Rua Cidade de Benguela,Olivais,6,Entrecampos,4034.66586266
+173,Avenida Cidade de Lourenço Marques,Olivais,6,Entrecampos,3419.92972641
+172,Praça Cidade do Luso,Olivais,6,Entrecampos,3682.59206634
+171,Rua Cidade de Bissau,Olivais,6,Entrecampos,3644.08095864
+178,Praça Baden Powell,Olivais,6,Entrecampos,4245.36436331
+174,Avenida de Berlim,Olivais,6,Entrecampos,4128.08445393
+168,Rua Marquês de Fronteira,Campolide,6,Entrecampos,1612.18750308
+166,Rua Dom Francisco Manuel de Melo,Avenidas Novas,6,Entrecampos,2013.44702146
+165,Rua de Campolide,Campolide,6,Entrecampos,2240.90915478
+167,Rua Castilho,Avenidas Novas,6,Entrecampos,1798.30944025
+164,Avenida Engenheiro Duarte Pacheco,Santo António,6,Entrecampos,2405.68016736
+163,Rua Carlos Alberto da Mota Pinto,Campo de Ourique,6,Entrecampos,2502.16235794
+227,Rua Tomás da Anunciação,Campo de Ourique,6,Entrecampos,3346.0986723
+208,Rua da Venezuela,Benfica,6,Entrecampos,4438.73429966
+202,Rua de São Domingos de Benfica,São Domingos de Benfica,6,Entrecampos,2399.8652373
+206,Rua Ten. Coronel Ribeiro dos Reis,Benfica,6,Entrecampos,3573.16655939
+207,Rua José dos Santos Pereira,Benfica,6,Entrecampos,3829.26735851
+203,Rua Conde de Almoster,São Domingos de Benfica,6,Entrecampos,2600.23380482
+218,Azinhaga dos Ulmeiros,Lumiar,6,Entrecampos,3495.58099025
+121,Rua dos Fanqueiros,Santa Maria Maior,6,Entrecampos,3764.5031652
+122,Rua do Crucifixo,Santa Maria Maior,6,Entrecampos,3905.96024705
+209,Estrada de Benfica,Benfica,6,Entrecampos,3605.07383185
+210,Largo da Revista Militar,Benfica,6,Entrecampos,3618.65032873
+211,Avenida do Colégio Militar,Carnide,6,Entrecampos,3494.92615272
+213,Rua Cupertino de Miranda,Carnide,6,Entrecampos,3850.77833103
+214,Rua Padre Américo,Carnide,6,Entrecampos,3453.90134928
+215,Avenida das Nações Unidas,Carnide,6,Entrecampos,3340.48572231
+216,Rua Prof. Mário de Albuquerque,Lumiar,6,Entrecampos,2991.69042376
+217,Rua Prof. Pulido Valente,Lumiar,6,Entrecampos,2725.14181627
+023,Avenida Columbano Bordalo Pinheiro,Campolide,6,Entrecampos,1155.8151919
+056,Avenida Columbano Bordalo Pinheiro,São Domingos de Benfica,6,Entrecampos,1634.59306839
+230,Praça das Indústrias,Alcântara,6,Entrecampos,5808.49823753
+235,Avenida da Índia,Belém,6,Entrecampos,7826.88253765
+236,Largo Luís Alves Miguel,Belém,6,Entrecampos,8220.92657853
+252,Rua Luís Pastor de Macedo,Lumiar,6,Entrecampos,2581.13290107
+303,Avenida do Uruguai,Benfica,6,Entrecampos,4259.08944969
+304,Rua Guiomar Torresão,Carnide,6,Entrecampos,4079.35601741
+249,Avenida de Berlim,Olivais,6,Entrecampos,4475.5699742
+312,Rua Cascais,Alcântara,6,Entrecampos,5143.49823197
+319,Avenida da Torre de Belém,Belém,6,Entrecampos,7933.16746367
+409,Rua Fernanda Montemor,Marvila,6,Entrecampos,4411.72609647
+410,Praça David Leandro da Silva,Marvila,6,Entrecampos,4055.73697696
+073,Rua Alfredo Cortês,Alvalade,6,Entrecampos,473.92134283
+408,Avenida Infante Dom Henrique,Beato,6,Entrecampos,4015.72179018
+407,Avenida General Roçadas,Penha de França,6,Entrecampos,2985.28261204
+404,Largo Mendonça e Costa,Penha de França,6,Entrecampos,2021.35219127
+416,Rua do Comércio,Santa Maria Maior,6,Entrecampos,4087.49695038
+417,Rua Interior à Est. da Correia,Carnide,6,Entrecampos,4621.97941497
+064,Rua Prof. Oliveira Marques,Alvalade,6,Entrecampos,1370.48298407
+418,Avenida Infante Dom Henrique,Beato,6,Entrecampos,4048.47335151
+085,Avenida Elias Garcia,Avenidas Novas,6,Entrecampos,593.98339621
+034,Avenida da República,Avenidas Novas,6,Entrecampos,751.29792149
+044,Rua do Arco do Cego,Avenidas Novas,6,Entrecampos,818.19840655
+038,Avenida Barbosa du Bocage,Avenidas Novas,6,Entrecampos,626.62138934
+003,Rua Professor Lima Basto,São Domingos de Benfica,6,Entrecampos,1627.03491635
+015,Campo Grande,Alvalade,6,Entrecampos,493.64240706
+069,Rua Prof.ª Teresa Ambrósio,Alvalade,6,Entrecampos,786.43501381
+039,Campo Grande,Alvalade,6,Entrecampos,657.34369426
+081,Avenida da Igreja,Alvalade,6,Entrecampos,801.6648519
+078,Avenida do Rio de Janeiro,Alvalade,6,Entrecampos,1283.35155586
+012,Avenida dos Estados Unidos da América,Alvalade,15,Alcântara Terra,5317.98382989
+061,Avenida de Roma,Areeiro,15,Alcântara Terra,5007.50647899
+062,Avenida de Paris,Areeiro,15,Alcântara Terra,5041.40991511
+007,Avenida Professor Gama Pinto,Alvalade,15,Alcântara Terra,5014.5867121
+066,Alameda da Universidade,Alvalade,15,Alcântara Terra,5223.32034836
+065,Alameda da Universidade,Alvalade,15,Alcântara Terra,5308.67379416
+040,Avenida Conde de Valbom,Avenidas Novas,15,Alcântara Terra,3835.55437659
+074,Rua Teixeira de Pascoais,Alvalade,15,Alcântara Terra,5479.03284169
+096,Rua Prof. Mark Athias,Lumiar,15,Alcântara Terra,5972.32838889
+054,Praça de Londres,Areeiro,15,Alcântara Terra,4810.81338483
+052,Largo Frei Heitor Pinto,Alvalade,15,Alcântara Terra,6051.58675121
+047,Rua Maria Amália Vaz de Carvalho,Alvalade,15,Alcântara Terra,5600.4979183
+092,Rua Professor Lima Basto,São Domingos de Benfica,15,Alcântara Terra,3660.31803839
+086,Avenida Duque d'Ávila,Avenidas Novas,15,Alcântara Terra,3596.96084097
+019,Avenida da República,Avenidas Novas,15,Alcântara Terra,3916.36482646
+020,Avenida Duque d'Ávila,Avenidas Novas,15,Alcântara Terra,4074.18956242
+030,Rua da Mesquita,Campolide,15,Alcântara Terra,3271.73376585
+004,Alameda Dom Afonso Henriques,Areeiro,15,Alcântara Terra,4746.9925793
+087,Avenida Duque d'Ávila,Avenidas Novas,15,Alcântara Terra,3754.72626256
+026,Rua Aboím Ascensão,Alvalade,15,Alcântara Terra,5201.16135483
+084,Avenida Cinco de Outubro,Avenidas Novas,15,Alcântara Terra,4807.68204165
+002,Avenida da República,Avenidas Novas,15,Alcântara Terra,4679.74187657
+029,Avenida do Brasil,Alvalade,15,Alcântara Terra,5886.87448316
+080,Avenida do Brasil,Alvalade,15,Alcântara Terra,6307.68659
+082,Campo Grande,Alvalade,15,Alcântara Terra,5391.1066543
+063,Campo Grande,Alvalade,15,Alcântara Terra,5824.08689737
+008,Rua Prof. Vieira de Almeida,Lumiar,15,Alcântara Terra,5938.89520499
+049,Rua Hermano Neves,Lumiar,15,Alcântara Terra,5793.17985278
+091,Rua Fernando Namora,Lumiar,15,Alcântara Terra,5852.20174295
+033,Avenida Rovisco Pais,Areeiro,15,Alcântara Terra,4481.60697344
+077,Azinhaga da Torre do Fato,Lumiar,15,Alcântara Terra,5875.26269647
+076,Rua Lopes Mendonça,Alvalade,15,Alcântara Terra,6266.96699511
+045,Rua Marquês do Soveral,Alvalade,15,Alcântara Terra,6458.07531551
+057,Rua Tomás da Fonseca,São Domingos de Benfica,15,Alcântara Terra,5398.13829494
+018,Campo Pequeno,Avenidas Novas,15,Alcântara Terra,4663.55547788
+017,Avenida da República,Avenidas Novas,15,Alcântara Terra,4318.56344569
+055,Avenida da Liberdade,Santo António,15,Alcântara Terra,2744.37467152
+095,Praça da Figueira,Santa Maria Maior,15,Alcântara Terra,3138.22858972
+094,Praça D. Pedro IV,Santa Maria Maior,15,Alcântara Terra,3043.28425671
+117,Rua da Palma,Santa Maria Maior,15,Alcântara Terra,3500.35841627
+138,Avenida de Brasília,Belém,15,Alcântara Terra,3267.2939589
+136,Avenida de Brasília,Belém,15,Alcântara Terra,1729.4026917
+135,Doca de Alcântara,Estrela,15,Alcântara Terra,697.01471901
+133B,Cais do Sodré,Misericórdia,15,Alcântara Terra,2579.00685074
+129,Avenida Infante Dom Henrique,São Vicente,15,Alcântara Terra,4462.55464186
+124,Avenida Infante Dom Henrique,Santa Maria Maior,15,Alcântara Terra,3546.68210935
+118,Largo do Intendente Pina Manique,Arroios,15,Alcântara Terra,3654.40424
+132,Avenida da Ribeira das Naus,Santa Maria Maior,15,Alcântara Terra,2766.99215998
+126,Avenida Vinte e Quatro de Julho,Misericórdia,15,Alcântara Terra,2313.07883315
+127,Avenida Vinte e Quatro de Julho,Misericórdia,15,Alcântara Terra,2119.82542844
+128,Avenida Vinte e Quatro de Julho,Estrela,15,Alcântara Terra,1643.12957523
+130,Avenida Infante Dom Henrique,Santa Maria Maior,15,Alcântara Terra,3977.36803317
+123,Praça do Município,Santa Maria Maior,15,Alcântara Terra,2937.57380835
+070,Rua Interior à Alameda da Universidade,Alvalade,15,Alcântara Terra,5615.35350725
+108,Rua do Bojador,Parque das Nações,15,Alcântara Terra,9823.57878567
+102,Avenida do Pacífico,Parque das Nações,15,Alcântara Terra,9315.23989683
+104,Avenida do Índico,Parque das Nações,15,Alcântara Terra,9531.92793311
+107,Rua do Fogo de Santelmo,Parque das Nações,15,Alcântara Terra,9047.95897361
+106,Porta do Mar,Parque das Nações,15,Alcântara Terra,8813.94024564
+105,Alameda dos Oceanos,Parque das Nações,15,Alcântara Terra,8555.2166019
+005A,Praça do Duque de Saldanha,Avenidas Novas,15,Alcântara Terra,3818.60299352
+005B,Praça do Duque de Saldanha,Arroios,15,Alcântara Terra,3876.51537345
+005C,Praça do Duque de Saldanha,Arroios,15,Alcântara Terra,3850.24865358
+022A,Avenida Fontes Pereira de Melo,Avenidas Novas,15,Alcântara Terra,3541.79825901
+053B,Praça do Marquês de Pombal,Santo António,15,Alcântara Terra,2786.43266164
+053A,Praça do Marquês de Pombal,Santo António,15,Alcântara Terra,2857.3426751
+075B,Avenida da Liberdade,Santo António,15,Alcântara Terra,2887.4483327
+101B,Praça Martim Moniz,Santa Maria Maior,15,Alcântara Terra,3302.23232637
+101A,Praça Martim Moniz,Santa Maria Maior,15,Alcântara Terra,3265.42362749
+143,Rua Konrad Adenauer,Lumiar,15,Alcântara Terra,5810.25932823
+144,Avenida da Liberdade,Santo António,15,Alcântara Terra,2819.06797883
+145,Avenida da Liberdade,Santo António,15,Alcântara Terra,2742.90827698
+133A,Avenida Vinte e Quatro de Julho,Misericórdia,15,Alcântara Terra,2475.69498419
+147,Alameda da Universidade,Alvalade,15,Alcântara Terra,5129.17237848
+024A,Avenida Ressano Garcia,Avenidas Novas,15,Alcântara Terra,3406.97197384
+024B,Avenida António Augusto de Aguiar,Avenidas Novas,15,Alcântara Terra,3418.23769641
+146,Rua Martens Ferrão,Arroios,15,Alcântara Terra,3270.82154016
+051,Avenida de António José de Almeida,Areeiro,15,Alcântara Terra,4492.22446875
+162,Rua Marques da Silva,Arroios,15,Alcântara Terra,4086.4121761
+158,Rua Passos Manuel,Arroios,15,Alcântara Terra,4102.89342545
+157,Rua António Pedro,Arroios,15,Alcântara Terra,4233.03246589
+161,Avenida Almirante Reis,Arroios,15,Alcântara Terra,3655.77699556
+160,Avenida Almirante Reis,Arroios,15,Alcântara Terra,3859.76706321
+159,Rua Frei Francisco Foreiro,Arroios,15,Alcântara Terra,3957.87355961
+242,Rua Luís de Freitas Branco,Lumiar,15,Alcântara Terra,7100.17278344
+154,Alameda das Linhas de Torres,Lumiar,15,Alcântara Terra,7404.51251063
+152,Alameda das Linhas de Torres,Lumiar,15,Alcântara Terra,6642.08482207
+153,Rua Ladislau Patrício,Lumiar,15,Alcântara Terra,6908.49840448
+151,Alameda das Linhas de Torres,Lumiar,15,Alcântara Terra,6279.00544603
+150,Rua Fernando Curado Ribeiro,Lumiar,15,Alcântara Terra,6099.79119475
+170,Avenida Cidade de Luanda,Olivais,15,Alcântara Terra,8025.24935803
+176,Jardim Eduardo Prado Coelho,Olivais,15,Alcântara Terra,8954.20939495
+175,Avenida Dr. Francisco Luís Gomes,Olivais,15,Alcântara Terra,8728.81676139
+177,Rua Cidade de Benguela,Olivais,15,Alcântara Terra,8386.02295149
+173,Avenida Cidade de Lourenço Marques,Olivais,15,Alcântara Terra,7871.40635946
+172,Praça Cidade do Luso,Olivais,15,Alcântara Terra,8127.28851192
+171,Rua Cidade de Bissau,Olivais,15,Alcântara Terra,8003.05277802
+178,Praça Baden Powell,Olivais,15,Alcântara Terra,8652.9054296
+174,Avenida de Berlim,Olivais,15,Alcântara Terra,8567.12385845
+168,Rua Marquês de Fronteira,Campolide,15,Alcântara Terra,3000.82471658
+166,Rua Dom Francisco Manuel de Melo,Avenidas Novas,15,Alcântara Terra,2595.54602031
+165,Rua de Campolide,Campolide,15,Alcântara Terra,2377.63349284
+167,Rua Castilho,Avenidas Novas,15,Alcântara Terra,2814.55996588
+164,Avenida Engenheiro Duarte Pacheco,Santo António,15,Alcântara Terra,2221.31659006
+163,Rua Carlos Alberto da Mota Pinto,Campo de Ourique,15,Alcântara Terra,2112.35088812
+227,Rua Tomás da Anunciação,Campo de Ourique,15,Alcântara Terra,1267.26271763
+208,Rua da Venezuela,Benfica,15,Alcântara Terra,4741.1927803
+202,Rua de São Domingos de Benfica,São Domingos de Benfica,15,Alcântara Terra,3780.9974256
+206,Rua Ten. Coronel Ribeiro dos Reis,Benfica,15,Alcântara Terra,4438.24020752
+207,Rua José dos Santos Pereira,Benfica,15,Alcântara Terra,4475.47266011
+203,Rua Conde de Almoster,São Domingos de Benfica,15,Alcântara Terra,3930.70294426
+218,Azinhaga dos Ulmeiros,Lumiar,15,Alcântara Terra,6832.39331163
+121,Rua dos Fanqueiros,Santa Maria Maior,15,Alcântara Terra,3234.2426288
+122,Rua do Crucifixo,Santa Maria Maior,15,Alcântara Terra,3004.43251297
+209,Estrada de Benfica,Benfica,15,Alcântara Terra,4824.71334674
+210,Largo da Revista Militar,Benfica,15,Alcântara Terra,5227.23004759
+211,Avenida do Colégio Militar,Carnide,15,Alcântara Terra,5639.07876327
+213,Rua Cupertino de Miranda,Carnide,15,Alcântara Terra,6653.52363656
+214,Rua Padre Américo,Carnide,15,Alcântara Terra,6238.69413565
+215,Avenida das Nações Unidas,Carnide,15,Alcântara Terra,6295.52273645
+216,Rua Prof. Mário de Albuquerque,Lumiar,15,Alcântara Terra,6068.99816857
+217,Rua Prof. Pulido Valente,Lumiar,15,Alcântara Terra,6195.78570047
+023,Avenida Columbano Bordalo Pinheiro,Campolide,15,Alcântara Terra,3592.15283001
+056,Avenida Columbano Bordalo Pinheiro,São Domingos de Benfica,15,Alcântara Terra,3592.80073025
+230,Praça das Indústrias,Alcântara,15,Alcântara Terra,1223.25490422
+235,Avenida da Índia,Belém,15,Alcântara Terra,3689.33229412
+236,Largo Luís Alves Miguel,Belém,15,Alcântara Terra,4264.71437995
+252,Rua Luís Pastor de Macedo,Lumiar,15,Alcântara Terra,6795.65411584
+303,Avenida do Uruguai,Benfica,15,Alcântara Terra,5529.50072523
+304,Rua Guiomar Torresão,Carnide,15,Alcântara Terra,5910.61891217
+249,Avenida de Berlim,Olivais,15,Alcântara Terra,8828.28509255
+312,Rua Cascais,Alcântara,15,Alcântara Terra,539.9265772
+319,Avenida da Torre de Belém,Belém,15,Alcântara Terra,3891.90250473
+409,Rua Fernanda Montemor,Marvila,15,Alcântara Terra,7755.70014464
+410,Praça David Leandro da Silva,Marvila,15,Alcântara Terra,7281.68526836
+073,Rua Alfredo Cortês,Alvalade,15,Alcântara Terra,4997.23355926
+408,Avenida Infante Dom Henrique,Beato,15,Alcântara Terra,6292.82561493
+407,Avenida General Roçadas,Penha de França,15,Alcântara Terra,4210.19019681
+404,Largo Mendonça e Costa,Penha de França,15,Alcântara Terra,4650.72413295
+416,Rua do Comércio,Santa Maria Maior,15,Alcântara Terra,3139.52099996
+417,Rua Interior à Est. da Correia,Carnide,15,Alcântara Terra,6449.09124732
+064,Rua Prof. Oliveira Marques,Alvalade,15,Alcântara Terra,5440.04453153
+418,Avenida Infante Dom Henrique,Beato,15,Alcântara Terra,6473.12576234
+085,Avenida Elias Garcia,Avenidas Novas,15,Alcântara Terra,4139.97135671
+034,Avenida da República,Avenidas Novas,15,Alcântara Terra,4125.1226556
+044,Rua do Arco do Cego,Avenidas Novas,15,Alcântara Terra,4451.95720469
+038,Avenida Barbosa du Bocage,Avenidas Novas,15,Alcântara Terra,4525.89392615
+003,Rua Professor Lima Basto,São Domingos de Benfica,15,Alcântara Terra,3706.1165511
+015,Campo Grande,Alvalade,15,Alcântara Terra,5056.75345364
+069,Rua Prof.ª Teresa Ambrósio,Alvalade,15,Alcântara Terra,4873.64680322
+039,Campo Grande,Alvalade,15,Alcântara Terra,5146.67056891
+081,Avenida da Igreja,Alvalade,15,Alcântara Terra,5352.62597388
+078,Avenida do Rio de Janeiro,Alvalade,15,Alcântara Terra,5811.30134628
+012,Avenida dos Estados Unidos da América,Alvalade,8,Belém,7549.14627336
+061,Avenida de Roma,Areeiro,8,Belém,7321.9489564
+062,Avenida de Paris,Areeiro,8,Belém,7408.20661361
+007,Avenida Professor Gama Pinto,Alvalade,8,Belém,6953.23488767
+066,Alameda da Universidade,Alvalade,8,Belém,7200.40687482
+065,Alameda da Universidade,Alvalade,8,Belém,7266.42343103
+040,Avenida Conde de Valbom,Avenidas Novas,8,Belém,6062.86204107
+074,Rua Teixeira de Pascoais,Alvalade,8,Belém,7770.79776713
+096,Rua Prof. Mark Athias,Lumiar,8,Belém,7575.6156455
+054,Praça de Londres,Areeiro,8,Belém,7156.82943316
+052,Largo Frei Heitor Pinto,Alvalade,8,Belém,8266.630577
+047,Rua Maria Amália Vaz de Carvalho,Alvalade,8,Belém,7809.53010357
+092,Rua Professor Lima Basto,São Domingos de Benfica,8,Belém,5664.97474615
+086,Avenida Duque d'Ávila,Avenidas Novas,8,Belém,5869.26862793
+019,Avenida da República,Avenidas Novas,8,Belém,6251.26815768
+020,Avenida Duque d'Ávila,Avenidas Novas,8,Belém,6431.82980937
+030,Rua da Mesquita,Campolide,8,Belém,5398.97705663
+004,Alameda Dom Afonso Henriques,Areeiro,8,Belém,7139.13824258
+087,Avenida Duque d'Ávila,Avenidas Novas,8,Belém,6062.20976525
+026,Rua Aboím Ascensão,Alvalade,8,Belém,7358.99026158
+084,Avenida Cinco de Outubro,Avenidas Novas,8,Belém,6956.67536803
+002,Avenida da República,Avenidas Novas,8,Belém,6885.28311307
+029,Avenida do Brasil,Alvalade,8,Belém,7981.88248533
+080,Avenida do Brasil,Alvalade,8,Belém,8461.37125791
+082,Campo Grande,Alvalade,8,Belém,7488.36338365
+063,Campo Grande,Alvalade,8,Belém,7757.29234125
+008,Rua Prof. Vieira de Almeida,Lumiar,8,Belém,7642.10966596
+049,Rua Hermano Neves,Lumiar,8,Belém,7428.92290366
+091,Rua Fernando Namora,Lumiar,8,Belém,7349.35036377
+033,Avenida Rovisco Pais,Areeiro,8,Belém,6869.64062692
+077,Azinhaga da Torre do Fato,Lumiar,8,Belém,7293.75560146
+076,Rua Lopes Mendonça,Alvalade,8,Belém,8476.71955494
+045,Rua Marquês do Soveral,Alvalade,8,Belém,8667.30225106
+057,Rua Tomás da Fonseca,São Domingos de Benfica,8,Belém,7053.75775358
+018,Campo Pequeno,Avenidas Novas,8,Belém,6913.94268159
+017,Avenida da República,Avenidas Novas,8,Belém,6584.85923017
+055,Avenida da Liberdade,Santo António,8,Belém,5170.74797353
+095,Praça da Figueira,Santa Maria Maior,8,Belém,5504.78442694
+094,Praça D. Pedro IV,Santa Maria Maior,8,Belém,5404.18668075
+117,Rua da Palma,Santa Maria Maior,8,Belém,5917.49810539
+138,Avenida de Brasília,Belém,8,Belém,840.71547583
+136,Avenida de Brasília,Belém,8,Belém,831.64060489
+135,Doca de Alcântara,Estrela,8,Belém,2034.58926138
+133B,Cais do Sodré,Misericórdia,8,Belém,4763.74017027
+129,Avenida Infante Dom Henrique,São Vicente,8,Belém,6778.90973909
+124,Avenida Infante Dom Henrique,Santa Maria Maior,8,Belém,5779.87730447
+118,Largo do Intendente Pina Manique,Arroios,8,Belém,6079.7128059
+132,Avenida da Ribeira das Naus,Santa Maria Maior,8,Belém,4961.53905352
+126,Avenida Vinte e Quatro de Julho,Misericórdia,8,Belém,4548.95256934
+127,Avenida Vinte e Quatro de Julho,Misericórdia,8,Belém,4369.47845039
+128,Avenida Vinte e Quatro de Julho,Estrela,8,Belém,3909.70427435
+130,Avenida Infante Dom Henrique,Santa Maria Maior,8,Belém,6255.53384641
+123,Praça do Município,Santa Maria Maior,8,Belém,5190.64017329
+070,Rua Interior à Alameda da Universidade,Alvalade,8,Belém,7591.71591866
+005A,Praça do Duque de Saldanha,Avenidas Novas,8,Belém,6167.11184479
+005B,Praça do Duque de Saldanha,Arroios,8,Belém,6229.95674897
+005C,Praça do Duque de Saldanha,Arroios,8,Belém,6211.94243712
+022A,Avenida Fontes Pereira de Melo,Avenidas Novas,8,Belém,5906.95140122
+053B,Praça do Marquês de Pombal,Santo António,8,Belém,5194.43603993
+053A,Praça do Marquês de Pombal,Santo António,8,Belém,5264.73980673
+075B,Avenida da Liberdade,Santo António,8,Belém,5306.28564604
+101B,Praça Martim Moniz,Santa Maria Maior,8,Belém,5683.0826065
+101A,Praça Martim Moniz,Santa Maria Maior,8,Belém,5649.70706587
+143,Rua Konrad Adenauer,Lumiar,8,Belém,7580.94280408
+144,Avenida da Liberdade,Santo António,8,Belém,5250.6183827
+145,Avenida da Liberdade,Santo António,8,Belém,5179.221302
+133A,Avenida Vinte e Quatro de Julho,Misericórdia,8,Belém,4691.7096269
+147,Alameda da Universidade,Alvalade,8,Belém,7064.77384222
+024A,Avenida Ressano Garcia,Avenidas Novas,8,Belém,5638.4585305
+024B,Avenida António Augusto de Aguiar,Avenidas Novas,8,Belém,5657.73070951
+146,Rua Martens Ferrão,Arroios,8,Belém,5652.26890856
+051,Avenida de António José de Almeida,Areeiro,8,Belém,6849.28675081
+162,Rua Marques da Silva,Arroios,8,Belém,6514.36677174
+158,Rua Passos Manuel,Arroios,8,Belém,6520.86097002
+157,Rua António Pedro,Arroios,8,Belém,6654.40956736
+161,Avenida Almirante Reis,Arroios,8,Belém,6085.67062628
+160,Avenida Almirante Reis,Arroios,8,Belém,6296.14167201
+159,Rua Frei Francisco Foreiro,Arroios,8,Belém,6390.12212503
+242,Rua Luís de Freitas Branco,Lumiar,8,Belém,8866.6505671
+154,Alameda das Linhas de Torres,Lumiar,8,Belém,9134.40326595
+152,Alameda das Linhas de Torres,Lumiar,8,Belém,8490.70207289
+153,Rua Ladislau Patrício,Lumiar,8,Belém,8721.57923362
+151,Alameda das Linhas de Torres,Lumiar,8,Belém,8157.81280904
+150,Rua Fernando Curado Ribeiro,Lumiar,8,Belém,8004.3142563
+168,Rua Marquês de Fronteira,Campolide,8,Belém,5253.79893005
+166,Rua Dom Francisco Manuel de Melo,Avenidas Novas,8,Belém,4844.17743587
+165,Rua de Campolide,Campolide,8,Belém,4586.21081509
+167,Rua Castilho,Avenidas Novas,8,Belém,5074.30212161
+164,Avenida Engenheiro Duarte Pacheco,Santo António,8,Belém,4533.84611529
+163,Rua Carlos Alberto da Mota Pinto,Campo de Ourique,8,Belém,4407.45730325
+227,Rua Tomás da Anunciação,Campo de Ourique,8,Belém,3606.95766216
+208,Rua da Venezuela,Benfica,8,Belém,5388.62062389
+202,Rua de São Domingos de Benfica,São Domingos de Benfica,8,Belém,5344.87639193
+206,Rua Ten. Coronel Ribeiro dos Reis,Benfica,8,Belém,5479.92416675
+207,Rua José dos Santos Pereira,Benfica,8,Belém,5398.19335069
+203,Rua Conde de Almoster,São Domingos de Benfica,8,Belém,5398.84421346
+218,Azinhaga dos Ulmeiros,Lumiar,8,Belém,8334.36829501
+121,Rua dos Fanqueiros,Santa Maria Maior,8,Belém,5566.76177232
+122,Rua do Crucifixo,Santa Maria Maior,8,Belém,5309.35048807
+209,Estrada de Benfica,Benfica,8,Belém,5885.55743369
+210,Largo da Revista Militar,Benfica,8,Belém,6333.60601985
+211,Avenida do Colégio Militar,Carnide,8,Belém,6864.25143751
+213,Rua Cupertino de Miranda,Carnide,8,Belém,7959.80291003
+214,Rua Padre Américo,Carnide,8,Belém,7603.1178831
+215,Avenida das Nações Unidas,Carnide,8,Belém,7718.24397903
+216,Rua Prof. Mário de Albuquerque,Lumiar,8,Belém,7575.34521501
+217,Rua Prof. Pulido Valente,Lumiar,8,Belém,7831.18519034
+023,Avenida Columbano Bordalo Pinheiro,Campolide,8,Belém,5686.62855139
+056,Avenida Columbano Bordalo Pinheiro,São Domingos de Benfica,8,Belém,5488.27128206
+230,Praça das Indústrias,Alcântara,8,Belém,1341.75752689
+235,Avenida da Índia,Belém,8,Belém,1309.25032343
+236,Largo Luís Alves Miguel,Belém,8,Belém,1957.71587341
+252,Rua Luís Pastor de Macedo,Lumiar,8,Belém,8670.31353376
+303,Avenida do Uruguai,Benfica,8,Belém,6402.09845391
+304,Rua Guiomar Torresão,Carnide,8,Belém,6942.21082517
+312,Rua Cascais,Alcântara,8,Belém,2054.33807205
+319,Avenida da Torre de Belém,Belém,8,Belém,1560.33515168
+410,Praça David Leandro da Silva,Marvila,8,Belém,9717.6163201
+073,Rua Alfredo Cortês,Alvalade,8,Belém,7231.68972071
+408,Avenida Infante Dom Henrique,Beato,8,Belém,8713.04889
+407,Avenida General Roçadas,Penha de França,8,Belém,6633.52546572
+404,Largo Mendonça e Costa,Penha de França,8,Belém,7076.55649528
+416,Rua do Comércio,Santa Maria Maior,8,Belém,5408.43936714
+417,Rua Interior à Est. da Correia,Carnide,8,Belém,7368.62137636
+064,Rua Prof. Oliveira Marques,Alvalade,8,Belém,7382.79187193
+418,Avenida Infante Dom Henrique,Beato,8,Belém,8897.69716397
+085,Avenida Elias Garcia,Avenidas Novas,8,Belém,6406.87157178
+034,Avenida da República,Avenidas Novas,8,Belém,6425.08838269
+044,Rua do Arco do Cego,Avenidas Novas,8,Belém,6776.6102358
+038,Avenida Barbosa du Bocage,Avenidas Novas,8,Belém,6824.01144978
+003,Rua Professor Lima Basto,São Domingos de Benfica,8,Belém,5578.79115323
+015,Campo Grande,Alvalade,8,Belém,7202.23821682
+069,Rua Prof.ª Teresa Ambrósio,Alvalade,8,Belém,6904.89174499
+039,Campo Grande,Alvalade,8,Belém,7256.07431925
+081,Avenida da Igreja,Alvalade,8,Belém,7475.78518023
+078,Avenida do Rio de Janeiro,Alvalade,8,Belém,8060.79387866
+012,Avenida dos Estados Unidos da América,Alvalade,1,Braço de Prata,3422.94601448
+061,Avenida de Roma,Areeiro,1,Braço de Prata,3139.2144902
+062,Avenida de Paris,Areeiro,1,Braço de Prata,2806.56893014
+007,Avenida Professor Gama Pinto,Alvalade,1,Braço de Prata,4929.45224195
+066,Alameda da Universidade,Alvalade,1,Braço de Prata,4714.37175812
+065,Alameda da Universidade,Alvalade,1,Braço de Prata,4776.11809477
+040,Avenida Conde de Valbom,Avenidas Novas,1,Braço de Prata,4407.61318826
+074,Rua Teixeira de Pascoais,Alvalade,1,Braço de Prata,2959.05158379
+096,Rua Prof. Mark Athias,Lumiar,1,Braço de Prata,6127.96981114
+054,Praça de Londres,Areeiro,1,Braço de Prata,3118.27275257
+052,Largo Frei Heitor Pinto,Alvalade,1,Braço de Prata,3207.36642509
+047,Rua Maria Amália Vaz de Carvalho,Alvalade,1,Braço de Prata,3417.25799721
+092,Rua Professor Lima Basto,São Domingos de Benfica,1,Braço de Prata,5261.60997704
+086,Avenida Duque d'Ávila,Avenidas Novas,1,Braço de Prata,4435.69218708
+019,Avenida da República,Avenidas Novas,1,Braço de Prata,3936.88744094
+020,Avenida Duque d'Ávila,Avenidas Novas,1,Braço de Prata,3706.59771724
+030,Rua da Mesquita,Campolide,1,Braço de Prata,5140.07672022
+004,Alameda Dom Afonso Henriques,Areeiro,1,Braço de Prata,2934.03948605
+087,Avenida Duque d'Ávila,Avenidas Novas,1,Braço de Prata,4179.50352633
+026,Rua Aboím Ascensão,Alvalade,1,Braço de Prata,3877.64092863
+084,Avenida Cinco de Outubro,Avenidas Novas,1,Braço de Prata,4110.80770164
+002,Avenida da República,Avenidas Novas,1,Braço de Prata,3921.21358533
+029,Avenida do Brasil,Alvalade,1,Braço de Prata,3979.98393989
+080,Avenida do Brasil,Alvalade,1,Braço de Prata,3547.42219693
+082,Campo Grande,Alvalade,1,Braço de Prata,4108.83381348
+063,Campo Grande,Alvalade,1,Braço de Prata,4796.99870109
+008,Rua Prof. Vieira de Almeida,Lumiar,1,Braço de Prata,5753.83419767
+049,Rua Hermano Neves,Lumiar,1,Braço de Prata,5998.642047
+091,Rua Fernando Namora,Lumiar,1,Braço de Prata,6483.69269115
+033,Avenida Rovisco Pais,Areeiro,1,Braço de Prata,3202.17912198
+077,Azinhaga da Torre do Fato,Lumiar,1,Braço de Prata,6743.43689791
+076,Rua Lopes Mendonça,Alvalade,1,Braço de Prata,3181.25159497
+045,Rua Marquês do Soveral,Alvalade,1,Braço de Prata,3141.70178425
+057,Rua Tomás da Fonseca,São Domingos de Benfica,1,Braço de Prata,5924.8369049
+018,Campo Pequeno,Avenidas Novas,1,Braço de Prata,3718.86975917
+017,Avenida da República,Avenidas Novas,1,Braço de Prata,3891.71752665
+055,Avenida da Liberdade,Santo António,1,Braço de Prata,4796.86581484
+095,Praça da Figueira,Santa Maria Maior,1,Braço de Prata,4809.48467662
+094,Praça D. Pedro IV,Santa Maria Maior,1,Braço de Prata,4912.72452216
+117,Rua da Palma,Santa Maria Maior,1,Braço de Prata,4230.22675259
+136,Avenida de Brasília,Belém,1,Braço de Prata,9254.86826944
+135,Doca de Alcântara,Estrela,1,Braço de Prata,8061.04234052
+133B,Cais do Sodré,Misericórdia,1,Braço de Prata,5849.84098309
+129,Avenida Infante Dom Henrique,São Vicente,1,Braço de Prata,4107.40707472
+124,Avenida Infante Dom Henrique,Santa Maria Maior,1,Braço de Prata,5071.99746225
+118,Largo do Intendente Pina Manique,Arroios,1,Braço de Prata,4030.24585515
+132,Avenida da Ribeira das Naus,Santa Maria Maior,1,Braço de Prata,5698.07364434
+126,Avenida Vinte e Quatro de Julho,Misericórdia,1,Braço de Prata,5895.15192417
+127,Avenida Vinte e Quatro de Julho,Misericórdia,1,Braço de Prata,6003.37729447
+128,Avenida Vinte e Quatro de Julho,Estrela,1,Braço de Prata,6336.67035385
+130,Avenida Infante Dom Henrique,Santa Maria Maior,1,Braço de Prata,4610.74762581
+123,Praça do Município,Santa Maria Maior,1,Braço de Prata,5396.64894586
+070,Rua Interior à Alameda da Universidade,Alvalade,1,Braço de Prata,4629.75546891
+116,Passeio dos Heróis do Mar,Parque das Nações,1,Braço de Prata,5166.00866329
+115,Via do Oriente,Parque das Nações,1,Braço de Prata,4594.64001062
+114,Alameda dos Oceanos,Parque das Nações,1,Braço de Prata,4095.51529642
+113,Alameda dos Oceanos,Parque das Nações,1,Braço de Prata,3773.68281173
+111,Alameda dos Oceanos,Parque das Nações,1,Braço de Prata,3454.19291165
+110,Rua do Bojador,Parque das Nações,1,Braço de Prata,3154.20333627
+109,Alameda dos Oceanos,Parque das Nações,1,Braço de Prata,3111.01556729
+108,Rua do Bojador,Parque das Nações,1,Braço de Prata,2636.60731859
+102,Avenida do Pacífico,Parque das Nações,1,Braço de Prata,2226.73477462
+104,Avenida do Índico,Parque das Nações,1,Braço de Prata,2448.78742541
+107,Rua do Fogo de Santelmo,Parque das Nações,1,Braço de Prata,1710.08870875
+106,Porta do Mar,Parque das Nações,1,Braço de Prata,1452.2508266
+105,Alameda dos Oceanos,Parque das Nações,1,Braço de Prata,1128.43966373
+141,Rua de Moscavide ao Parque das Nações,Parque das Nações,1,Braço de Prata,3518.15944576
+005A,Praça do Duque de Saldanha,Avenidas Novas,1,Braço de Prata,3972.98588406
+005B,Praça do Duque de Saldanha,Arroios,1,Braço de Prata,3902.19075973
+005C,Praça do Duque de Saldanha,Arroios,1,Braço de Prata,3895.63552595
+022A,Avenida Fontes Pereira de Melo,Avenidas Novas,1,Braço de Prata,4170.2844089
+053B,Praça do Marquês de Pombal,Santo António,1,Braço de Prata,4786.064782
+053A,Praça do Marquês de Pombal,Santo António,1,Braço de Prata,4717.15614409
+075B,Avenida da Liberdade,Santo António,1,Braço de Prata,4788.74304921
+101B,Praça Martim Moniz,Santa Maria Maior,1,Braço de Prata,4605.38218008
+101A,Praça Martim Moniz,Santa Maria Maior,1,Braço de Prata,4619.92000024
+143,Rua Konrad Adenauer,Lumiar,1,Braço de Prata,5488.52894454
+144,Avenida da Liberdade,Santo António,1,Braço de Prata,4718.45623685
+145,Avenida da Liberdade,Santo António,1,Braço de Prata,4806.07392415
+133A,Avenida Vinte e Quatro de Julho,Misericórdia,1,Braço de Prata,5832.93590814
+147,Alameda da Universidade,Alvalade,1,Braço de Prata,4911.75266135
+024A,Avenida Ressano Garcia,Avenidas Novas,1,Braço de Prata,4723.17922015
+024B,Avenida António Augusto de Aguiar,Avenidas Novas,1,Braço de Prata,4688.77512567
+146,Rua Martens Ferrão,Arroios,1,Braço de Prata,4377.95082727
+051,Avenida de António José de Almeida,Areeiro,1,Braço de Prata,3335.5481838
+162,Rua Marques da Silva,Arroios,1,Braço de Prata,3453.28285867
+158,Rua Passos Manuel,Arroios,1,Braço de Prata,3458.08180624
+157,Rua António Pedro,Arroios,1,Braço de Prata,3319.79904037
+161,Avenida Almirante Reis,Arroios,1,Braço de Prata,3991.18071516
+160,Avenida Almirante Reis,Arroios,1,Braço de Prata,3705.64417542
+159,Rua Frei Francisco Foreiro,Arroios,1,Braço de Prata,3579.96018863
+242,Rua Luís de Freitas Branco,Lumiar,1,Braço de Prata,5637.88288673
+154,Alameda das Linhas de Torres,Lumiar,1,Braço de Prata,5877.3524214
+152,Alameda das Linhas de Torres,Lumiar,1,Braço de Prata,5187.63491409
+153,Rua Ladislau Patrício,Lumiar,1,Braço de Prata,5388.4081374
+151,Alameda das Linhas de Torres,Lumiar,1,Braço de Prata,5025.99597482
+150,Rua Fernando Curado Ribeiro,Lumiar,1,Braço de Prata,4908.98467803
+170,Avenida Cidade de Luanda,Olivais,1,Braço de Prata,1756.23873954
+176,Jardim Eduardo Prado Coelho,Olivais,1,Braço de Prata,2637.94447925
+175,Avenida Dr. Francisco Luís Gomes,Olivais,1,Braço de Prata,2620.2988621
+177,Rua Cidade de Benguela,Olivais,1,Braço de Prata,2108.51571355
+173,Avenida Cidade de Lourenço Marques,Olivais,1,Braço de Prata,2337.88031202
+172,Praça Cidade do Luso,Olivais,1,Braço de Prata,2368.449394
+171,Rua Cidade de Bissau,Olivais,1,Braço de Prata,2015.93014117
+178,Praça Baden Powell,Olivais,1,Braço de Prata,2422.69472753
+174,Avenida de Berlim,Olivais,1,Braço de Prata,2505.80747051
+168,Rua Marquês de Fronteira,Campolide,1,Braço de Prata,4990.83217818
+166,Rua Dom Francisco Manuel de Melo,Avenidas Novas,1,Braço de Prata,5346.51068321
+165,Rua de Campolide,Campolide,1,Braço de Prata,5624.08983855
+167,Rua Castilho,Avenidas Novas,1,Braço de Prata,5130.72261143
+164,Avenida Engenheiro Duarte Pacheco,Santo António,1,Braço de Prata,5536.12931905
+163,Rua Carlos Alberto da Mota Pinto,Campo de Ourique,1,Braço de Prata,5672.38746774
+227,Rua Tomás da Anunciação,Campo de Ourique,1,Braço de Prata,6389.5070684
+208,Rua da Venezuela,Benfica,1,Braço de Prata,8453.29081496
+202,Rua de São Domingos de Benfica,São Domingos de Benfica,1,Braço de Prata,6418.78635699
+206,Rua Ten. Coronel Ribeiro dos Reis,Benfica,1,Braço de Prata,7585.21031835
+207,Rua José dos Santos Pereira,Benfica,1,Braço de Prata,7844.04493133
+203,Rua Conde de Almoster,São Domingos de Benfica,1,Braço de Prata,6621.9612783
+218,Azinhaga dos Ulmeiros,Lumiar,1,Braço de Prata,6648.82923541
+121,Rua dos Fanqueiros,Santa Maria Maior,1,Braço de Prata,4879.37460203
+122,Rua do Crucifixo,Santa Maria Maior,1,Braço de Prata,5164.18317914
+209,Estrada de Benfica,Benfica,1,Braço de Prata,7583.08747282
+210,Largo da Revista Militar,Benfica,1,Braço de Prata,7531.27701413
+211,Avenida do Colégio Militar,Carnide,1,Braço de Prata,7284.86510753
+213,Rua Cupertino de Miranda,Carnide,1,Braço de Prata,7275.97980038
+214,Rua Padre Américo,Carnide,1,Braço de Prata,6983.06505952
+215,Avenida das Nações Unidas,Carnide,1,Braço de Prata,6803.43802946
+216,Rua Prof. Mário de Albuquerque,Lumiar,1,Braço de Prata,6480.35383292
+217,Rua Prof. Pulido Valente,Lumiar,1,Braço de Prata,6032.14859175
+023,Avenida Columbano Bordalo Pinheiro,Campolide,1,Braço de Prata,5024.57836757
+056,Avenida Columbano Bordalo Pinheiro,São Domingos de Benfica,1,Braço de Prata,5614.60160165
+230,Praça das Indústrias,Alcântara,1,Braço de Prata,8727.78858644
+252,Rua Luís Pastor de Macedo,Lumiar,1,Braço de Prata,5081.13511472
+303,Avenida do Uruguai,Benfica,1,Braço de Prata,8172.18597873
+304,Rua Guiomar Torresão,Carnide,1,Braço de Prata,7876.33825795
+249,Avenida de Berlim,Olivais,1,Braço de Prata,2324.34920464
+312,Rua Cascais,Alcântara,1,Braço de Prata,7983.07170715
+409,Rua Fernanda Montemor,Marvila,1,Braço de Prata,447.47071682
+410,Praça David Leandro da Silva,Marvila,1,Braço de Prata,518.07411392
+073,Rua Alfredo Cortês,Alvalade,1,Braço de Prata,3586.11299515
+408,Avenida Infante Dom Henrique,Beato,1,Braço de Prata,1950.87543205
+407,Avenida General Roçadas,Penha de França,1,Braço de Prata,3536.13748045
+404,Largo Mendonça e Costa,Penha de França,1,Braço de Prata,2892.97783798
+416,Rua do Comércio,Santa Maria Maior,1,Braço de Prata,5199.89374037
+417,Rua Interior à Est. da Correia,Carnide,1,Braço de Prata,8346.95633817
+064,Rua Prof. Oliveira Marques,Alvalade,1,Braço de Prata,4812.76858307
+418,Avenida Infante Dom Henrique,Beato,1,Braço de Prata,1745.65267442
+085,Avenida Elias Garcia,Avenidas Novas,1,Braço de Prata,4024.2523585
+034,Avenida da República,Avenidas Novas,1,Braço de Prata,3899.49349792
+044,Rua do Arco do Cego,Avenidas Novas,1,Braço de Prata,3522.81241507
+038,Avenida Barbosa du Bocage,Avenidas Novas,1,Braço de Prata,3589.32708274
+003,Rua Professor Lima Basto,São Domingos de Benfica,1,Braço de Prata,5627.20904427
+015,Campo Grande,Alvalade,1,Braço de Prata,4005.29346299
+069,Rua Prof.ª Teresa Ambrósio,Alvalade,1,Braço de Prata,4596.99527044
+039,Campo Grande,Alvalade,1,Braço de Prata,4140.50699643
+081,Avenida da Igreja,Alvalade,1,Braço de Prata,3992.00742129
+078,Avenida do Rio de Janeiro,Alvalade,1,Braço de Prata,3066.53164681
+012,Avenida dos Estados Unidos da América,Alvalade,2,Oriente,4299.99146887
+061,Avenida de Roma,Areeiro,2,Oriente,4367.68521275
+062,Avenida de Paris,Areeiro,2,Oriente,4257.60026689
+007,Avenida Professor Gama Pinto,Alvalade,2,Oriente,5543.11722993
+066,Alameda da Universidade,Alvalade,2,Oriente,5272.16647017
+065,Alameda da Universidade,Alvalade,2,Oriente,5286.1574946
+040,Avenida Conde de Valbom,Avenidas Novas,2,Oriente,5686.44505774
+074,Rua Teixeira de Pascoais,Alvalade,2,Oriente,3964.61358125
+096,Rua Prof. Mark Athias,Lumiar,2,Oriente,6290.02405108
+054,Praça de Londres,Areeiro,2,Oriente,4508.82788517
+052,Largo Frei Heitor Pinto,Alvalade,2,Oriente,3716.61315884
+047,Rua Maria Amália Vaz de Carvalho,Alvalade,2,Oriente,4126.01466914
+092,Rua Professor Lima Basto,São Domingos de Benfica,2,Oriente,6355.15849793
+086,Avenida Duque d'Ávila,Avenidas Novas,2,Oriente,5828.14342279
+019,Avenida da República,Avenidas Novas,2,Oriente,5414.94434027
+020,Avenida Duque d'Ávila,Avenidas Novas,2,Oriente,5232.73678383
+030,Rua da Mesquita,Campolide,2,Oriente,6417.49796467
+004,Alameda Dom Afonso Henriques,Areeiro,2,Oriente,4552.28097179
+087,Avenida Duque d'Ávila,Avenidas Novas,2,Oriente,5614.50274356
+026,Rua Aboím Ascensão,Alvalade,2,Oriente,4648.30841269
+084,Avenida Cinco de Outubro,Avenidas Novas,2,Oriente,5009.92265902
+002,Avenida da República,Avenidas Novas,2,Oriente,4955.70718273
+029,Avenida do Brasil,Alvalade,2,Oriente,4357.45269956
+080,Avenida do Brasil,Alvalade,2,Oriente,3790.56119687
+082,Campo Grande,Alvalade,2,Oriente,4713.49651766
+063,Campo Grande,Alvalade,2,Oriente,5073.44872841
+008,Rua Prof. Vieira de Almeida,Lumiar,2,Oriente,5928.08594633
+049,Rua Hermano Neves,Lumiar,2,Oriente,6227.3780951
+091,Rua Fernando Namora,Lumiar,2,Oriente,6697.7876896
+033,Avenida Rovisco Pais,Areeiro,2,Oriente,4814.56793379
+077,Azinhaga da Torre do Fato,Lumiar,2,Oriente,6959.1706266
+076,Rua Lopes Mendonça,Alvalade,2,Oriente,3560.94302834
+045,Rua Marquês do Soveral,Alvalade,2,Oriente,3409.23491164
+057,Rua Tomás da Fonseca,São Domingos de Benfica,2,Oriente,6302.44889793
+018,Campo Pequeno,Avenidas Novas,2,Oriente,4850.40809181
+017,Avenida da República,Avenidas Novas,2,Oriente,5141.41666707
+055,Avenida da Liberdade,Santo António,2,Oriente,6588.49830492
+095,Praça da Figueira,Santa Maria Maior,2,Oriente,6896.92205224
+094,Praça D. Pedro IV,Santa Maria Maior,2,Oriente,6994.66757188
+117,Rua da Palma,Santa Maria Maior,2,Oriente,6280.80861953
+135,Doca de Alcântara,Estrela,2,Oriente,9889.08826401
+133B,Cais do Sodré,Misericórdia,2,Oriente,7954.72129052
+129,Avenida Infante Dom Henrique,São Vicente,2,Oriente,6367.21776506
+124,Avenida Infante Dom Henrique,Santa Maria Maior,2,Oriente,7271.55998333
+118,Largo do Intendente Pina Manique,Arroios,2,Oriente,6070.50513546
+132,Avenida da Ribeira das Naus,Santa Maria Maior,2,Oriente,7822.44552267
+126,Avenida Vinte e Quatro de Julho,Misericórdia,2,Oriente,7955.83203887
+127,Avenida Vinte e Quatro de Julho,Misericórdia,2,Oriente,8037.24293719
+128,Avenida Vinte e Quatro de Julho,Estrela,2,Oriente,8309.76980563
+130,Avenida Infante Dom Henrique,Santa Maria Maior,2,Oriente,6839.7965596
+123,Praça do Município,Santa Maria Maior,2,Oriente,7524.08205559
+070,Rua Interior à Alameda da Universidade,Alvalade,2,Oriente,5023.08376384
+116,Passeio dos Heróis do Mar,Parque das Nações,2,Oriente,2850.81852848
+115,Via do Oriente,Parque das Nações,2,Oriente,2289.62064432
+114,Alameda dos Oceanos,Parque das Nações,2,Oriente,1778.40732889
+113,Alameda dos Oceanos,Parque das Nações,2,Oriente,1452.55643181
+111,Alameda dos Oceanos,Parque das Nações,2,Oriente,1147.11253271
+110,Rua do Bojador,Parque das Nações,2,Oriente,923.30904625
+109,Alameda dos Oceanos,Parque das Nações,2,Oriente,808.03641926
+108,Rua do Bojador,Parque das Nações,2,Oriente,595.28344515
+102,Avenida do Pacífico,Parque das Nações,2,Oriente,198.85792247
+104,Avenida do Índico,Parque das Nações,2,Oriente,269.45565547
+107,Rua do Fogo de Santelmo,Parque das Nações,2,Oriente,811.57039189
+106,Porta do Mar,Parque das Nações,2,Oriente,996.46847363
+105,Alameda dos Oceanos,Parque das Nações,2,Oriente,1305.79585327
+141,Rua de Moscavide ao Parque das Nações,Parque das Nações,2,Oriente,1196.69504158
+005A,Praça do Duque de Saldanha,Avenidas Novas,2,Oriente,5496.99458925
+005B,Praça do Duque de Saldanha,Arroios,2,Oriente,5434.291776
+005C,Praça do Duque de Saldanha,Arroios,2,Oriente,5453.74753387
+022A,Avenida Fontes Pereira de Melo,Avenidas Novas,2,Oriente,5760.36719392
+053B,Praça do Marquês de Pombal,Santo António,2,Oriente,6514.62653705
+053A,Praça do Marquês de Pombal,Santo António,2,Oriente,6443.71486925
+075B,Avenida da Liberdade,Santo António,2,Oriente,6773.71144473
+101B,Praça Martim Moniz,Santa Maria Maior,2,Oriente,6696.23706252
+101A,Praça Martim Moniz,Santa Maria Maior,2,Oriente,6702.65205372
+143,Rua Konrad Adenauer,Lumiar,2,Oriente,5721.01093308
+144,Avenida da Liberdade,Santo António,2,Oriente,6539.81741807
+145,Avenida da Liberdade,Santo António,2,Oriente,6676.21048104
+133A,Avenida Vinte e Quatro de Julho,Misericórdia,2,Oriente,7918.20386334
+147,Alameda da Universidade,Alvalade,2,Oriente,5479.39589751
+024A,Avenida Ressano Garcia,Avenidas Novas,2,Oriente,6086.04897175
+024B,Avenida António Augusto de Aguiar,Avenidas Novas,2,Oriente,6060.40016589
+146,Rua Martens Ferrão,Arroios,2,Oriente,6024.83226354
+051,Avenida de António José de Almeida,Areeiro,2,Oriente,4814.92652111
+162,Rua Marques da Silva,Arroios,2,Oriente,5300.08013576
+158,Rua Passos Manuel,Arroios,2,Oriente,5235.57900172
+157,Rua António Pedro,Arroios,2,Oriente,5122.26463474
+161,Avenida Almirante Reis,Arroios,2,Oriente,6010.14528681
+160,Avenida Almirante Reis,Arroios,2,Oriente,5661.99736414
+159,Rua Frei Francisco Foreiro,Arroios,2,Oriente,5460.19570659
+242,Rua Luís de Freitas Branco,Lumiar,2,Oriente,5329.97059686
+154,Alameda das Linhas de Torres,Lumiar,2,Oriente,5454.10441317
+152,Alameda das Linhas de Torres,Lumiar,2,Oriente,5072.28016607
+153,Rua Ladislau Patrício,Lumiar,2,Oriente,5155.42529388
+151,Alameda das Linhas de Torres,Lumiar,2,Oriente,5078.81814719
+150,Rua Fernando Curado Ribeiro,Lumiar,2,Oriente,5050.06238647
+170,Avenida Cidade de Luanda,Olivais,2,Oriente,1307.02893723
+176,Jardim Eduardo Prado Coelho,Olivais,2,Oriente,890.76544624
+175,Avenida Dr. Francisco Luís Gomes,Olivais,2,Oriente,1119.49312403
+177,Rua Cidade de Benguela,Olivais,2,Oriente,1060.6861183
+173,Avenida Cidade de Lourenço Marques,Olivais,2,Oriente,1755.12253081
+172,Praça Cidade do Luso,Olivais,2,Oriente,1523.67819544
+171,Rua Cidade de Bissau,Olivais,2,Oriente,1432.47738948
+178,Praça Baden Powell,Olivais,2,Oriente,1000.89791726
+174,Avenida de Berlim,Olivais,2,Oriente,1177.70478022
+168,Rua Marquês de Fronteira,Campolide,2,Oriente,6440.80167145
+166,Rua Dom Francisco Manuel de Melo,Avenidas Novas,2,Oriente,6842.14627209
+165,Rua de Campolide,Campolide,2,Oriente,7112.06533787
+167,Rua Castilho,Avenidas Novas,2,Oriente,6611.93365338
+164,Avenida Engenheiro Duarte Pacheco,Santo António,2,Oriente,7130.68495129
+163,Rua Carlos Alberto da Mota Pinto,Campo de Ourique,2,Oriente,7258.44678345
+227,Rua Tomás da Anunciação,Campo de Ourique,2,Oriente,8062.61738285
+208,Rua da Venezuela,Benfica,2,Oriente,9141.27371568
+202,Rua de São Domingos de Benfica,São Domingos de Benfica,2,Oriente,7322.39842193
+206,Rua Ten. Coronel Ribeiro dos Reis,Benfica,2,Oriente,8294.56495872
+207,Rua José dos Santos Pereira,Benfica,2,Oriente,8557.37529044
+203,Rua Conde de Almoster,São Domingos de Benfica,2,Oriente,7470.71045731
+218,Azinhaga dos Ulmeiros,Lumiar,2,Oriente,6513.30435539
+121,Rua dos Fanqueiros,Santa Maria Maior,2,Oriente,7003.68722952
+122,Rua do Crucifixo,Santa Maria Maior,2,Oriente,7278.09279546
+209,Estrada de Benfica,Benfica,2,Oriente,8178.6890395
+210,Largo da Revista Militar,Benfica,2,Oriente,8001.53955983
+211,Avenida do Colégio Militar,Carnide,2,Oriente,7609.15315356
+213,Rua Cupertino de Miranda,Carnide,2,Oriente,7258.8048062
+214,Rua Padre Américo,Carnide,2,Oriente,7086.08658457
+215,Avenida das Nações Unidas,Carnide,2,Oriente,6874.61339346
+216,Rua Prof. Mário de Albuquerque,Lumiar,2,Oriente,6616.27072458
+217,Rua Prof. Pulido Valente,Lumiar,2,Oriente,6107.35803218
+023,Avenida Columbano Bordalo Pinheiro,Campolide,2,Oriente,6203.56259711
+056,Avenida Columbano Bordalo Pinheiro,São Domingos de Benfica,2,Oriente,6665.46401683
+252,Rua Luís Pastor de Macedo,Lumiar,2,Oriente,4896.53224367
+303,Avenida do Uruguai,Benfica,2,Oriente,8602.65315615
+304,Rua Guiomar Torresão,Carnide,2,Oriente,8160.83460867
+249,Avenida de Berlim,Olivais,2,Oriente,689.68914279
+312,Rua Cascais,Alcântara,2,Oriente,9786.47123198
+409,Rua Fernanda Montemor,Marvila,2,Oriente,2500.11305494
+410,Praça David Leandro da Silva,Marvila,2,Oriente,2829.61450024
+073,Rua Alfredo Cortês,Alvalade,2,Oriente,4582.74537132
+408,Avenida Infante Dom Henrique,Beato,2,Oriente,4271.76599648
+407,Avenida General Roçadas,Penha de França,2,Oriente,5644.74091039
+404,Largo Mendonça e Costa,Penha de França,2,Oriente,4746.91920899
+416,Rua do Comércio,Santa Maria Maior,2,Oriente,7344.41711446
+417,Rua Interior à Est. da Correia,Carnide,2,Oriente,8512.80543881
+064,Rua Prof. Oliveira Marques,Alvalade,2,Oriente,5259.42166155
+418,Avenida Infante Dom Henrique,Beato,2,Oriente,4067.04484811
+085,Avenida Elias Garcia,Avenidas Novas,2,Oriente,5312.07070545
+034,Avenida da República,Avenidas Novas,2,Oriente,5262.15218686
+044,Rua do Arco do Cego,Avenidas Novas,2,Oriente,4897.26271793
+038,Avenida Barbosa du Bocage,Avenidas Novas,2,Oriente,4872.97629142
+003,Rua Professor Lima Basto,São Domingos de Benfica,2,Oriente,6636.35546165
+015,Campo Grande,Alvalade,2,Oriente,4810.80479626
+069,Rua Prof.ª Teresa Ambrósio,Alvalade,2,Oriente,5333.73785345
+039,Campo Grande,Alvalade,2,Oriente,4860.11223168
+081,Avenida da Igreja,Alvalade,2,Oriente,4647.81879449
+078,Avenida do Rio de Janeiro,Alvalade,2,Oriente,3791.23754017
+012,Avenida dos Estados Unidos da América,Alvalade,10,Campolide,2902.43015621
+061,Avenida de Roma,Areeiro,10,Campolide,2847.63248991
+062,Avenida de Paris,Areeiro,10,Campolide,3103.37709604
+007,Avenida Professor Gama Pinto,Alvalade,10,Campolide,2249.57468633
+066,Alameda da Universidade,Alvalade,10,Campolide,2478.76802781
+065,Alameda da Universidade,Alvalade,10,Campolide,2554.40757032
+040,Avenida Conde de Valbom,Avenidas Novas,10,Campolide,1516.91115332
+074,Rua Teixeira de Pascoais,Alvalade,10,Campolide,3214.23335064
+096,Rua Prof. Mark Athias,Lumiar,10,Campolide,3229.62545176
+054,Praça de Londres,Areeiro,10,Campolide,2797.03300006
+052,Largo Frei Heitor Pinto,Alvalade,10,Campolide,3583.35986024
+047,Rua Maria Amália Vaz de Carvalho,Alvalade,10,Campolide,3130.0918196
+092,Rua Professor Lima Basto,São Domingos de Benfica,10,Campolide,924.8331252
+086,Avenida Duque d'Ávila,Avenidas Novas,10,Campolide,1474.8040268
+019,Avenida da República,Avenidas Novas,10,Campolide,1987.20392559
+020,Avenida Duque d'Ávila,Avenidas Novas,10,Campolide,2228.12606972
+030,Rua da Mesquita,Campolide,10,Campolide,772.92750116
+004,Alameda Dom Afonso Henriques,Areeiro,10,Campolide,2996.57214879
+087,Avenida Duque d'Ávila,Avenidas Novas,10,Campolide,1737.16718341
+026,Rua Aboím Ascensão,Alvalade,10,Campolide,2647.42480309
+084,Avenida Cinco de Outubro,Avenidas Novas,10,Campolide,2247.33225485
+002,Avenida da República,Avenidas Novas,10,Campolide,2233.1534337
+029,Avenida do Brasil,Alvalade,10,Campolide,3242.61001601
+080,Avenida do Brasil,Alvalade,10,Campolide,3735.01216922
+082,Campo Grande,Alvalade,10,Campolide,2750.87492248
+063,Campo Grande,Alvalade,10,Campolide,3062.29241216
+008,Rua Prof. Vieira de Almeida,Lumiar,10,Campolide,3164.41719676
+049,Rua Hermano Neves,Lumiar,10,Campolide,3041.32628198
+091,Rua Fernando Namora,Lumiar,10,Campolide,3166.69688072
+033,Avenida Rovisco Pais,Areeiro,10,Campolide,2744.02914778
+077,Azinhaga da Torre do Fato,Lumiar,10,Campolide,3239.09759667
+076,Rua Lopes Mendonça,Alvalade,10,Campolide,3785.12250765
+045,Rua Marquês do Soveral,Alvalade,10,Campolide,3972.46231743
+057,Rua Tomás da Fonseca,São Domingos de Benfica,10,Campolide,2647.04581302
+018,Campo Pequeno,Avenidas Novas,10,Campolide,2328.67635937
+017,Avenida da República,Avenidas Novas,10,Campolide,2060.07144367
+055,Avenida da Liberdade,Santo António,10,Campolide,2009.66370125
+095,Praça da Figueira,Santa Maria Maior,10,Campolide,3327.55031433
+094,Praça D. Pedro IV,Santa Maria Maior,10,Campolide,3304.48288023
+117,Rua da Palma,Santa Maria Maior,10,Campolide,3163.02086405
+138,Avenida de Brasília,Belém,10,Campolide,5436.87122707
+136,Avenida de Brasília,Belém,10,Campolide,4289.30528422
+135,Doca de Alcântara,Estrela,10,Campolide,3482.6916666
+133B,Cais do Sodré,Misericórdia,10,Campolide,3669.28437738
+129,Avenida Infante Dom Henrique,São Vicente,10,Campolide,4478.15640589
+124,Avenida Infante Dom Henrique,Santa Maria Maior,10,Campolide,4121.72945819
+118,Largo do Intendente Pina Manique,Arroios,10,Campolide,3156.7647892
+132,Avenida da Ribeira das Naus,Santa Maria Maior,10,Campolide,3747.62284149
+126,Avenida Vinte e Quatro de Julho,Misericórdia,10,Campolide,3402.8420146
+127,Avenida Vinte e Quatro de Julho,Misericórdia,10,Campolide,3280.82199577
+128,Avenida Vinte e Quatro de Julho,Estrela,10,Campolide,3072.27626453
+130,Avenida Infante Dom Henrique,Santa Maria Maior,10,Campolide,4269.83400612
+123,Praça do Município,Santa Maria Maior,10,Campolide,3676.80617863
+070,Rua Interior à Alameda da Universidade,Alvalade,10,Campolide,2872.85271739
+116,Passeio dos Heróis do Mar,Parque das Nações,10,Campolide,9140.51876982
+115,Via do Oriente,Parque das Nações,10,Campolide,8605.16430793
+114,Alameda dos Oceanos,Parque das Nações,10,Campolide,8349.8225498
+113,Alameda dos Oceanos,Parque das Nações,10,Campolide,8237.19563933
+111,Alameda dos Oceanos,Parque das Nações,10,Campolide,8118.22579708
+110,Rua do Bojador,Parque das Nações,10,Campolide,8059.20246494
+109,Alameda dos Oceanos,Parque das Nações,10,Campolide,7858.42544866
+108,Rua do Bojador,Parque das Nações,10,Campolide,7753.41704447
+102,Avenida do Pacífico,Parque das Nações,10,Campolide,7241.9234416
+104,Avenida do Índico,Parque das Nações,10,Campolide,7437.36880333
+107,Rua do Fogo de Santelmo,Parque das Nações,10,Campolide,7119.37372748
+106,Porta do Mar,Parque das Nações,10,Campolide,6920.53162281
+105,Alameda dos Oceanos,Parque das Nações,10,Campolide,6727.48929072
+141,Rua de Moscavide ao Parque das Nações,Parque das Nações,10,Campolide,8018.32857123
+005A,Praça do Duque de Saldanha,Avenidas Novas,10,Campolide,1980.07983557
+005B,Praça do Duque de Saldanha,Arroios,10,Campolide,2050.5541599
+005C,Praça do Duque de Saldanha,Arroios,10,Campolide,2076.61468278
+022A,Avenida Fontes Pereira de Melo,Avenidas Novas,10,Campolide,1876.08516395
+053B,Praça do Marquês de Pombal,Santo António,10,Campolide,1803.44472716
+053A,Praça do Marquês de Pombal,Santo António,10,Campolide,1824.98211208
+075B,Avenida da Liberdade,Santo António,10,Campolide,2798.60278977
+101B,Praça Martim Moniz,Santa Maria Maior,10,Campolide,3338.88092019
+101A,Praça Martim Moniz,Santa Maria Maior,10,Campolide,3294.55463408
+143,Rua Konrad Adenauer,Lumiar,10,Campolide,3025.77556185
+144,Avenida da Liberdade,Santo António,10,Campolide,2136.99605428
+145,Avenida da Liberdade,Santo António,10,Campolide,2300.92331384
+133A,Avenida Vinte e Quatro de Julho,Misericórdia,10,Campolide,3535.02071388
+147,Alameda da Universidade,Alvalade,10,Campolide,2363.78535939
+024A,Avenida Ressano Garcia,Avenidas Novas,10,Campolide,1185.62986343
+024B,Avenida António Augusto de Aguiar,Avenidas Novas,10,Campolide,1221.6646464
+146,Rua Martens Ferrão,Arroios,10,Campolide,1813.89518052
+051,Avenida de António José de Almeida,Areeiro,10,Campolide,2571.75597521
+162,Rua Marques da Silva,Arroios,10,Campolide,2829.37823463
+158,Rua Passos Manuel,Arroios,10,Campolide,2702.26298392
+157,Rua António Pedro,Arroios,10,Campolide,2843.66792554
+161,Avenida Almirante Reis,Arroios,10,Campolide,3079.48247598
+160,Avenida Almirante Reis,Arroios,10,Campolide,2963.57392731
+159,Rua Frei Francisco Foreiro,Arroios,10,Campolide,2823.15382583
+242,Rua Luís de Freitas Branco,Lumiar,10,Campolide,4314.19501433
+154,Alameda das Linhas de Torres,Lumiar,10,Campolide,4619.69700161
+152,Alameda das Linhas de Torres,Lumiar,10,Campolide,3861.24883327
+153,Rua Ladislau Patrício,Lumiar,10,Campolide,4124.01624587
+151,Alameda das Linhas de Torres,Lumiar,10,Campolide,3502.71783443
+150,Rua Fernando Curado Ribeiro,Lumiar,10,Campolide,3329.51664374
+170,Avenida Cidade de Luanda,Olivais,10,Campolide,5871.07077682
+176,Jardim Eduardo Prado Coelho,Olivais,10,Campolide,6669.59438896
+175,Avenida Dr. Francisco Luís Gomes,Olivais,10,Campolide,6418.02069429
+177,Rua Cidade de Benguela,Olivais,10,Campolide,6168.8500834
+173,Avenida Cidade de Lourenço Marques,Olivais,10,Campolide,5558.20183982
+172,Praça Cidade do Luso,Olivais,10,Campolide,5820.86240109
+171,Rua Cidade de Bissau,Olivais,10,Campolide,5777.72258164
+178,Praça Baden Powell,Olivais,10,Campolide,6383.58130234
+174,Avenida de Berlim,Olivais,10,Campolide,6266.23412303
+168,Rua Marquês de Fronteira,Campolide,10,Campolide,1013.74391143
+166,Rua Dom Francisco Manuel de Melo,Avenidas Novas,10,Campolide,877.34819152
+165,Rua de Campolide,Campolide,10,Campolide,761.54272165
+167,Rua Castilho,Avenidas Novas,10,Campolide,966.04975494
+164,Avenida Engenheiro Duarte Pacheco,Santo António,10,Campolide,1149.89971844
+163,Rua Carlos Alberto da Mota Pinto,Campo de Ourique,10,Campolide,1112.70938669
+227,Rua Tomás da Anunciação,Campo de Ourique,10,Campolide,1680.34480519
+208,Rua da Venezuela,Benfica,10,Campolide,3102.77433545
+202,Rua de São Domingos de Benfica,São Domingos de Benfica,10,Campolide,1248.93870851
+206,Rua Ten. Coronel Ribeiro dos Reis,Benfica,10,Campolide,2394.34243738
+207,Rua José dos Santos Pereira,Benfica,10,Campolide,2572.44072148
+203,Rua Conde de Almoster,São Domingos de Benfica,10,Campolide,1482.00696457
+218,Azinhaga dos Ulmeiros,Lumiar,10,Campolide,4115.33184775
+121,Rua dos Fanqueiros,Santa Maria Maior,10,Campolide,3554.26381277
+122,Rua do Crucifixo,Santa Maria Maior,10,Campolide,3534.24323883
+209,Estrada de Benfica,Benfica,10,Campolide,2658.56167535
+210,Largo da Revista Militar,Benfica,10,Campolide,2934.75720248
+211,Avenida do Colégio Militar,Carnide,10,Campolide,3176.45699087
+213,Rua Cupertino de Miranda,Carnide,10,Campolide,4056.09507042
+214,Rua Padre Américo,Carnide,10,Campolide,3621.10098533
+215,Avenida das Nações Unidas,Carnide,10,Campolide,3637.25427122
+216,Rua Prof. Mário de Albuquerque,Lumiar,10,Campolide,3370.29935614
+217,Rua Prof. Pulido Valente,Lumiar,10,Campolide,3437.20759715
+023,Avenida Columbano Bordalo Pinheiro,Campolide,10,Campolide,983.01178682
+056,Avenida Columbano Bordalo Pinheiro,São Domingos de Benfica,10,Campolide,806.84296131
+230,Praça das Indústrias,Alcântara,10,Campolide,3888.86720629
+235,Avenida da Índia,Belém,10,Campolide,5706.78733901
+236,Largo Luís Alves Miguel,Belém,10,Campolide,6085.1918045
+252,Rua Luís Pastor de Macedo,Lumiar,10,Campolide,4020.43113857
+303,Avenida do Uruguai,Benfica,10,Campolide,3441.45130772
+304,Rua Guiomar Torresão,Carnide,10,Campolide,3602.53541746
+249,Avenida de Berlim,Olivais,10,Campolide,6611.06843223
+312,Rua Cascais,Alcântara,10,Campolide,3319.76885779
+319,Avenida da Torre de Belém,Belém,10,Campolide,5803.4384245
+409,Rua Fernanda Montemor,Marvila,10,Campolide,6241.17079062
+410,Praça David Leandro da Silva,Marvila,10,Campolide,5821.35916704
+073,Rua Alfredo Cortês,Alvalade,10,Campolide,2602.40295995
+408,Avenida Infante Dom Henrique,Beato,10,Campolide,5341.33822118
+407,Avenida General Roçadas,Penha de França,10,Campolide,3574.49227343
+404,Largo Mendonça e Costa,Penha de França,10,Campolide,3238.63600401
+416,Rua do Comércio,Santa Maria Maior,10,Campolide,3744.31464689
+417,Rua Interior à Est. da Correia,Carnide,10,Campolide,4191.71896509
+064,Rua Prof. Oliveira Marques,Alvalade,10,Campolide,2679.78134583
+418,Avenida Infante Dom Henrique,Beato,10,Campolide,5448.20869751
+085,Avenida Elias Garcia,Avenidas Novas,10,Campolide,1903.99919797
+034,Avenida da República,Avenidas Novas,10,Campolide,2008.39994539
+044,Rua do Arco do Cego,Avenidas Novas,10,Campolide,2388.15887776
+038,Avenida Barbosa du Bocage,Avenidas Novas,10,Campolide,2351.756533
+003,Rua Professor Lima Basto,São Domingos de Benfica,10,Campolide,921.50243443
+015,Campo Grande,Alvalade,10,Campolide,2485.78121521
+069,Rua Prof.ª Teresa Ambrósio,Alvalade,10,Campolide,2166.01912407
+039,Campo Grande,Alvalade,10,Campolide,2522.93722083
+081,Avenida da Igreja,Alvalade,10,Campolide,2745.3947649
+078,Avenida do Rio de Janeiro,Alvalade,10,Campolide,3421.67599062
