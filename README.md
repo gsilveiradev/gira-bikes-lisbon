@@ -115,7 +115,9 @@ python3 export-postgres-to-csv.py
 
 # Hadoop
 
-TBD.
+A stack Hadoop utilizada neste trabalho será baseada em contentores Docker, referenciados no projeto [docker-hadoop-hive-parquet](https://github.com/tech4242/docker-hadoop-hive-parquet) e no artigo "[Making big moves in Big Data with Hadoop, Hive, Parquet, Hue and Docker](https://towardsdatascience.com/making-big-moves-in-big-data-with-hadoop-hive-parquet-hue-and-docker-320a52ca175)".
+
+![hadoop-stack](hadoop/hadoop-stack.png)
 
 Vamos assumir que temos criado uma Base de dados chamada `gira`, criada previamente através do Hue.
 
