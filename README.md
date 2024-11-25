@@ -43,11 +43,13 @@ cd postgres
 docker compose up -d
 ```
 
-# Fazer Setup Inicial com Importações
+# Dataset
+
+## Fazer Setup Inicial com Importações
 
 É necessário estar na pasta `dataset` para executar os passos abaixo.
 
-## 1. Criar tabelas no Postgres
+### 1. Criar tabelas no Postgres
 
 Para criar as tabelas na base de dados Postgres, foi criado um script python que deve ser executado como no exemplo:
 
@@ -55,7 +57,7 @@ Para criar as tabelas na base de dados Postgres, foi criado um script python que
 python3 create-tables.py
 ```
 
-## 2. Importar Paragens de autocarro
+### 2. Importar Paragens de autocarro
 
 Para importar as paragens de autocarro para a base de dados Postgres, foi criado um script python que deve ser executado como no exemplo:
 
@@ -63,7 +65,7 @@ Para importar as paragens de autocarro para a base de dados Postgres, foi criado
 python3 import-carris-stops.py
 ```
 
-## 3. Importar Estações de Comboios
+### 3. Importar Estações de Comboios
 
 Para importar as estações de comboios para a base de dados Postgres, foi criado um script python que deve ser executado como no exemplo:
 
@@ -71,7 +73,7 @@ Para importar as estações de comboios para a base de dados Postgres, foi criad
 python3 import-train-stations.py
 ```
 
-## 4. Importar Estações de Metro
+### 4. Importar Estações de Metro
 
 Para importar as estações de metro para a base de dados Postgres, foi criado um script python que deve ser executado como no exemplo:
 
@@ -79,7 +81,7 @@ Para importar as estações de metro para a base de dados Postgres, foi criado u
 python3 import-metro-stations.py
 ```
 
-## 5. Importar Estações Gira
+### 5. Importar Estações Gira
 
 Para importar as estações gira para a base de dados Postgres, foi criado um script python que deve ser executado como no exemplo:
 
@@ -87,7 +89,7 @@ Para importar as estações gira para a base de dados Postgres, foi criado um sc
 python3 import-gira-stations.py
 ```
 
-## 6. Importar Ciclovias
+### 6. Importar Ciclovias
 
 Para importar as ciclovias para a base de dados Postgres, foi criado um script python que deve ser executado como no exemplo:
 
@@ -95,7 +97,7 @@ Para importar as ciclovias para a base de dados Postgres, foi criado um script p
 python3 import-ciclovias.py
 ```
 
-## 6. Calcular distâncias entre os pontos de interesse
+### 6. Calcular distâncias entre os pontos de interesse
 
 Para calcular as distâncias entre as estações gira e os pontos de transporte público e importar para a base de dados Postgres, foi criado um script python que deve ser executado como no exemplo:
 
@@ -103,7 +105,7 @@ Para calcular as distâncias entre as estações gira e os pontos de transporte 
 python3 calculate-distances.py
 ```
 
-# Exportar todos os dados Postgres para CSV
+## Exportar todos os dados Postgres para CSV
 
 Uma vez que os dados foram importados e calculados, para exportar tudo para arquivos CSV é preciso executar o script python como no exemplo abaixo.
 
@@ -119,9 +121,24 @@ A stack Hadoop utilizada neste trabalho será baseada em contentores Docker, ref
 
 ![hadoop-stack](hadoop/hadoop-stack.png)
 
+## Copiar datasets para o HDFS
+
+```shell
+cd hadoop
+docker exec hadoop-namenode-1 /bin/bash hdfs dfs -mkdir /datasets
+docker cp ../dataset/exported/ hadoop-namenode-1:/
+docker exec hadoop-namenode-1 /bin/bash hdfs dfs -put /exported /datasets
+```
+
+## Aceder ao Hue e criar user Admin
+
+Abrir http://localhost:8888/ e criar um user `admin` com password `admin`.
+
+## Criar tabelas com Hue
+
 Vamos assumir que temos criado uma Base de dados chamada `gira`, criada previamente através do Hue.
 
-Além disso, vamos assumir que os arquivos CSV estarão presentes no path: `/user/admin/gira_data/`.
+Além disso, vamos assumir que os arquivos CSV estarão presentes no path: `/dataset/exported/`.
 
 ## Criar tabelas com Hue, no stack Hadoop
 
@@ -146,7 +163,7 @@ FIELDS TERMINATED BY ','
 STORED AS TEXTFILE
 TBLPROPERTIES ("skip.header.line.count"="1");
 
-LOAD DATA INPATH '/user/admin/gira_data/gira_stations.csv' INTO TABLE gira.gira_stations;
+LOAD DATA INPATH '/dataset/exported/gira_stations.csv' INTO TABLE gira.gira_stations;
 ```
 
 ```
@@ -167,7 +184,7 @@ FIELDS TERMINATED BY ','
 STORED AS TEXTFILE
 TBLPROPERTIES ("skip.header.line.count"="1");
 
-LOAD DATA INPATH '/user/admin/gira_data/metro_stations.csv' INTO TABLE gira.metro_stations;
+LOAD DATA INPATH '/dataset/exported/metro_stations.csv' INTO TABLE gira.metro_stations;
 ```
 
 ```
@@ -187,7 +204,7 @@ FIELDS TERMINATED BY ','
 STORED AS TEXTFILE
 TBLPROPERTIES ("skip.header.line.count"="1");
 
-LOAD DATA INPATH '/user/admin/gira_data/train_stations.csv' INTO TABLE gira.train_stations;
+LOAD DATA INPATH '/dataset/exported/train_stations.csv' INTO TABLE gira.train_stations;
 ```
 
 ```
@@ -211,7 +228,7 @@ FIELDS TERMINATED BY ','
 STORED AS TEXTFILE
 TBLPROPERTIES ("skip.header.line.count"="1");
 
-LOAD DATA INPATH '/user/admin/gira_data/carris_stops.csv' INTO TABLE gira.carris_stops;
+LOAD DATA INPATH '/dataset/exported/carris_stops.csv' INTO TABLE gira.carris_stops;
 ```
 
 ```
@@ -228,7 +245,7 @@ FIELDS TERMINATED BY ','
 STORED AS TEXTFILE
 TBLPROPERTIES ("skip.header.line.count"="1");
 
-LOAD DATA INPATH '/user/admin/gira_data/distances_gira_metro.csv' INTO TABLE gira.distances_gira_metro;
+LOAD DATA INPATH '/dataset/exported/distances_gira_metro.csv' INTO TABLE gira.distances_gira_metro;
 ```
 
 ```
@@ -245,7 +262,7 @@ FIELDS TERMINATED BY ','
 STORED AS TEXTFILE
 TBLPROPERTIES ("skip.header.line.count"="1");
 
-LOAD DATA INPATH '/user/admin/gira_data/distances_gira_stops.csv' INTO TABLE gira.distances_gira_stops;
+LOAD DATA INPATH '/dataset/exported/distances_gira_stops.csv' INTO TABLE gira.distances_gira_stops;
 ```
 
 ```
@@ -262,7 +279,7 @@ FIELDS TERMINATED BY ','
 STORED AS TEXTFILE
 TBLPROPERTIES ("skip.header.line.count"="1");
 
-LOAD DATA INPATH '/user/admin/gira_data/distances_gira_train.csv' INTO TABLE gira.distances_gira_train;
+LOAD DATA INPATH '/dataset/exported/distances_gira_train.csv' INTO TABLE gira.distances_gira_train;
 ```
 
 ```
@@ -277,7 +294,7 @@ FIELDS TERMINATED BY ','
 STORED AS TEXTFILE
 TBLPROPERTIES ("skip.header.line.count"="1");
 
-LOAD DATA INPATH '/user/admin/gira_data/ciclovias_pontos.csv' INTO TABLE gira.ciclovias_pontos;
+LOAD DATA INPATH '/dataset/exported/ciclovias_pontos.csv' INTO TABLE gira.ciclovias_pontos;
 ```
 
 ```
@@ -309,7 +326,7 @@ FIELDS TERMINATED BY ','
 STORED AS TEXTFILE
 TBLPROPERTIES ("skip.header.line.count"="1");
 
-LOAD DATA INPATH '/user/admin/gira_data/ciclovias.csv' INTO TABLE gira.ciclovias;
+LOAD DATA INPATH '/dataset/exported/ciclovias.csv' INTO TABLE gira.ciclovias;
 ```
 
 ```
@@ -323,6 +340,6 @@ FIELDS TERMINATED BY ','
 STORED AS TEXTFILE
 TBLPROPERTIES ("skip.header.line.count"="1");
 
-LOAD DATA INPATH '/user/admin/gira_data/distances_gira_ciclovias_pontos_split_01.csv' INTO TABLE gira.distances_gira_ciclovias_pontos;
-LOAD DATA INPATH '/user/admin/gira_data/distances_gira_ciclovias_pontos_split_02.csv' INTO TABLE gira.distances_gira_ciclovias_pontos;
+LOAD DATA INPATH '/dataset/exported/distances_gira_ciclovias_pontos_split_01.csv' INTO TABLE gira.distances_gira_ciclovias_pontos;
+LOAD DATA INPATH '/dataset/exported/distances_gira_ciclovias_pontos_split_02.csv' INTO TABLE gira.distances_gira_ciclovias_pontos;
 ```
