@@ -7,22 +7,22 @@ Um estudo sobre a relação da integração das estações de bicicletas Gira co
 Trabalho realizado para a disciplina de Bases de Dados Distribuidas Avançadas no [Mestrado em Ciência de Dados](https://iscte-iul.pt/curso/codigo/0329/mestrado-ciencia-de-dados) do ISCTE - Istituto Universitário de Lisboa.
 
 
-# Datasets
+# Provedores dos Datasets
 
-- [GIRA - Bicicletas de Lisboa](https://dados.gov.pt/pt/datasets/gira-bicicletas-de-lisboa/)
+- [GIRA - Bicicletas de Lisboa](https://dados.gov.pt/pt/datasets/gira-bicicletas-de-lisboa/): Dados sobre as estações Gira, incluindo localização, estado e capacidade.
 - [POI Transportes](https://geodados-cml.hub.arcgis.com/maps/4933d8f832474ad2bff558cae59c5207/about)
-  - [Estações de Comboio](https://geodados-cml.hub.arcgis.com/datasets/CML::poitransportes?layer=0)
-  - [Estações de Metro](https://geodados-cml.hub.arcgis.com/datasets/CML::poitransportes?layer=1)
+  - [Estações de Comboio](https://geodados-cml.hub.arcgis.com/datasets/CML::poitransportes?layer=0): Dados sobre as estações de comboio, incluindo localização e nome.
+  - [Estações de Metro](https://geodados-cml.hub.arcgis.com/datasets/CML::poitransportes?layer=1): Dados sobre as estações de metro, incluindo localização e nome.
 - [POI Mobilidade](https://geodados-cml.hub.arcgis.com/maps/440b7424a6284e0b9bf11179b95bf8d1/about)
-  - [Rede Ciclável](https://geodados-cml.hub.arcgis.com/datasets/CML::ciclovias-2/explore?layer=0)
+  - [Rede Ciclável](https://geodados-cml.hub.arcgis.com/datasets/CML::ciclovias-2/explore?layer=0): Dados sobre as ciclovias, incluindo localização e nome.
 - [Carris Metropolitana](https://github.com/carrismetropolitana/api)
-  - [Paragens de Autocarro](https://api.carrismetropolitana.pt/stops)
+  - [Paragens de Autocarro](https://api.carrismetropolitana.pt/stops): Dados sobre as paragens de autocarro, incluindo localização e nome.
 
 # Ferramentas auxiliares
 
-## Postgres DB
+## Postgres DB com PostGIS
 
-A base de dados Postgres vai auxiliar no cálculo da distância entre os pontos que se quer relacionar, por exemplo:
+A base de dados Postgres com a extensão [PostGIS](https://postgis.net/) vai auxiliar no cálculo da distância entre os pontos que se quer relacionar, por exemplo:
 
 - Distância entre estações Gira e:
   - Ciclovias
@@ -33,8 +33,8 @@ A base de dados Postgres vai auxiliar no cálculo da distância entre os pontos 
 ## Docker
 
 Usaremos contentores Docker para facilitar/automatizar o trabalho, neste caso iremos ter ferramentas auxiliares como:
-- Postgres DB
-- Scripts de importação com Python
+- Postgres DB com extensão PostGIS
+- Scripts de importação/exportação com Python
 
 Para executar o docker:
 
@@ -42,6 +42,20 @@ Para executar o docker:
 cd postgres
 docker compose up -d
 ```
+
+## Explicação
+
+Pelo facto de termos diferentes provedores de datasets, com diferentes formatos e estruturas, é necessário ter scripts python que irão auxiliar na importação dos dados para a base de dados Postgres com extensão PostGIS.
+
+Por exemplo, as estações de comboio, metro, Gira e ciclovias são fornecidas em CSV ou GeoJSON, e os scripts python irão importar esses dados para a base de dados Postgres seguindo um único formato.
+
+Por outro lado, as paragens de autocarro são fornecidas através de uma API REST, e os scripts python irão fazer chamadas a essa API e importar os dados para a base de dados Postgres seguindo o mesmo formato.
+
+Após a importação dos dados, é necessário calcular a distância entre os pontos de interesse, por exemplo, a distância entre as estações Gira e as paragens de autocarro, ou a distância entre as estações Gira e as estações de comboio, entre outras.
+
+Finalmente, após o cálculo das distâncias, é necessário exportar os dados para arquivos CSV, para que possam ser importados para o Hadoop.
+
+![hadoop-ecosystem-gira](hadoop/hadoop-ecosystem-gira.png)
 
 # Dataset
 
