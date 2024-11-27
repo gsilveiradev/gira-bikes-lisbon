@@ -9,13 +9,15 @@ Trabalho realizado para a disciplina de Bases de Dados Distribuidas Avançadas n
 
 # Provedores dos Datasets
 
-- [GIRA - Bicicletas de Lisboa](https://dados.gov.pt/pt/datasets/gira-bicicletas-de-lisboa/): Dados sobre as estações Gira, incluindo localização, estado e capacidade.
-- [POI Transportes](https://geodados-cml.hub.arcgis.com/maps/4933d8f832474ad2bff558cae59c5207/about)
-  - [Estações de Comboio](https://geodados-cml.hub.arcgis.com/datasets/CML::poitransportes?layer=0): Dados sobre as estações de comboio, incluindo localização e nome.
-  - [Estações de Metro](https://geodados-cml.hub.arcgis.com/datasets/CML::poitransportes?layer=1): Dados sobre as estações de metro, incluindo localização e nome.
-- [POI Mobilidade](https://geodados-cml.hub.arcgis.com/maps/440b7424a6284e0b9bf11179b95bf8d1/about)
-  - [Rede Ciclável](https://geodados-cml.hub.arcgis.com/datasets/CML::ciclovias-2/explore?layer=0): Dados sobre as ciclovias, incluindo localização e nome.
-- [Carris Metropolitana](https://github.com/carrismetropolitana/api)
+- Dados.gov
+  - [GIRA - Bicicletas de Lisboa](https://dados.gov.pt/pt/datasets/gira-bicicletas-de-lisboa/): Dados sobre as estações Gira, incluindo localização, estado e capacidade.
+- Geodados CML
+  - [POI Transportes](https://geodados-cml.hub.arcgis.com/maps/4933d8f832474ad2bff558cae59c5207/about)
+    - [Estações de Comboio](https://geodados-cml.hub.arcgis.com/datasets/CML::poitransportes?layer=0): Dados sobre as estações de comboio, incluindo localização e nome.
+    - [Estações de Metro](https://geodados-cml.hub.arcgis.com/datasets/CML::poitransportes?layer=1): Dados sobre as estações de metro, incluindo localização e nome.
+  - [POI Mobilidade](https://geodados-cml.hub.arcgis.com/maps/440b7424a6284e0b9bf11179b95bf8d1/about)
+    - [Rede Ciclável](https://geodados-cml.hub.arcgis.com/datasets/CML::ciclovias-2/explore?layer=0): Dados sobre as ciclovias, incluindo localização e nome.
+- [Carris Metropolitana API](https://github.com/carrismetropolitana/api)
   - [Paragens de Autocarro](https://api.carrismetropolitana.pt/stops): Dados sobre as paragens de autocarro, incluindo localização e nome.
 
 # Ferramentas auxiliares
@@ -137,6 +139,8 @@ A stack Hadoop utilizada neste trabalho será baseada em contentores Docker, ref
 
 ## Copiar datasets para o HDFS
 
+TODO: detalhar os comandos abaixo
+
 ```shell
 cd hadoop
 docker exec hadoop-namenode-1 /bin/bash hdfs dfs -mkdir /datasets
@@ -150,14 +154,14 @@ Abrir http://localhost:8888/ e criar um user `admin` com password `admin`.
 
 ## Criar tabelas com Hue
 
-Vamos assumir que temos criado uma Base de dados chamada `gira`, criada previamente através do Hue.
+Vamos assumir que temos criado uma Base de dados chamada `default`.
 
-Além disso, vamos assumir que os arquivos CSV estarão presentes no path: `/dataset/exported/`.
+Além disso, vamos assumir que os arquivos CSV estarão presentes no path: `/datasets/exported/`.
 
 ## Criar tabelas com Hue, no stack Hadoop
 
 ```
-CREATE TABLE gira.gira_stations (
+CREATE TABLE gira_stations (
     object_id STRING,
     id_p STRING,
     id_c INT,
@@ -177,11 +181,11 @@ FIELDS TERMINATED BY ','
 STORED AS TEXTFILE
 TBLPROPERTIES ("skip.header.line.count"="1");
 
-LOAD DATA INPATH '/dataset/exported/gira_stations.csv' INTO TABLE gira.gira_stations;
+LOAD DATA INPATH '/datasets/exported/gira_stations.csv' INTO TABLE gira_stations;
 ```
 
 ```
-CREATE TABLE gira.metro_stations (
+CREATE TABLE metro_stations (
     object_id INT,
     cod_sig INT,
     id_tipo INT,
@@ -198,11 +202,11 @@ FIELDS TERMINATED BY ','
 STORED AS TEXTFILE
 TBLPROPERTIES ("skip.header.line.count"="1");
 
-LOAD DATA INPATH '/dataset/exported/metro_stations.csv' INTO TABLE gira.metro_stations;
+LOAD DATA INPATH '/datasets/exported/metro_stations.csv' INTO TABLE metro_stations;
 ```
 
 ```
-CREATE TABLE gira.train_stations (
+CREATE TABLE train_stations (
     object_id INT,
     cod_sig INT,
     id_tipo INT,
@@ -218,11 +222,11 @@ FIELDS TERMINATED BY ','
 STORED AS TEXTFILE
 TBLPROPERTIES ("skip.header.line.count"="1");
 
-LOAD DATA INPATH '/dataset/exported/train_stations.csv' INTO TABLE gira.train_stations;
+LOAD DATA INPATH '/datasets/exported/train_stations.csv' INTO TABLE train_stations;
 ```
 
 ```
-CREATE TABLE gira.carris_stops (
+CREATE TABLE carris_stops (
     id INT,
     district_id INT,
     district_name STRING,
@@ -242,11 +246,11 @@ FIELDS TERMINATED BY ','
 STORED AS TEXTFILE
 TBLPROPERTIES ("skip.header.line.count"="1");
 
-LOAD DATA INPATH '/dataset/exported/carris_stops.csv' INTO TABLE gira.carris_stops;
+LOAD DATA INPATH '/datasets/exported/carris_stops.csv' INTO TABLE carris_stops;
 ```
 
 ```
-CREATE TABLE gira.distances_gira_metro (
+CREATE TABLE distances_gira_metro (
     gira_id STRING,
     gira_nome_rua STRING,
     gira_freguesia STRING,
@@ -259,11 +263,11 @@ FIELDS TERMINATED BY ','
 STORED AS TEXTFILE
 TBLPROPERTIES ("skip.header.line.count"="1");
 
-LOAD DATA INPATH '/dataset/exported/distances_gira_metro.csv' INTO TABLE gira.distances_gira_metro;
+LOAD DATA INPATH '/datasets/exported/distances_gira_metro.csv' INTO TABLE distances_gira_metro;
 ```
 
 ```
-CREATE TABLE gira.distances_gira_stops (
+CREATE TABLE distances_gira_stops (
     gira_id STRING,
     gira_nome_rua STRING,
     gira_freguesia STRING,
@@ -276,11 +280,11 @@ FIELDS TERMINATED BY ','
 STORED AS TEXTFILE
 TBLPROPERTIES ("skip.header.line.count"="1");
 
-LOAD DATA INPATH '/dataset/exported/distances_gira_stops.csv' INTO TABLE gira.distances_gira_stops;
+LOAD DATA INPATH '/datasets/exported/distances_gira_stops.csv' INTO TABLE distances_gira_stops;
 ```
 
 ```
-CREATE TABLE gira.distances_gira_train (
+CREATE TABLE distances_gira_train (
     gira_id STRING,
     gira_nome_rua STRING,
     gira_freguesia STRING,
@@ -293,11 +297,11 @@ FIELDS TERMINATED BY ','
 STORED AS TEXTFILE
 TBLPROPERTIES ("skip.header.line.count"="1");
 
-LOAD DATA INPATH '/dataset/exported/distances_gira_train.csv' INTO TABLE gira.distances_gira_train;
+LOAD DATA INPATH '/datasets/exported/distances_gira_train.csv' INTO TABLE distances_gira_train;
 ```
 
 ```
-CREATE TABLE gira.ciclovias_pontos (
+CREATE TABLE ciclovias_pontos (
     ciclovia_id STRING,
     lat DOUBLE,
     lon DOUBLE,
@@ -308,11 +312,11 @@ FIELDS TERMINATED BY ','
 STORED AS TEXTFILE
 TBLPROPERTIES ("skip.header.line.count"="1");
 
-LOAD DATA INPATH '/dataset/exported/ciclovias_pontos.csv' INTO TABLE gira.ciclovias_pontos;
+LOAD DATA INPATH '/datasets/exported/ciclovias_pontos.csv' INTO TABLE ciclovias_pontos;
 ```
 
 ```
-CREATE TABLE gira.ciclovias (
+CREATE TABLE ciclovias (
     ciclovia_id STRING,
     objectid STRING,
     cod_sig STRING,
@@ -340,11 +344,11 @@ FIELDS TERMINATED BY ','
 STORED AS TEXTFILE
 TBLPROPERTIES ("skip.header.line.count"="1");
 
-LOAD DATA INPATH '/dataset/exported/ciclovias.csv' INTO TABLE gira.ciclovias;
+LOAD DATA INPATH '/datasets/exported/ciclovias.csv' INTO TABLE ciclovias;
 ```
 
 ```
-CREATE TABLE gira.distances_gira_ciclovias_pontos (
+CREATE TABLE distances_gira_ciclovias_pontos (
     gira_id STRING,
     ciclovia_id STRING,
     distance_meters DOUBLE
@@ -354,6 +358,5 @@ FIELDS TERMINATED BY ','
 STORED AS TEXTFILE
 TBLPROPERTIES ("skip.header.line.count"="1");
 
-LOAD DATA INPATH '/dataset/exported/distances_gira_ciclovias_pontos_split_01.csv' INTO TABLE gira.distances_gira_ciclovias_pontos;
-LOAD DATA INPATH '/dataset/exported/distances_gira_ciclovias_pontos_split_02.csv' INTO TABLE gira.distances_gira_ciclovias_pontos;
+LOAD DATA INPATH '/datasets/exported/distances_gira_ciclovias_pontos.csv' INTO TABLE distances_gira_ciclovias_pontos;
 ```
