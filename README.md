@@ -1,143 +1,135 @@
 # Gira Bikes Lisbon
 
-Um estudo sobre a relação da integração das estações de bicicletas Gira com a rede de transporte público de Lisboa, incluindo ciclovias, paragens de autocarro e estações de Metro e Comboios.
+Um estudo sobre a integração das estações de bicicletas Gira com a rede de transporte público de Lisboa, incluindo ciclovias, paragens de autocarro e estações de Metro e Comboios.
 
 ## Contexto
 
-Trabalho realizado para a disciplina de Bases de Dados Distribuidas Avançadas no [Mestrado em Ciência de Dados](https://iscte-iul.pt/curso/codigo/0329/mestrado-ciencia-de-dados) do ISCTE - Istituto Universitário de Lisboa.
+Trabalho realizado para a disciplina de Bases de Dados Distribuídas Avançadas no [Mestrado em Ciência de Dados](https://iscte-iul.pt/curso/codigo/0329/mestrado-ciencia-de-dados) do ISCTE - Instituto Universitário de Lisboa.
 
+# 1) Preparação dos Datasets
 
-# Provedores dos Datasets
+Para este estudo ser desenvolvido, foi necessário utilizar datasets de diferentes fontes, tais como:
 
-- Dados.gov
-  - [GIRA - Bicicletas de Lisboa](https://dados.gov.pt/pt/datasets/gira-bicicletas-de-lisboa/): Dados sobre as estações Gira, incluindo localização, estado e capacidade.
-- Geodados CML
-  - [POI Transportes](https://geodados-cml.hub.arcgis.com/maps/4933d8f832474ad2bff558cae59c5207/about)
-    - [Estações de Comboio](https://geodados-cml.hub.arcgis.com/datasets/CML::poitransportes?layer=0): Dados sobre as estações de comboio, incluindo localização e nome.
-    - [Estações de Metro](https://geodados-cml.hub.arcgis.com/datasets/CML::poitransportes?layer=1): Dados sobre as estações de metro, incluindo localização e nome.
-  - [POI Mobilidade](https://geodados-cml.hub.arcgis.com/maps/440b7424a6284e0b9bf11179b95bf8d1/about)
-    - [Rede Ciclável](https://geodados-cml.hub.arcgis.com/datasets/CML::ciclovias-2/explore?layer=0): Dados sobre as ciclovias, incluindo localização e nome.
-- [Carris Metropolitana API](https://github.com/carrismetropolitana/api)
-  - [Paragens de Autocarro](https://api.carrismetropolitana.pt/stops): Dados sobre as paragens de autocarro, incluindo localização e nome.
+1) [Dados.gov](https://dados.gov.pt/pt/) - Plataforma aberta para dados públicos portugueses.
+   - [GIRA - Bicicletas de Lisboa](https://dados.gov.pt/pt/datasets/gira-bicicletas-de-lisboa/): Dados sobre as estações Gira, incluindo localização, estado e capacidade.
+2) [Geodados CML](https://geodados-cml.hub.arcgis.com/) - Plataforma de dados abertos georreferenciados da Câmara Municipal de Lisboa.
+   - [POI Transportes](https://geodados-cml.hub.arcgis.com/maps/4933d8f832474ad2bff558cae59c5207/about) - Serviço de mapa com indicação das principais estações de transportes, interfaces fluviais, elevadores e ascensores, postos de carregamento Mobi E de Lisboa, Zonas de Emissões Reduzidas.
+     - [Estações de Comboio](https://geodados-cml.hub.arcgis.com/datasets/CML::poitransportes?layer=0): Dados sobre as estações de comboio, incluindo localização e nome.
+     - [Estações de Metro](https://geodados-cml.hub.arcgis.com/datasets/CML::poitransportes?layer=1): Dados sobre as estações de metro, incluindo localização e nome.
+   - [POI Mobilidade](https://geodados-cml.hub.arcgis.com/maps/440b7424a6284e0b9bf11179b95bf8d1/about) - Serviço de mapa de área de zonamento de mobilidade em Lisboa.
+     - [Rede Ciclável](https://geodados-cml.hub.arcgis.com/datasets/CML::ciclovias-2/explore?layer=0): Dados sobre as ciclovias, incluindo localização e nome.
+3) [Carris Metropolitana API](https://github.com/carrismetropolitana/api) - Um serviço de código aberto que fornece informações de rede no formato JSON ou Protocol Buffers. Este serviço lê e converte o arquivo GTFS oficial da Carris Metropolitana.
+   - [Paragens de Autocarro](https://github.com/carrismetropolitana/api?tab=readme-ov-file#stops): Retorna informações estáticas para todas as paragens de autocarros Carris, bem como linhas, rotas e padrões associados que usam cada paragem. 
 
-# Ferramentas auxiliares
+![datasets](dataset/dataset-gira-fontes.png)
 
-## Postgres DB com PostGIS
+## 1.1) Ferramentas Auxiliares
 
-A base de dados Postgres com a extensão [PostGIS](https://postgis.net/) vai auxiliar no cálculo da distância entre os pontos que se quer relacionar, por exemplo:
+Para facilitar a importação dos datasets e posterior preparação dos dados, foi necessário utilizar uma base de dados Postgres com [PostGIS](https://postgis.net/).
 
-- Distância entre estações Gira e:
-  - Ciclovias
-  - Paragens de autocarro
-  - Estações de metro
-  - Estações de comboios
+Essa base de dados foi criada num contentor Docker, para facilitar a sua execução e utilização, a qual pode ser encontrada na pasta `postgres`.
 
-## Docker
-
-Usaremos contentores Docker para facilitar/automatizar o trabalho, neste caso iremos ter ferramentas auxiliares como:
-- Postgres DB com extensão PostGIS
-- Scripts de importação/exportação com Python
-
-Para executar o docker:
+Para executar o contentor Docker, basta entrar na pasta `postgres` e executar o comando:
 
 ```sh
-cd postgres
 docker compose up -d
 ```
 
-## Explicação
+A base de dados Postgres vai possibilitar a importação de todos os datasets, de diferentes fontes, formatos e estruturas, para um único formato. 
 
-Pelo facto de termos diferentes provedores de datasets, com diferentes formatos e estruturas, é necessário ter scripts python que irão auxiliar na importação dos dados para a base de dados Postgres com extensão PostGIS.
+Posteriormente, com o auxílio da extensão PostGIS, será executado o cálculo de distâncias entre os pontos de interesse, e a posterior exportação dos dados para arquivos CSV.
 
-Por exemplo, as estações de comboio, metro, Gira e ciclovias são fornecidas em CSV ou GeoJSON, e os scripts python irão importar esses dados para a base de dados Postgres seguindo um único formato.
+## 1.2) Importação dos Datasets
 
-Por outro lado, as paragens de autocarro são fornecidas através de uma API REST, e os scripts python irão fazer chamadas a essa API e importar os dados para a base de dados Postgres seguindo o mesmo formato.
+Os datasets foram baixados das fontes acima e armazenados na pasta `dataset`, sendo cada um deles:
 
-Após a importação dos dados, é necessário calcular a distância entre os pontos de interesse, por exemplo, a distância entre as estações Gira e as paragens de autocarro, ou a distância entre as estações Gira e as estações de comboio, entre outras.
+- [ciclovias.geojson](dataset/ciclovias.geojson) - Dados sobre as ciclovias de Lisboa.
+- [estacoes-comboios.csv](dataset/estacoes-comboios.csv) - Dados sobre as estações de comboio de Lisboa.
+- [estacoes-gira.csv](dataset/estacoes-gira.csv) - Dados sobre as estações Gira de Lisboa.
+- [estacoes-metro.csv](dataset/estacoes-metro.csv) - Dados sobre as estações de metro de Lisboa.
 
-Finalmente, após o cálculo das distâncias, é necessário exportar os dados para arquivos CSV, para que possam ser importados para o Hadoop.
+> Para executar os scripts abaixo, é necessário estar no diretório `dataset`.
 
-![hadoop-ecosystem-gira](hadoop/hadoop-ecosystem-gira.png)
-
-# Dataset
-
-## Fazer Setup Inicial com Importações
-
-É necessário estar na pasta `dataset` para executar os passos abaixo.
-
-### 1. Criar tabelas no Postgres
-
-Para criar as tabelas na base de dados Postgres, foi criado um script python que deve ser executado como no exemplo:
-
-```sh
-python3 create-tables.py
-```
-
-### 2. Importar Paragens de autocarro
-
-Para importar as paragens de autocarro para a base de dados Postgres, foi criado um script python que deve ser executado como no exemplo:
+Os dados das paragens de autocarro foram obtidos através da API REST da Carris Metropolitana e inseridos diretamente na base de dados Postgres, ao executar o script python:
 
 ```sh
 python3 import-carris-stops.py
 ```
 
-### 3. Importar Estações de Comboios
+Todos os outros ficheiros CSV e GeoJSON foram importados para a base de dados Postgres, ao executar os respetivos scripts python:
 
-Para importar as estações de comboios para a base de dados Postgres, foi criado um script python que deve ser executado como no exemplo:
-
+**Extrair ciclovias do GeoJSON para CSV:**
 ```sh
-python3 import-train-stations.py
+python3 extract-ciclovias-geojson.py
 ```
 
-### 4. Importar Estações de Metro
-
-Para importar as estações de metro para a base de dados Postgres, foi criado um script python que deve ser executado como no exemplo:
-
-```sh
-python3 import-metro-stations.py
-```
-
-### 5. Importar Estações Gira
-
-Para importar as estações gira para a base de dados Postgres, foi criado um script python que deve ser executado como no exemplo:
-
-```sh
-python3 import-gira-stations.py
-```
-
-### 6. Importar Ciclovias
-
-Para importar as ciclovias para a base de dados Postgres, foi criado um script python que deve ser executado como no exemplo:
-
+**Importar ciclovias do CSV para Postgres:**
 ```sh
 python3 import-ciclovias.py
 ```
 
-### 6. Calcular distâncias entre os pontos de interesse
+**Importar estações Gira do CSV para Postgres:**
+```sh
+python3 import-gira-stations.py
+```
 
-Para calcular as distâncias entre as estações gira e os pontos de transporte público e importar para a base de dados Postgres, foi criado um script python que deve ser executado como no exemplo:
+**Importar estações de Metro do CSV para Postgres:**
+```sh
+python3 import-metro-stations.py
+```
+
+**Importar estações de Comboio do CSV para Postgres:**
+```sh
+python3 import-train-stations.py
+```
+
+Ao final deste processo, todos os dados dos datasets foram importados para a base de dados Postgres, e estão prontos para serem utilizados. A imagem abaixo resume o relacionamento entre os dados importados.
+
+![Relação dos Datasets](dataset/dataset-gira-relationships.png)
+
+## 1.3) Cálculo de Distâncias
+
+Uma vez que os dados estão importados na base de dados Postgres, é necessário calcular a distância entre os pontos de interesse.
+
+A imagem abaixo ilustra o cálculo que vai ser preciso fazer para obter a distância - em metros - entre as estações Gira e os pontos de transporte público.
+
+![Distâncias](dataset/dataset-gira-distances.png)
+
+> Para executar os scripts abaixo, é necessário estar no diretório `dataset`.
+
+Para calcular as distâncias entre as estações Gira e os pontos de transporte público, foi criado um script python que deve ser executado como no exemplo:
 
 ```sh
 python3 calculate-distances.py
 ```
 
-## Exportar todos os dados Postgres para CSV
+O script acima vai criar tabelas de distâncias no Postgres e calcular a distância em metros entre as estações Gira e todos os outros pontos de transporte público.
 
-Uma vez que os dados foram importados e calculados, para exportar tudo para arquivos CSV é preciso executar o script python como no exemplo abaixo.
+## 1.4) Exportação dos Dados para ficheiros CSV
 
-É necessário estar na pasta `dataset/exported` para executar o script.
+Uma vez que todos os dados estão importados e as distâncias calculadas, é necessário exportar todos os dados para arquivos CSV, para que possam ser importados para o Hadoop.
+
+> Para executar os scripts abaixo, é necessário estar no diretório `exported`.
+
+Para exportar todos os dados da base de dados Postgres para arquivos CSV, foi criado um script python que deve ser executado como no exemplo:
 
 ```sh
 python3 export-postgres-to-csv.py
 ```
 
-# Hadoop
+Ao final deste processo, todos os dados importados e calculados na base de dados Postgres foram exportados para arquivos CSV, e estão prontos para serem importados para o Hadoop.
+
+A imagem abaixo ilustra o processo de importação e preparação dos datasets:
+
+![importação dos datasets](dataset/dataset-gira-importacao.png)
+
+# 2) Hadoop
 
 A stack Hadoop utilizada neste trabalho será baseada em contentores Docker, referenciados no projeto [docker-hadoop-hive-parquet](https://github.com/tech4242/docker-hadoop-hive-parquet) e no artigo "[Making big moves in Big Data with Hadoop, Hive, Parquet, Hue and Docker](https://towardsdatascience.com/making-big-moves-in-big-data-with-hadoop-hive-parquet-hue-and-docker-320a52ca175)".
 
-![hadoop-stack](hadoop/hadoop-stack.png)
+![hadoop-stack](hadoop/hadoop-ecosystem-gira.png)
 
-## Copiar datasets para o HDFS
+## 2.1) Copiar datasets para o HDFS
 
 TODO: detalhar os comandos abaixo
 
@@ -148,17 +140,15 @@ docker cp ../dataset/exported/ hadoop-namenode-1:/
 docker exec hadoop-namenode-1 /bin/bash hdfs dfs -put /exported /datasets
 ```
 
-## Aceder ao Hue e criar user Admin
+## 2.2) Aceder ao Hue e criar user Admin
 
 Abrir http://localhost:8888/ e criar um user `admin` com password `admin`.
 
-## Criar tabelas com Hue
+## 2.3) Criar tabelas com Hue
 
 Vamos assumir que temos criado uma Base de dados chamada `default`.
 
 Além disso, vamos assumir que os arquivos CSV estarão presentes no path: `/datasets/exported/`.
-
-## Criar tabelas com Hue, no stack Hadoop
 
 ```
 CREATE TABLE gira_stations (
