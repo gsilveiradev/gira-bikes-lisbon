@@ -129,22 +129,50 @@ A stack Hadoop utilizada neste trabalho será baseada em contentores Docker, ref
 
 ![hadoop-stack](hadoop/hadoop-ecosystem-gira.png)
 
-## 2.1) Copiar datasets para o HDFS
+## 2.1) Aceder ao Hue e criar user Admin
 
-TODO: detalhar os comandos abaixo
-
-```shell
-cd hadoop
-docker exec hadoop-namenode-1 /bin/bash hdfs dfs -mkdir /datasets
-docker cp ../dataset/exported/ hadoop-namenode-1:/
-docker exec hadoop-namenode-1 /bin/bash hdfs dfs -put /exported /datasets
-```
-
-## 2.2) Aceder ao Hue e criar user Admin
+O primeiro passo é aceder ao Hue, que é uma interface gráfica para o Hadoop, e criar um user Admin - sugestão usada no escopo deste trabalho.
 
 Abrir http://localhost:8888/ e criar um user `admin` com password `admin`.
 
-## 2.3) Criar tabelas com Hue
+## 2.2) Copiar datasets para o HDFS com comandos Docker
+
+**Entrar no diretório `hadoop`**
+
+```shell
+cd hadoop
+```
+
+**Criar diretório `/datasets` no HDFS**
+
+```shell
+docker exec hadoop-namenode-1 /bin/bash hdfs dfs -mkdir /datasets
+```
+
+**Copiar datasets finais para o contentor docker**
+
+```shell
+docker cp ../dataset/exported/ hadoop-namenode-1:/
+```
+
+**Inserir os datasets no sistema de ficheiros do Hadoop (HDFS)**
+
+```shell
+docker exec hadoop-namenode-1 /bin/bash hdfs dfs -put /exported /datasets
+```
+A imagem abaixo ilustra o que acontece ao executar os comandos acima.
+
+![hadoop-upload-csv-docker](hadoop/hadoop-upload-csv-docker.png)
+
+### 2.2.1) Alternativa: Copiar datasets para o HDFS com Hue
+
+Em alternativa, o upload dos datasets para o HDFS pode ser feito através da interface gráfica do Hue, que no caso deste trabalho está disponível em http://localhost:8888/.
+
+A imagem abaixo ilustra o que acontece ao fazer o upload dos datasets para o HDFS através do Hue.
+
+![hadoop-upload-csv-hue](hadoop/hadoop-upload-csv-hue.png)
+
+## 2.3) Criar tabelas no Hive com Hue
 
 Vamos assumir que temos criado uma Base de dados chamada `default`.
 
