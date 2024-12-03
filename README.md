@@ -385,9 +385,21 @@ Como forma a poder responder à pergunta deste trabalho, temos agora de estudar 
 Desse modo, executámos vários queries em Hive na interface Hue. 
 Os queries que achámos serem explanatórios para a nossa pergunta inicial vão de encontro à distância e tempo entre os nossos datasets.
 
-## 3.1) Análise dos Dados
+## 3.1) Executar Queries com Hive
 
-A análise dos dados pode ser feita através de queries SQL no Hive, ou através de ferramentas de visualização de dados, como o Hue.
+A análise dos dados pode ser feita através de queries SQL no Hive, ao usar HiveQL como linguagem.
+
+A execução das queries pode ser feita diretamente no Hive Server ou através de ferramentas de visualização de dados, como o Hue.
+
+A imagem abaixo ilustra a execução de uma query no Hive através do Hue.
+
+![hive-query-hue](hadoop/hadoop-hive-queries-com-hue.png)
+
+A imagem abaixo ilustra a execução de uma query no Hive através do docker, diretamente no Hive Server.
+
+![hive-query-docker](hadoop/hadoop-hive-queries-com-docker.png)
+
+## 3.2) Análise dos Dados
 
 ### Distância média GIRA – Infraestruturas
 
