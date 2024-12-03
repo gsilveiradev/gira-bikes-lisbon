@@ -387,17 +387,48 @@ Os queries que achámos serem explanatórios para a nossa pergunta inicial vão 
 
 ## 3.1) Executar Queries com Hive
 
-A análise dos dados pode ser feita através de queries SQL no Hive, ao usar HiveQL como linguagem.
+A análise dos dados será feita através de queries no Hive, ao usar HiveQL como linguagem.
 
-A execução das queries pode ser feita diretamente no Hive Server ou através de ferramentas de visualização de dados, como o Hue.
+A execução das queries pode ser feita diretamente no Hive Server, através do docker, ou através de ferramentas de visualização de dados, como o Hue.
+
+### 3.1.1) Executar Queries com Hue
 
 A imagem abaixo ilustra a execução de uma query no Hive através do Hue.
 
 ![hive-query-hue](hadoop/hadoop-hive-queries-com-hue.png)
 
+No caso acima, a query será executada na interface do Hue, por meio do Query Editor, disponível em http://localhost:8888/.
+
+No passo 1, a query é escrita no editor de queries do Hue e recebe instrução para ser executada.
+
+No passo 2, o Hue executa a query no o Hive Server. 
+
+No passo 3, o Hive traduz a query em HiveQL para jobs MapReduce.
+
+Nos passos 4 e 5, o job MapReduce lê os dados do HDFS, processa e consolida os resultados. Neste processo o YARN fornece os recursos computacionais e gerencia a execução dos jobs MapReduce.
+
+Por fim, ss resultados do job MapReduce são enviados de volta para o Hive, que os apresenta no Hue para o usuário.
+
+### 3.1.2) Executar Queries com Docker
+
 A imagem abaixo ilustra a execução de uma query no Hive através do docker, diretamente no Hive Server.
 
 ![hive-query-docker](hadoop/hadoop-hive-queries-com-docker.png)
+
+Semelhante ao que acontece no item 3.1.1, a query será executada diretamente no Hive server, por meio do contentor docker.
+
+**Para entrar no contentor do Hive Server:**
+```shell
+docker exec -it hadoop-hive-server-1 hive
+```
+
+No passo 1, a query é escrita e executada no Hive Server.
+
+No passo 2, o Hive traduz a query em HiveQL para jobs MapReduce.
+
+Nos passos 3 e 4, o job MapReduce lê os dados do HDFS, processa e consolida os resultados. Neste processo o YARN fornece os recursos computacionais e gerencia a execução dos jobs MapReduce.
+
+Por fim, os resultados do job MapReduce são enviados de volta para o Hive, que os apresenta como output para o usuário.
 
 ## 3.2) Análise dos Dados
 
