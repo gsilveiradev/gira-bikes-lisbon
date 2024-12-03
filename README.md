@@ -178,7 +178,7 @@ Vamos assumir que temos criado uma Base de dados chamada `default`.
 
 Além disso, vamos assumir que os arquivos CSV estarão presentes no path `/datasets/exported/`, conforme executado no passo 2.2.
 
-```
+```sql
 CREATE TABLE gira_stations (
     object_id STRING,
     id_p STRING,
@@ -202,7 +202,7 @@ TBLPROPERTIES ("skip.header.line.count"="1");
 LOAD DATA INPATH '/datasets/exported/gira_stations.csv' INTO TABLE gira_stations;
 ```
 
-```
+```sql
 CREATE TABLE metro_stations (
     object_id INT,
     cod_sig INT,
@@ -223,7 +223,7 @@ TBLPROPERTIES ("skip.header.line.count"="1");
 LOAD DATA INPATH '/datasets/exported/metro_stations.csv' INTO TABLE metro_stations;
 ```
 
-```
+```sql
 CREATE TABLE train_stations (
     object_id INT,
     cod_sig INT,
@@ -243,7 +243,7 @@ TBLPROPERTIES ("skip.header.line.count"="1");
 LOAD DATA INPATH '/datasets/exported/train_stations.csv' INTO TABLE train_stations;
 ```
 
-```
+```sql
 CREATE TABLE carris_stops (
     id INT,
     district_id INT,
@@ -267,7 +267,7 @@ TBLPROPERTIES ("skip.header.line.count"="1");
 LOAD DATA INPATH '/datasets/exported/carris_stops.csv' INTO TABLE carris_stops;
 ```
 
-```
+```sql
 CREATE TABLE distances_gira_metro (
     gira_id STRING,
     gira_nome_rua STRING,
@@ -284,7 +284,7 @@ TBLPROPERTIES ("skip.header.line.count"="1");
 LOAD DATA INPATH '/datasets/exported/distances_gira_metro.csv' INTO TABLE distances_gira_metro;
 ```
 
-```
+```sql
 CREATE TABLE distances_gira_stops (
     gira_id STRING,
     gira_nome_rua STRING,
@@ -301,7 +301,7 @@ TBLPROPERTIES ("skip.header.line.count"="1");
 LOAD DATA INPATH '/datasets/exported/distances_gira_stops.csv' INTO TABLE distances_gira_stops;
 ```
 
-```
+```sql
 CREATE TABLE distances_gira_train (
     gira_id STRING,
     gira_nome_rua STRING,
@@ -318,7 +318,7 @@ TBLPROPERTIES ("skip.header.line.count"="1");
 LOAD DATA INPATH '/datasets/exported/distances_gira_train.csv' INTO TABLE distances_gira_train;
 ```
 
-```
+```sql
 CREATE TABLE ciclovias_pontos (
     ciclovia_id STRING,
     lat DOUBLE,
@@ -333,7 +333,7 @@ TBLPROPERTIES ("skip.header.line.count"="1");
 LOAD DATA INPATH '/datasets/exported/ciclovias_pontos.csv' INTO TABLE ciclovias_pontos;
 ```
 
-```
+```sql
 CREATE TABLE ciclovias (
     ciclovia_id STRING,
     objectid STRING,
@@ -365,7 +365,7 @@ TBLPROPERTIES ("skip.header.line.count"="1");
 LOAD DATA INPATH '/datasets/exported/ciclovias.csv' INTO TABLE ciclovias;
 ```
 
-```
+```sql
 CREATE TABLE distances_gira_ciclovias_pontos (
     gira_id STRING,
     ciclovia_id STRING,
