@@ -176,7 +176,7 @@ A imagem abaixo ilustra o que acontece ao fazer o upload dos datasets para o HDF
 
 Vamos assumir que temos criado uma Base de dados chamada `default`.
 
-Além disso, vamos assumir que os arquivos CSV estarão presentes no path: `/datasets/exported/`.
+Além disso, vamos assumir que os arquivos CSV estarão presentes no path `/datasets/exported/`, conforme executado no passo 2.2.
 
 ```
 CREATE TABLE gira_stations (
@@ -378,3 +378,91 @@ TBLPROPERTIES ("skip.header.line.count"="1");
 
 LOAD DATA INPATH '/datasets/exported/distances_gira_ciclovias_pontos.csv' INTO TABLE distances_gira_ciclovias_pontos;
 ```
+# 3) Resultados
+
+Como forma a poder responder à pergunta deste trabalho, temos agora de estudar a conexão da rede GIRA de Lisboa com as restantes infraestruturas de transportes públicos, nomeadamente as rede Carris, de Metro e de Comboio e também as ciclovias.
+
+Desse modo, executámos vários queries em Hive na interface Hue. 
+Os queries que achámos serem explanatórios para a nossa pergunta inicial vão de encontro à distância e tempo entre os nossos datasets.
+
+## 3.1) Análise dos Dados
+
+A análise dos dados pode ser feita através de queries SQL no Hive, ou através de ferramentas de visualização de dados, como o Hue.
+
+### Distância média GIRA – Infraestruturas
+
+```sql
+SELECT
+    'Carris' AS infra_structure, AVG(distance_meters) AS avg_distance
+FROM distances_gira_stops s
+UNION ALL
+SELECT
+    'Ciclovias', AVG(distance_meters)
+FROM distances_gira_ciclovias_pontos
+UNION ALL
+SELECT
+    'Metro', AVG(distance_meters)
+FROM distances_gira_metro
+UNION ALL
+SELECT
+    'Train', AVG(distance_meters)
+FROM distances_gira_train;
+```
+
+![distancia-media-gira-infraestruturas](resultados-analise/01-Distancia-media-GIRA-Infraestruturas.png)
+
+### Tempo médio GIRA – Infraestruturas
+
+```sql
+SELECT
+    'Carris' AS infrastructure, AVG(distance_meters / 250) AS avg_time_bike
+FROM distances_gira_stops
+UNION ALL
+SELECT
+    'Ciclovias', AVG(distance_meters / 250)
+FROM distances_gira_ciclovias_pontos
+UNION ALL
+SELECT
+    'Metro', AVG(distance_meters / 250)
+FROM distances_gira_metro
+UNION ALL
+SELECT
+    'Train', AVG(distance_meters / 250)
+FROM distances_gira_train;
+```
+
+![tempo-medio-gira-infraestruturas](resultados-analise/02-Tempo-medio-GIRA-Infraestruturas.png)
+
+### 10 Estações GIRA mais próximas das paragens da Carris
+
+```sql
+SELECT
+    dgc.gira_id,
+    g.nome_rua AS gira_station_name,
+    g.freguesia AS gira_station_freguesia,
+    c.stop_id AS carris_stop_id,
+    c.municipality_name AS carris_municipality,
+    dgc.distance_meters
+FROM distances_gira_stops dgc
+JOIN gira_stations g ON dgc.gira_id = g.object_id
+JOIN carris_stops c ON dgc.stops_id = c.stop_id
+GROUP BY dgc.gira_id, g.nome_rua, g.freguesia, c.stop_id, c.municipality_name, dgc.distance_meters
+ORDER BY dgc.distance_meters
+LIMIT 10;
+```
+
+![10-estacoes-gira-mais-proximas-carris](resultados-analise/03-10-Estacoes-GIRA-mais-proximas-das-paragens-da-Carris.png)
+
+# 4) Conclusão
+
+Com base nos resultados que obtemos podemos concluir que a rede GIRA se encontra bem integrada na rede de transportes públicos e ciclovias do concelho de Lisboa.
+
+Em média, qualquer estação de metro, comboio ou ciclovia encontra-se a cerca 4km de distância, que a uma velocidade percorrida numa gira a 15km/h se tornam cerca de 17 minutos.
+
+No que toca à distância mínima, há 10 estações que se encontram a 30 metros ou menos de uma estação de autocarro, a 50 metros ou menos de uma estação de metro, a 200 metros ou menos de uma estação de comboio e a 4 metros ou menos de uma ciclovia.
+
+Todas as distâncias referidas anteriormente, refletem-se num tempo percorrido inferior a 1 minuto numa gira a 15km/h.
+
+Por fim, observando de forma mais geral, não por estação de gira mas por freguesias do concelho de Lisboa, 18 das 22 freguesias têm uma estação de autocarro a menos de 500 metros de estações gira e 16 freguesias apresentam uma estação de metro a menos de 300 metros. 18 freguesias demonstram uma estação de comboio a menos de 1 km e todas as 22 freguesias têm uma ciclovia a menos de 300 metros de uma estação gira.
+
+Baseados nos dados recolhidos e na pesquisa por nós efectuada, a rede GIRA pode ser considerada um bom complemento para a rede de transportes públicos e ciclovias de Lisboa.
