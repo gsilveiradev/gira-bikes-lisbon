@@ -385,13 +385,13 @@ Como forma a poder responder à pergunta deste trabalho, temos agora de estudar 
 Desse modo, executámos vários queries em Hive na interface Hue. 
 Os queries que achámos serem explanatórios para a nossa pergunta inicial vão de encontro à distância e tempo entre os nossos datasets.
 
-## 3.1) Executar Queries com Hive
+## 3.1) Executar Queries no Hive
 
 A análise dos dados será feita através de queries no Hive, ao usar HiveQL como linguagem.
 
 A execução das queries pode ser feita diretamente no Hive Server, através do docker, ou através de ferramentas de visualização de dados, como o Hue.
 
-### 3.1.1) Executar Queries com Hue
+### 3.1.1) Executar Queries no Hive com a interface Hue
 
 A imagem abaixo ilustra a execução de uma query no Hive através do Hue.
 
@@ -409,7 +409,7 @@ Nos passos 4 e 5, o job MapReduce lê os dados do HDFS, processa e consolida os 
 
 Por fim, ss resultados do job MapReduce são enviados de volta para o Hive, que os apresenta no Hue para o usuário.
 
-### 3.1.2) Executar Queries com Docker
+### 3.1.2) Executar Queries no Hive com Docker
 
 A imagem abaixo ilustra a execução de uma query no Hive através do docker, diretamente no Hive Server.
 
