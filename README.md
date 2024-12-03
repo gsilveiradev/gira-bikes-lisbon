@@ -496,6 +496,87 @@ LIMIT 10;
 
 ![10-estacoes-gira-mais-proximas-carris](resultados-analise/03-10-Estacoes-GIRA-mais-proximas-das-paragens-da-Carris.png)
 
+### 10 Estações GIRA mais próximas das estações de Metro
+
+```sql
+SELECT
+    dgm.gira_id,
+    g.nome_rua AS gira_station_name,
+    g.freguesia AS gira_station_freguesia,
+    m.nome AS metro_station_name,
+    dgm.distance_meters
+FROM distances_gira_metro dgm
+JOIN gira_stations g ON dgm.gira_id = g.object_id
+JOIN metro_stations m ON dgm.metro_id = m.object_id
+GROUP BY dgm.gira_id, g.nome_rua, g.freguesia, m.nome, dgm.distance_meters
+ORDER BY dgm.distance_meters
+LIMIT 10;
+```
+
+![10-estacoes-gira-mais-proximas-metro](resultados-analise/04-10-Estacoes-GIRA-mais-proximas-das-estacoes-de-Metro.png)
+
+### 10 Estações GIRA mais próximas das estações de Comboio
+
+```sql
+SELECT
+    dgt.gira_id,
+    g.nome_rua AS gira_station_name,
+    g.freguesia AS gira_station_freguesia,
+    t.nome AS train_station_name,
+    dgt.distance_meters
+FROM distances_gira_train dgt
+JOIN gira_stations g ON dgt.gira_id = g.object_id
+JOIN train_stations t ON dgt.train_id = t.object_id
+GROUP BY dgt.gira_id, g.nome_rua, g.freguesia, t.nome, dgt.distance_meters
+ORDER BY dgt.distance_meters
+LIMIT 10;
+```
+
+![10-estacoes-gira-mais-proximas-comboio](resultados-analise/05-10-Estacoes-GIRA-mais-proximas-das-estacoes-de-Comboio.png)
+
+### 10 Estações GIRA mais próximas das Ciclovias
+
+```sql
+SELECT
+    dgc.gira_id,
+    g.nome_rua AS gira_station_name,
+    g.freguesia AS gira_station_freguesia,
+    c.designacao AS ciclovia_name,
+    dgc.distance_meters
+FROM distances_gira_ciclovias_pontos dgc
+JOIN gira_stations g ON dgc.gira_id = g.object_id
+JOIN ciclovias c ON dgc.ciclovia_id = c.ciclovia_id
+GROUP BY dgc.gira_id, g.nome_rua, g.freguesia, c.designacao, dgc.distance_meters
+ORDER BY dgc.distance_meters
+LIMIT 10;
+```
+
+![10-estacoes-gira-mais-proximas-ciclovias](resultados-analise/06-10-Estacoes-GIRA-mais-proximas-das-Ciclovias.png)
+
+### 
+
+```sql
+
+```
+
+### 
+
+```sql
+
+```
+
+### 
+
+```sql
+
+```
+
+### 
+
+```sql
+
+```
+
 # 4) Conclusão
 
 Com base nos resultados que obtemos podemos concluir que a rede GIRA se encontra bem integrada na rede de transportes públicos e ciclovias do concelho de Lisboa.
