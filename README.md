@@ -21,7 +21,7 @@ Para este estudo ser desenvolvido, foi necessário utilizar datasets de diferent
 3) [Carris Metropolitana API](https://github.com/carrismetropolitana/api) - Um serviço de código aberto que fornece informações de rede no formato JSON ou Protocol Buffers. Este serviço lê e converte o arquivo GTFS oficial da Carris Metropolitana.
    - [Paragens de Autocarro](https://github.com/carrismetropolitana/api?tab=readme-ov-file#stops): Retorna informações estáticas para todas as paragens de autocarros Carris, bem como linhas, rotas e padrões associados que usam cada paragem. 
 
-![datasets](dataset/dataset-gira-fontes.png)
+![datasets](dataset/images/dataset-gira-fontes.png)
 
 ## 1.1) Ferramentas Auxiliares
 
@@ -85,7 +85,7 @@ python3 import-train-stations.py
 
 Ao final deste processo, todos os dados dos datasets foram importados para a base de dados Postgres, e estão prontos para serem utilizados. A imagem abaixo resume o relacionamento entre os dados importados.
 
-![Relação dos Datasets](dataset/dataset-gira-relationships.png)
+![Relação dos Datasets](dataset/images/dataset-gira-relationships.png)
 
 ## 1.3) Cálculo de Distâncias
 
@@ -93,7 +93,7 @@ Uma vez que os dados estão importados na base de dados Postgres, é necessário
 
 A imagem abaixo ilustra o cálculo que vai ser preciso fazer para obter a distância - em metros - entre as estações Gira e os pontos de transporte público.
 
-![Distâncias](dataset/dataset-gira-distances.png)
+![Distâncias](dataset/images/dataset-gira-distances.png)
 
 > Para executar os scripts abaixo, é necessário estar no diretório `dataset`.
 
@@ -121,13 +121,13 @@ Ao final deste processo, todos os dados importados e calculados na base de dados
 
 A imagem abaixo ilustra o processo de importação e preparação dos datasets:
 
-![importação dos datasets](dataset/dataset-gira-importacao.png)
+![importação dos datasets](dataset/images/dataset-gira-importacao.png)
 
 # 2) Hadoop
 
 A stack Hadoop utilizada neste trabalho será baseada em contentores Docker, referenciados no projeto [docker-hadoop-hive-parquet](https://github.com/tech4242/docker-hadoop-hive-parquet) e no artigo "[Making big moves in Big Data with Hadoop, Hive, Parquet, Hue and Docker](https://towardsdatascience.com/making-big-moves-in-big-data-with-hadoop-hive-parquet-hue-and-docker-320a52ca175)".
 
-![hadoop-stack](hadoop/hadoop-ecosystem-gira.png)
+![hadoop-stack](hadoop/images/hadoop-ecosystem-gira.png)
 
 ## 2.1) Aceder ao Hue e criar user Admin
 
@@ -162,7 +162,7 @@ docker exec hadoop-namenode-1 /bin/bash hdfs dfs -put /exported /datasets
 ```
 A imagem abaixo ilustra o que acontece ao executar os comandos acima.
 
-![hadoop-upload-csv-docker](hadoop/hadoop-upload-csv-docker.png)
+![hadoop-upload-csv-docker](hadoop/images/hadoop-upload-csv-docker.png)
 
 ### 2.2.1) Alternativa: Copiar datasets para o HDFS com Hue
 
@@ -170,7 +170,7 @@ Em alternativa, o upload dos datasets para o HDFS pode ser feito através da int
 
 A imagem abaixo ilustra o que acontece ao fazer o upload dos datasets para o HDFS através do Hue.
 
-![hadoop-upload-csv-hue](hadoop/hadoop-upload-csv-hue.png)
+![hadoop-upload-csv-hue](hadoop/images/hadoop-upload-csv-hue.png)
 
 ## 2.3) Criar tabelas no Hive com Hue
 
@@ -395,7 +395,7 @@ A execução das queries pode ser feita diretamente no Hive Server, através do 
 
 A imagem abaixo ilustra a execução de uma query no Hive através do Hue.
 
-![hive-query-hue](hadoop/hadoop-hive-queries-com-hue.png)
+![hive-query-hue](hadoop/images/hadoop-hive-queries-com-hue.png)
 
 No caso acima, a query será executada na interface do Hue, por meio do Query Editor, disponível em http://localhost:8888/.
 
@@ -413,7 +413,7 @@ Por fim, ss resultados do job MapReduce são enviados de volta para o Hive, que 
 
 A imagem abaixo ilustra a execução de uma query no Hive através do docker, diretamente no Hive Server.
 
-![hive-query-docker](hadoop/hadoop-hive-queries-com-docker.png)
+![hive-query-docker](hadoop/images/hadoop-hive-queries-com-docker.png)
 
 Semelhante ao que acontece no item 3.1.1, a query será executada diretamente no Hive server, por meio do contentor docker.
 
@@ -553,40 +553,149 @@ LIMIT 10;
 
 ![10-estacoes-gira-mais-proximas-ciclovias](resultados-analise/06-10-Estacoes-GIRA-mais-proximas-das-Ciclovias.png)
 
-### 
+### 10 Estações GIRA com menor tempo para Carris
 
 ```sql
-
+SELECT
+    dgc.gira_id,
+    g.nome_rua AS gira_station_name,
+    g.freguesia AS gira_station_freguesia,
+    c.stop_id AS carris_stop_id,
+    c.municipality_name AS carris_municipality,
+    (dgc.distance_meters / 250) AS time_minutes
+FROM distances_gira_stops dgc
+JOIN gira_stations g ON dgc.gira_id = g.object_id
+JOIN carris_stops c ON dgc.stops_id = c.stop_id
+GROUP BY dgc.gira_id, g.nome_rua, g.freguesia, c.stop_id, c.municipality_name, dgc.distance_meters
+ORDER BY time_minutes
+LIMIT 10;
 ```
 
-### 
+![10-estacoes-gira-menos-tempo-carris](resultados-analise/07-10-Estacoes-GIRA-com-menor-tempo-para-Carris.png)
+
+### 10 Estações GIRA com menor tempo para Metro
 
 ```sql
-
+SELECT
+    dgm.gira_id,
+    g.nome_rua AS gira_station_name,
+    g.freguesia AS gira_station_freguesia,
+    m.nome AS metro_station_name,
+    (dgm.distance_meters / 250) AS time_minutes
+FROM distances_gira_metro dgm
+JOIN gira_stations g ON dgm.gira_id = g.object_id
+JOIN metro_stations m ON dgm.metro_id = m.object_id
+GROUP BY dgm.gira_id, g.nome_rua, g.freguesia, m.nome, dgm.distance_meters
+ORDER BY time_minutes
+LIMIT 10;
 ```
 
-### 
+![10-estacoes-gira-menos-tempo-metro](resultados-analise/08-10-Estacoes-GIRA-com-menor-tempo-para-Metro.png)
+
+### 10 Estações GIRA com menor tempo para Comboio
 
 ```sql
-
+SELECT
+    dgt.gira_id,
+    g.nome_rua AS gira_station_name,
+    g.freguesia AS gira_station_freguesia,
+    t.nome AS train_station_name,
+    (dgt.distance_meters / 250) AS time_minutes
+FROM distances_gira_train dgt
+JOIN gira_stations g ON dgt.gira_id = g.object_id
+JOIN train_stations t ON dgt.train_id = t.object_id
+GROUP BY dgt.gira_id, g.nome_rua, g.freguesia, t.nome, dgt.distance_meters
+ORDER BY time_minutes
+LIMIT 10;
 ```
 
-### 
+![10-estacoes-gira-menos-tempo-comboio](resultados-analise/09-10-Estacoes-GIRA-com-menor-tempo-para-Comboio.png)
+
+### 10 Estações GIRA com menor tempo para Ciclovias
 
 ```sql
-
+SELECT
+    dgc.gira_id,
+    g.nome_rua AS gira_station_name,
+    g.freguesia AS gira_station_freguesia,
+    c.designacao AS ciclovia_name,
+    (dgc.distance_meters / 250) AS time_minutes
+FROM distances_gira_ciclovias_pontos dgc
+JOIN gira_stations g ON dgc.gira_id = g.object_id
+JOIN ciclovias c ON dgc.ciclovia_id = c.ciclovia_id
+GROUP BY dgc.gira_id, g.nome_rua, g.freguesia, c.designacao, dgc.distance_meters
+ORDER BY time_minutes
+LIMIT 10;
 ```
+
+![10-estacoes-gira-menos-tempo-ciclovias](resultados-analise/10-10-Estacoes-GIRA-com-menor-tempo-para-Ciclovias.png)
+
+### Distância mínima GIRA - Carris por Freguesia
+
+```sql
+SELECT
+    g.freguesia,
+    MIN(dgc.distance_meters) AS min_distance_gira_carris
+FROM gira_stations g
+JOIN distances_gira_stops dgc ON g.object_id = dgc.gira_id
+GROUP BY g.freguesia
+ORDER BY min_distance_gira_carris ASC;
+```
+
+![distancia-minima-gira-carris-freguesia](resultados-analise/11-Distancia-minima-GIRA-Carris-por-Freguesia.png)
+
+### Distância mínima GIRA - Metro por Freguesia
+
+```sql
+SELECT
+    g.freguesia,
+    MIN(dgm.distance_meters) AS min_distance_gira_metro
+FROM gira_stations g
+JOIN distances_gira_metro dgm ON g.object_id = dgm.gira_id
+GROUP BY g.freguesia
+ORDER BY min_distance_gira_metro ASC;
+```
+
+![distancia-minima-gira-carris-freguesia](resultados-analise/12-Distancia-minima-GIRA-Metro-por-Freguesia.png)
+
+### Distância mínima GIRA - Comboio por Freguesia
+
+```sql
+SELECT
+    g.freguesia,
+    MIN(dgt.distance_meters) AS min_distance_gira_train
+FROM gira_stations g
+JOIN distances_gira_train dgt ON g.object_id = dgt.gira_id
+GROUP BY g.freguesia
+ORDER BY min_distance_gira_train ASC;
+```
+
+![distancia-minima-gira-carris-freguesia](resultados-analise/13-Distancia-minima-GIRA-Comboio-por-Freguesia.png)
+
+### Distância mínima GIRA - Ciclovias por Freguesia
+
+```sql
+SELECT
+    g.freguesia,
+    AVG(dcp.distance_meters) AS avg_distance_gira_ciclovias
+FROM gira_stations g
+JOIN distances_gira_ciclovias_pontos dcp ON g.object_id = dcp.gira_id
+GROUP BY g.freguesia
+ORDER BY avg_distance_gira_ciclovias ASC;
+```
+
+![distancia-minima-gira-carris-freguesia](resultados-analise/14-Distancia-minima-GIRA-Ciclovias-por-Freguesia.png)
 
 # 4) Conclusão
 
-Com base nos resultados que obtemos podemos concluir que a rede GIRA se encontra bem integrada na rede de transportes públicos e ciclovias do concelho de Lisboa.
+Com base nos resultados obtidos, podemos concluir que a rede GIRA se encontra bem integrada na rede de transportes públicos e ciclovias do concelho de Lisboa.
 
-Em média, qualquer estação de metro, comboio ou ciclovia encontra-se a cerca 4km de distância, que a uma velocidade percorrida numa gira a 15km/h se tornam cerca de 17 minutos.
+Em média, qualquer estação de metro, comboio ou ciclovia encontra-se a cerca 4km de distância, que a uma velocidade média de 15km/h percorrida numa bicicleta Gira se tornam cerca de 17 minutos.
 
 No que toca à distância mínima, há 10 estações que se encontram a 30 metros ou menos de uma estação de autocarro, a 50 metros ou menos de uma estação de metro, a 200 metros ou menos de uma estação de comboio e a 4 metros ou menos de uma ciclovia.
 
 Todas as distâncias referidas anteriormente, refletem-se num tempo percorrido inferior a 1 minuto numa gira a 15km/h.
 
-Por fim, observando de forma mais geral, não por estação de gira mas por freguesias do concelho de Lisboa, 18 das 22 freguesias têm uma estação de autocarro a menos de 500 metros de estações gira e 16 freguesias apresentam uma estação de metro a menos de 300 metros. 18 freguesias demonstram uma estação de comboio a menos de 1 km e todas as 22 freguesias têm uma ciclovia a menos de 300 metros de uma estação gira.
+Por fim, observando de forma mais geral, não por estação de gira mas por freguesias do concelho de Lisboa, 18 das 22 freguesias têm uma estação de autocarro a menos de 500 metros de estações gira e 16 freguesias apresentam uma estação de metro a menos de 300 metros. Além disso, 18 freguesias demonstram uma estação de comboio a menos de 1 km e todas as 22 freguesias têm uma ciclovia a menos de 300 metros de uma estação gira.
 
 Baseados nos dados recolhidos e na pesquisa por nós efectuada, a rede GIRA pode ser considerada um bom complemento para a rede de transportes públicos e ciclovias de Lisboa.
