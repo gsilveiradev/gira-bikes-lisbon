@@ -2,9 +2,52 @@
 
 Um estudo sobre a integração das estações de bicicletas Gira com a rede de transporte público de Lisboa, incluindo ciclovias, paragens de autocarro e estações de Metro e Comboios.
 
+A ideia principal será saber se as estações GIRA se encontram integradas, podem
+ajudar a complementar, a rede de transportes públicos já existentes, fazendo alguns
+estudos sobre a distância e tempo entre as estações GIRA e as ciclovias, estações
+de autocarro.
 ## Contexto
 
 Trabalho realizado para a disciplina de Bases de Dados Distribuídas Avançadas no [Mestrado em Ciência de Dados](https://iscte-iul.pt/curso/codigo/0329/mestrado-ciencia-de-dados) do ISCTE - Instituto Universitário de Lisboa.
+
+No contexto da questão de integração das estações de bicicletas Gira com a rede
+de transporte público de Lisboa, lidamos com grandes volumes de dados que
+podem aumentar a cada momento, visto que as estações de transportes públicos e
+as ciclovias podem sempre vir a ser alargadas no futuro.
+
+Dada esta premissa, decidimos utilizar a stack Hadoop baseada em contentores
+Docker, referenciados no projeto docker-hadoop-hive-parquet e no artigo &quot;Making
+big moves in Big Data with Hadoop, Hive, Parquet, Hue and Docker&quot;. Pareceu-nos a
+escolha certa pois o Hadoop permite trabalhar com armazenamento distribuído e um
+grande volume de dados.
+
+De seguida, como queremos estudar a ligação entre as redes GIRA e a rede de
+transportes públicos de Lisboa através da distância e tempo entre as mesmas,
+precisámos de calcular as distâncias entre os nossos datasets. Este cálculo foi
+efectuado a partir da base de dados Postgres com PostGIS. O postGIS foi utilizado
+uma vez que possibilita estudar dados com coordenadas geográficas e dados
+espaciais de dados relacionais, que é o nosso caso, e relacionar os nossos datasets
+dessa forma, o que para nós o torna mais apelativo que o MySQL.
+
+Tendo os dados em Hadoop, e com as distâncias já calculadas, o passo seguinte é
+fazer uso do Hive. O Hive, na nossa opinião, é uma óptima opção uma vez que
+facilita a consulta dos nossos dados presentes em HDFS (Hadoop Distributed File
+Systems) através de queries do tipo SQL. Assim, temos acesso à nossa informação
+de forma a poder estudá-la para retirar conclusões sobre o objectivo do trabalho.
+
+Entre o Hive e o HDFS, passamos pelo MapReduce e o YARN, presentes no
+Hadoop. O MapReduce é importante porque é ideal para tarefas de processamento
+intensivo, o que nos ajuda nos cálculos dos nossos queries de conhecer as
+distâncias entre as estações GIRA e as outras estações de transportes e pontos de
+ciclovias e o YARN, por sua vez, gere os recursos do Hadoop e permite que a
+aplicação MapReduce seja executada de forma mais eficiente.
+
+Por fim, o Hue é um interface user-friendly que simplifica o processo de consulta e
+interacção com os dados. Através do Hue conseguimos interagir com o Haddop,
+HDFS e Hive de forma mais simples e ainda possibilitou a visualização dos queries
+em tabelas e gráficos, o que é uma excelente ferramenta para retirarmos as nossas
+conclusões e respondermos à questão final de se a integração da GIRA na rede de
+transportes públicos em Lisboa é um sucesso.
 
 # 1) Preparação dos Datasets
 
