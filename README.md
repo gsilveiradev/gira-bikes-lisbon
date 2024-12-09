@@ -17,11 +17,9 @@ podem aumentar a cada momento, visto que as estações de transportes públicos 
 as ciclovias podem sempre vir a ser alargadas no futuro.
 
 Dada esta premissa, decidimos utilizar a stack Hadoop baseada em contentores
-Docker, referenciados no projeto docker-hadoop-hive-parquet e no artigo &quot;Making
-big moves in Big Data with Hadoop, Hive, Parquet, Hue and Docker&quot;. Confiamos ser a
-escolha certa pois o Hadoop permite trabalhar com armazenamento distribuído e um
-grande volume de dados, mais ainda quando os nossos dados podem sofrer alterações 
-de tamanho e génese ao longo do tempo.
+Docker, referenciados no projeto [docker-hadoop-hive-parquet](https://github.com/tech4242/docker-hadoop-hive-parquet) e no artigo "[Making big moves in Big Data with Hadoop, Hive, Parquet, Hue and Docker](https://towardsdatascience.com/making-big-moves-in-big-data-with-hadoop-hive-parquet-hue-and-docker-320a52ca175)".
+Confiamos ser a escolha certa pois o Hadoop permite trabalhar com armazenamento distribuído e um
+grande volume de dados, mais ainda quando os nossos dados podem sofrer alterações de tamanho e génese ao longo do tempo.
 
 De seguida, como queremos estudar a ligação entre as redes GIRA e a rede de
 transportes públicos de Lisboa através da distância e tempo entre as mesmas,
@@ -46,7 +44,7 @@ aplicação MapReduce seja executada de forma mais eficiente.
 
 Por fim, o uso do Hue tornou-se importante pois é um interface user-friendly 
 que simplifica o processo de consulta e interacção com os dados. 
-Através do Hue conseguimos interagir com o Haddop, HDFS e Hive de forma mais simples
+Através do Hue conseguimos interagir com o Hadoop, HDFS e Hive de forma mais simples
 e ainda possibilitou a visualização dos queries em tabelas e gráficos, o que é 
 uma excelente ferramenta para retirarmos as nossas conclusões e respondermos à questão final
 de se a integração da GIRA na rede de transportes públicos em Lisboa é um sucesso.
