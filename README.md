@@ -1,33 +1,35 @@
 # Gira Bikes Lisbon
 
-Um estudo sobre a integração das estações de bicicletas Gira com a rede de transporte público de Lisboa, incluindo ciclovias, paragens de autocarro e estações de Metro e Comboios.
+Um estudo sobre a integração das estações de bicicletas Gira com a rede de transportes públicos de Lisboa, incluindo ciclovias, paragens de autocarro e estações de Metro e Comboios.
 
 A ideia principal será saber se as estações GIRA se encontram integradas, podem
 ajudar a complementar, a rede de transportes públicos já existentes, fazendo alguns
 estudos sobre a distância e tempo entre as estações GIRA e as ciclovias, estações
-de autocarro.
+de autocarro, Metro e Comboios.
+
 ## Contexto
 
 Trabalho realizado para a disciplina de Bases de Dados Distribuídas Avançadas no [Mestrado em Ciência de Dados](https://iscte-iul.pt/curso/codigo/0329/mestrado-ciencia-de-dados) do ISCTE - Instituto Universitário de Lisboa.
 
 No contexto da questão de integração das estações de bicicletas Gira com a rede
-de transporte público de Lisboa, lidamos com grandes volumes de dados que
+de transportes públicos de Lisboa, lidamos com grandes volumes de dados que
 podem aumentar a cada momento, visto que as estações de transportes públicos e
 as ciclovias podem sempre vir a ser alargadas no futuro.
 
 Dada esta premissa, decidimos utilizar a stack Hadoop baseada em contentores
 Docker, referenciados no projeto docker-hadoop-hive-parquet e no artigo &quot;Making
-big moves in Big Data with Hadoop, Hive, Parquet, Hue and Docker&quot;. Pareceu-nos a
+big moves in Big Data with Hadoop, Hive, Parquet, Hue and Docker&quot;. Confiamos ser a
 escolha certa pois o Hadoop permite trabalhar com armazenamento distribuído e um
-grande volume de dados.
+grande volume de dados, mais ainda quando os nossos dados podem sofrer alterações 
+de tamanho e génese ao longo do tempo.
 
 De seguida, como queremos estudar a ligação entre as redes GIRA e a rede de
 transportes públicos de Lisboa através da distância e tempo entre as mesmas,
-precisámos de calcular as distâncias entre os nossos datasets. Este cálculo foi
+precisamos de calcular as distâncias entre os nossos datasets. Este cálculo foi
 efectuado a partir da base de dados Postgres com PostGIS. O postGIS foi utilizado
 uma vez que possibilita estudar dados com coordenadas geográficas e dados
-espaciais de dados relacionais, que é o nosso caso, e relacionar os nossos datasets
-dessa forma, o que para nós o torna mais apelativo que o MySQL.
+espaciais de dados relacionais, que é o nosso caso através das coordenadas de longitude e latitude,
+e relacionar os nossos datasets dessa forma, o que para nós o torna mais apelativo que o MySQL.
 
 Tendo os dados em Hadoop, e com as distâncias já calculadas, o passo seguinte é
 fazer uso do Hive. O Hive, na nossa opinião, é uma óptima opção uma vez que
@@ -42,12 +44,12 @@ distâncias entre as estações GIRA e as outras estações de transportes e pon
 ciclovias e o YARN, por sua vez, gere os recursos do Hadoop e permite que a
 aplicação MapReduce seja executada de forma mais eficiente.
 
-Por fim, o Hue é um interface user-friendly que simplifica o processo de consulta e
-interacção com os dados. Através do Hue conseguimos interagir com o Haddop,
-HDFS e Hive de forma mais simples e ainda possibilitou a visualização dos queries
-em tabelas e gráficos, o que é uma excelente ferramenta para retirarmos as nossas
-conclusões e respondermos à questão final de se a integração da GIRA na rede de
-transportes públicos em Lisboa é um sucesso.
+Por fim, o uso do Hue tornou-se importante pois é um interface user-friendly 
+que simplifica o processo de consulta e interacção com os dados. 
+Através do Hue conseguimos interagir com o Haddop, HDFS e Hive de forma mais simples
+e ainda possibilitou a visualização dos queries em tabelas e gráficos, o que é 
+uma excelente ferramenta para retirarmos as nossas conclusões e respondermos à questão final
+de se a integração da GIRA na rede de transportes públicos em Lisboa é um sucesso.
 
 # 1) Preparação dos Datasets
 
@@ -59,10 +61,10 @@ Para este estudo ser desenvolvido, foi necessário utilizar datasets de diferent
    - [POI Transportes](https://geodados-cml.hub.arcgis.com/maps/4933d8f832474ad2bff558cae59c5207/about) - Serviço de mapa com indicação das principais estações de transportes, interfaces fluviais, elevadores e ascensores, postos de carregamento Mobi E de Lisboa, Zonas de Emissões Reduzidas.
      - [Estações de Comboio](https://geodados-cml.hub.arcgis.com/datasets/CML::poitransportes?layer=0): Dados sobre as estações de comboio, incluindo localização e nome.
      - [Estações de Metro](https://geodados-cml.hub.arcgis.com/datasets/CML::poitransportes?layer=1): Dados sobre as estações de metro, incluindo localização e nome.
-   - [POI Mobilidade](https://geodados-cml.hub.arcgis.com/maps/440b7424a6284e0b9bf11179b95bf8d1/about) - Serviço de mapa de área de zonamento de mobilidade em Lisboa.
+   - [POI Mobilidade](https://geodados-cml.hub.arcgis.com/maps/440b7424a6284e0b9bf11179b95bf8d1/about) - Serviço de mapa de área de zona de mobilidade em Lisboa.
      - [Rede Ciclável](https://geodados-cml.hub.arcgis.com/datasets/CML::ciclovias-2/explore?layer=0): Dados sobre as ciclovias, incluindo localização e nome.
 3) [Carris Metropolitana API](https://github.com/carrismetropolitana/api) - Um serviço de código aberto que fornece informações de rede no formato JSON ou Protocol Buffers. Este serviço lê e converte o arquivo GTFS oficial da Carris Metropolitana.
-   - [Paragens de Autocarro](https://github.com/carrismetropolitana/api?tab=readme-ov-file#stops): Retorna informações estáticas para todas as paragens de autocarros Carris, bem como linhas, rotas e padrões associados que usam cada paragem. 
+   - [Paragens de Autocarro](https://github.com/carrismetropolitana/api?tab=readme-ov-file#stops): Fornece informações estáticas para todas as paragens de autocarros Carris, bem como linhas, rotas e padrões associados que cada paragem usa.
 
 ![datasets](dataset/images/dataset-gira-fontes.png)
 
@@ -126,7 +128,7 @@ python3 import-metro-stations.py
 python3 import-train-stations.py
 ```
 
-Ao final deste processo, todos os dados dos datasets foram importados para a base de dados Postgres, e estão prontos para serem utilizados. A imagem abaixo resume o relacionamento entre os dados importados.
+No final deste processo, todos os dados dos datasets foram importados para a base de dados Postgres, e estão prontos a ser utilizados. A imagem abaixo resume o relacionamento entre os dados importados.
 
 ![Relação dos Datasets](dataset/images/dataset-gira-relationships.png)
 
@@ -146,7 +148,7 @@ Para calcular as distâncias entre as estações Gira e os pontos de transporte 
 python3 calculate-distances.py
 ```
 
-O script acima vai criar tabelas de distâncias no Postgres e calcular a distância em metros entre as estações Gira e todos os outros pontos de transporte público.
+O script acima vai criar tabelas de distâncias no Postgres e calcular a distância em metros entre as estações Gira e todos os outros pontos de transportes públicos.
 
 ## 1.4) Exportação dos Dados para ficheiros CSV
 
@@ -160,7 +162,7 @@ Para exportar todos os dados da base de dados Postgres para arquivos CSV, foi cr
 python3 export-postgres-to-csv.py
 ```
 
-Ao final deste processo, todos os dados importados e calculados na base de dados Postgres foram exportados para arquivos CSV, e estão prontos para serem importados para o Hadoop.
+No final deste processo, todos os dados importados e calculados na base de dados Postgres foram exportados para arquivos CSV, e estão prontos a ser importados para o Hadoop.
 
 A imagem abaixo ilustra o processo de importação e preparação dos datasets:
 
@@ -217,7 +219,7 @@ A imagem abaixo ilustra o que acontece ao fazer o upload dos datasets para o HDF
 
 ## 2.3) Criar tabelas no Hive com Hue
 
-Vamos assumir que temos criado uma Base de dados chamada `default`.
+Vamos assumir que temos criada uma Base de dados chamada `default`.
 
 Além disso, vamos assumir que os arquivos CSV estarão presentes no path `/datasets/exported/`, conforme executado no passo 2.2.
 
@@ -425,7 +427,8 @@ LOAD DATA INPATH '/datasets/exported/distances_gira_ciclovias_pontos.csv' INTO T
 
 Como forma a poder responder à pergunta deste trabalho, temos agora de estudar a conexão da rede GIRA de Lisboa com as restantes infraestruturas de transportes públicos, nomeadamente as rede Carris, de Metro e de Comboio e também as ciclovias.
 
-Desse modo, executámos vários queries em Hive na interface Hue. 
+Desse modo, executámos vários queries em Hive na interface Hue.
+
 Os queries que achámos serem explanatórios para a nossa pergunta inicial vão de encontro à distância e tempo entre os nossos datasets.
 
 ## 3.1) Executar Queries no Hive
@@ -444,13 +447,13 @@ No caso acima, a query será executada na interface do Hue, por meio do Query Ed
 
 No passo 1, a query é escrita no editor de queries do Hue e recebe instrução para ser executada.
 
-No passo 2, o Hue executa a query no o Hive Server. 
+No passo 2, o Hue executa a query no Hive Server. 
 
 No passo 3, o Hive traduz a query em HiveQL para jobs MapReduce.
 
-Nos passos 4 e 5, o job MapReduce lê os dados do HDFS, processa e consolida os resultados. Neste processo o YARN fornece os recursos computacionais e gerencia a execução dos jobs MapReduce.
+Nos passos 4 e 5, o job MapReduce lê os dados do HDFS, processa e consolida os resultados. Neste processo, o YARN fornece os recursos computacionais e gere a execução dos jobs MapReduce.
 
-Por fim, ss resultados do job MapReduce são enviados de volta para o Hive, que os apresenta no Hue para o usuário.
+Por fim, os resultados do job MapReduce são enviados de volta para o Hive, que os apresenta no Hue para o utilizador.
 
 ### 3.1.2) Executar Queries no Hive com Docker
 
@@ -469,7 +472,7 @@ No passo 1, a query é escrita e executada no Hive Server.
 
 No passo 2, o Hive traduz a query em HiveQL para jobs MapReduce.
 
-Nos passos 3 e 4, o job MapReduce lê os dados do HDFS, processa e consolida os resultados. Neste processo o YARN fornece os recursos computacionais e gerencia a execução dos jobs MapReduce.
+Nos passos 3 e 4, o job MapReduce lê os dados do HDFS, processa e consolida os resultados. Neste processo, o YARN fornece os recursos computacionais e gerencia a execução dos jobs MapReduce.
 
 Por fim, os resultados do job MapReduce são enviados de volta para o Hive, que os apresenta como output para o usuário.
 
@@ -733,12 +736,12 @@ ORDER BY avg_distance_gira_ciclovias ASC;
 
 Com base nos resultados obtidos, podemos concluir que a rede GIRA se encontra bem integrada na rede de transportes públicos e ciclovias do concelho de Lisboa.
 
-Em média, qualquer estação de metro, comboio ou ciclovia encontra-se a cerca 4km de distância, que a uma velocidade média de 15km/h percorrida numa bicicleta Gira se tornam cerca de 17 minutos.
+Em média, qualquer estação de metro, comboio ou ciclovia encontra-se a cerca de 4km de distância de uma estação GIRA, que a uma velocidade média de 15km/h percorrida numa bicicleta Gira se tornam cerca de 17 minutos.
 
-No que toca à distância mínima, há 10 estações que se encontram a 30 metros ou menos de uma estação de autocarro, a 50 metros ou menos de uma estação de metro, a 200 metros ou menos de uma estação de comboio e a 4 metros ou menos de uma ciclovia.
+No que toca à distância mínima, há 10 estações GIRA que se encontram a 30 metros ou menos de uma estação de autocarro, a 50 metros ou menos de uma estação de metro, a 200 metros ou menos de uma estação de comboio e a 4 metros ou menos de uma ciclovia.
 
-Todas as distâncias referidas anteriormente, refletem-se num tempo percorrido inferior a 1 minuto numa gira a 15km/h.
+Todas as distâncias referidas anteriormente, refletem-se num tempo percorrido inferior a 1 minuto numa Gira a 15km/h.
 
-Por fim, observando de forma mais geral, não por estação de gira mas por freguesias do concelho de Lisboa, 18 das 22 freguesias têm uma estação de autocarro a menos de 500 metros de estações gira e 16 freguesias apresentam uma estação de metro a menos de 300 metros. Além disso, 18 freguesias demonstram uma estação de comboio a menos de 1 km e todas as 22 freguesias têm uma ciclovia a menos de 300 metros de uma estação gira.
+Por fim, observando de forma mais geral, não por estação de GIRA mas por freguesias do concelho de Lisboa, 18 das 22 freguesias têm uma estação de autocarro a menos de 500 metros de estações GIRA e 16 freguesias apresentam uma estação de metro a menos de 300 metros. Além disso, 18 freguesias demonstram uma estação de comboio a menos de 1 km e todas as 22 freguesias têm uma ciclovia a menos de 300 metros de uma estação GIRA.
 
 Baseados nos dados recolhidos e na pesquisa por nós efectuada, a rede GIRA pode ser considerada um bom complemento para a rede de transportes públicos e ciclovias de Lisboa.
