@@ -1,6 +1,10 @@
 # Gira Bikes Lisbon
 
-Um estudo sobre a integração das estações de bicicletas Gira com a rede de transportes públicos de Lisboa, incluindo ciclovias, paragens de autocarro e estações de Metro e Comboios.
+[![pt](https://img.shields.io/badge/lang-pt-red.svg)](README.md)
+[![en](https://img.shields.io/badge/lang-en-blue.svg)](README.en.md)
+
+Um estudo sobre a integração das estações de bicicletas Gira com a rede de transportes 
+públicos de Lisboa, incluindo ciclovias, paragens de autocarro e estações de Metro e Comboios.
 
 A ideia principal será saber se as estações GIRA se encontram integradas, podem
 ajudar a complementar, a rede de transportes públicos já existentes, fazendo alguns
@@ -68,9 +72,11 @@ Para este estudo ser desenvolvido, foi necessário utilizar datasets de diferent
 
 ## 1.1) Ferramentas Auxiliares
 
-Para facilitar a importação dos datasets e posterior preparação dos dados, foi necessário utilizar uma base de dados Postgres com [PostGIS](https://postgis.net/).
+Para facilitar a importação dos datasets e posterior preparação dos dados, foi necessário 
+utilizar uma base de dados Postgres com [PostGIS](https://postgis.net/).
 
-Essa base de dados foi criada num contentor Docker, para facilitar a sua execução e utilização, a qual pode ser encontrada na pasta `postgres`.
+Essa base de dados foi criada num contentor Docker, para facilitar a sua execução e 
+utilização, a qual pode ser encontrada na pasta `postgres`.
 
 Para executar o contentor Docker, basta entrar na pasta `postgres` e executar o comando:
 
@@ -78,9 +84,11 @@ Para executar o contentor Docker, basta entrar na pasta `postgres` e executar o 
 docker compose up -d
 ```
 
-A base de dados Postgres vai possibilitar a importação de todos os datasets, de diferentes fontes, formatos e estruturas, para um único formato. 
+A base de dados Postgres vai possibilitar a importação de todos os datasets, de diferentes fontes, 
+formatos e estruturas, para um único formato. 
 
-Posteriormente, com o auxílio da extensão PostGIS, será executado o cálculo de distâncias entre os pontos de interesse, e a posterior exportação dos dados para arquivos CSV.
+Posteriormente, com o auxílio da extensão PostGIS, será executado o cálculo de distâncias 
+entre os pontos de interesse, e a posterior exportação dos dados para arquivos CSV.
 
 ## 1.2) Importação dos Datasets
 
@@ -93,13 +101,15 @@ Os datasets foram baixados das fontes acima e armazenados na pasta `dataset`, se
 
 > Para executar os scripts abaixo, é necessário estar no diretório `dataset`.
 
-Os dados das paragens de autocarro foram obtidos através da API REST da Carris Metropolitana e inseridos diretamente na base de dados Postgres, ao executar o script python:
+Os dados das paragens de autocarro foram obtidos através da API REST da Carris Metropolitana 
+e inseridos diretamente na base de dados Postgres, ao executar o script python:
 
 ```sh
 python3 import-carris-stops.py
 ```
 
-Todos os outros ficheiros CSV e GeoJSON foram importados para a base de dados Postgres, ao executar os respetivos scripts python:
+Todos os outros ficheiros CSV e GeoJSON foram importados para a base de dados Postgres, 
+ao executar os respetivos scripts python:
 
 **Extrair ciclovias do GeoJSON para CSV:**
 ```sh
@@ -126,41 +136,49 @@ python3 import-metro-stations.py
 python3 import-train-stations.py
 ```
 
-No final deste processo, todos os dados dos datasets foram importados para a base de dados Postgres, e estão prontos a ser utilizados. A imagem abaixo resume o relacionamento entre os dados importados.
+No final deste processo, todos os dados dos datasets foram importados para a base de dados Postgres, 
+e estão prontos a ser utilizados. A imagem abaixo resume o relacionamento entre os dados importados.
 
 ![Relação dos Datasets](dataset/images/dataset-gira-relationships.png)
 
 ## 1.3) Cálculo de Distâncias
 
-Uma vez que os dados estão importados na base de dados Postgres, é necessário calcular a distância entre os pontos de interesse.
+Uma vez que os dados estão importados na base de dados Postgres, é necessário calcular a distância 
+entre os pontos de interesse.
 
-A imagem abaixo ilustra o cálculo que vai ser preciso fazer para obter a distância - em metros - entre as estações Gira e os pontos de transporte público.
+A imagem abaixo ilustra o cálculo que vai ser preciso fazer para obter a distância - em metros - 
+entre as estações Gira e os pontos de transporte público.
 
 ![Distâncias](dataset/images/dataset-gira-distances.png)
 
 > Para executar os scripts abaixo, é necessário estar no diretório `dataset`.
 
-Para calcular as distâncias entre as estações Gira e os pontos de transporte público, foi criado um script python que deve ser executado como no exemplo:
+Para calcular as distâncias entre as estações Gira e os pontos de transporte público, 
+foi criado um script python que deve ser executado como no exemplo:
 
 ```sh
 python3 calculate-distances.py
 ```
 
-O script acima vai criar tabelas de distâncias no Postgres e calcular a distância em metros entre as estações Gira e todos os outros pontos de transportes públicos.
+O script acima vai criar tabelas de distâncias no Postgres e calcular a distância em metros entre as 
+estações Gira e todos os outros pontos de transportes públicos.
 
 ## 1.4) Exportação dos Dados para ficheiros CSV
 
-Uma vez que todos os dados estão importados e as distâncias calculadas, é necessário exportar todos os dados para arquivos CSV, para que possam ser importados para o Hadoop.
+Uma vez que todos os dados estão importados e as distâncias calculadas, é necessário exportar todos 
+os dados para arquivos CSV, para que possam ser importados para o Hadoop.
 
 > Para executar os scripts abaixo, é necessário estar no diretório `exported`.
 
-Para exportar todos os dados da base de dados Postgres para arquivos CSV, foi criado um script python que deve ser executado como no exemplo:
+Para exportar todos os dados da base de dados Postgres para arquivos CSV, foi criado um script python 
+que deve ser executado como no exemplo:
 
 ```sh
 python3 export-postgres-to-csv.py
 ```
 
-No final deste processo, todos os dados importados e calculados na base de dados Postgres foram exportados para arquivos CSV, e estão prontos a ser importados para o Hadoop.
+No final deste processo, todos os dados importados e calculados na base de dados Postgres foram 
+exportados para arquivos CSV, e estão prontos a ser importados para o Hadoop.
 
 A imagem abaixo ilustra o processo de importação e preparação dos datasets:
 
@@ -168,13 +186,15 @@ A imagem abaixo ilustra o processo de importação e preparação dos datasets:
 
 # 2) Hadoop
 
-A stack Hadoop utilizada neste trabalho será baseada em contentores Docker, referenciados no projeto [docker-hadoop-hive-parquet](https://github.com/tech4242/docker-hadoop-hive-parquet) e no artigo "[Making big moves in Big Data with Hadoop, Hive, Parquet, Hue and Docker](https://towardsdatascience.com/making-big-moves-in-big-data-with-hadoop-hive-parquet-hue-and-docker-320a52ca175)".
+A stack Hadoop utilizada neste trabalho será baseada em contentores Docker, referenciados no projeto 
+[docker-hadoop-hive-parquet](https://github.com/tech4242/docker-hadoop-hive-parquet) e no artigo "[Making big moves in Big Data with Hadoop, Hive, Parquet, Hue and Docker](https://towardsdatascience.com/making-big-moves-in-big-data-with-hadoop-hive-parquet-hue-and-docker-320a52ca175)".
 
 ![hadoop-stack](hadoop/images/hadoop-ecosystem-gira.png)
 
 ## 2.1) Aceder ao Hue e criar user Admin
 
-O primeiro passo é aceder ao Hue, que é uma interface gráfica para o Hadoop, e criar um user Admin - sugestão usada no escopo deste trabalho.
+O primeiro passo é aceder ao Hue, que é uma interface gráfica para o Hadoop, e criar um user 
+Admin - sugestão usada no escopo deste trabalho.
 
 Abrir http://localhost:8888/ e criar um user `admin` com password `admin`.
 
@@ -209,7 +229,8 @@ A imagem abaixo ilustra o que acontece ao executar os comandos acima.
 
 ### 2.2.1) Alternativa: Copiar datasets para o HDFS com Hue
 
-Em alternativa, o upload dos datasets para o HDFS pode ser feito através da interface gráfica do Hue, que no caso deste trabalho está disponível em http://localhost:8888/.
+Em alternativa, o upload dos datasets para o HDFS pode ser feito através da interface gráfica do Hue, 
+que no caso deste trabalho está disponível em http://localhost:8888/.
 
 A imagem abaixo ilustra o que acontece ao fazer o upload dos datasets para o HDFS através do Hue.
 
@@ -423,17 +444,21 @@ LOAD DATA INPATH '/datasets/exported/distances_gira_ciclovias_pontos.csv' INTO T
 ```
 # 3) Resultados
 
-Como forma a poder responder à pergunta deste trabalho, temos agora de estudar a conexão da rede GIRA de Lisboa com as restantes infraestruturas de transportes públicos, nomeadamente as rede Carris, de Metro e de Comboio e também as ciclovias.
+Como forma a poder responder à pergunta deste trabalho, temos agora de estudar a conexão da rede 
+GIRA de Lisboa com as restantes infraestruturas de transportes públicos, nomeadamente as rede Carris, 
+de Metro e de Comboio e também as ciclovias.
 
 Desse modo, executámos vários queries em Hive na interface Hue.
 
-Os queries que achámos serem explanatórios para a nossa pergunta inicial vão de encontro à distância e tempo entre os nossos datasets.
+Os queries que achámos serem explanatórios para a nossa pergunta inicial vão de encontro à distância 
+e tempo entre os nossos datasets.
 
 ## 3.1) Executar Queries no Hive
 
 A análise dos dados será feita através de queries no Hive, ao usar HiveQL como linguagem.
 
-A execução das queries pode ser feita diretamente no Hive Server, através do docker, ou através de ferramentas de visualização de dados, como o Hue.
+A execução das queries pode ser feita diretamente no Hive Server, através do docker, ou através de 
+ferramentas de visualização de dados, como o Hue.
 
 ### 3.1.1) Executar Queries no Hive com a interface Hue
 
@@ -449,7 +474,8 @@ No passo 2, o Hue executa a query no Hive Server.
 
 No passo 3, o Hive traduz a query em HiveQL para jobs MapReduce.
 
-Nos passos 4 e 5, o job MapReduce lê os dados do HDFS, processa e consolida os resultados. Neste processo, o YARN fornece os recursos computacionais e gere a execução dos jobs MapReduce.
+Nos passos 4 e 5, o job MapReduce lê os dados do HDFS, processa e consolida os resultados. Neste processo, 
+o YARN fornece os recursos computacionais e gere a execução dos jobs MapReduce.
 
 Por fim, os resultados do job MapReduce são enviados de volta para o Hive, que os apresenta no Hue para o utilizador.
 
@@ -470,9 +496,11 @@ No passo 1, a query é escrita e executada no Hive Server.
 
 No passo 2, o Hive traduz a query em HiveQL para jobs MapReduce.
 
-Nos passos 3 e 4, o job MapReduce lê os dados do HDFS, processa e consolida os resultados. Neste processo, o YARN fornece os recursos computacionais e gerencia a execução dos jobs MapReduce.
+Nos passos 3 e 4, o job MapReduce lê os dados do HDFS, processa e consolida os resultados. 
+Neste processo, o YARN fornece os recursos computacionais e gerencia a execução dos jobs MapReduce.
 
-Por fim, os resultados do job MapReduce são enviados de volta para o Hive, que os apresenta como output para o usuário.
+Por fim, os resultados do job MapReduce são enviados de volta para o Hive, que os apresenta como 
+output para o usuário.
 
 ## 3.2) Análise dos Dados
 
@@ -732,14 +760,25 @@ ORDER BY avg_distance_gira_ciclovias ASC;
 
 # 4) Conclusão
 
-Com base nos resultados obtidos, podemos concluir que a rede GIRA se encontra bem integrada na rede de transportes públicos e ciclovias do concelho de Lisboa.
+Com base nos resultados obtidos, podemos concluir que a rede GIRA se encontra bem integrada na 
+rede de transportes públicos e ciclovias do concelho de Lisboa.
 
-Em média, qualquer estação de metro, comboio ou ciclovia encontra-se a cerca de 4km de distância de uma estação GIRA, que a uma velocidade média de 15km/h percorrida numa bicicleta Gira se tornam cerca de 17 minutos.
+Em média, qualquer estação de metro, comboio ou ciclovia encontra-se a cerca de 4km de distância de uma 
+estação GIRA, que a uma velocidade média de 15km/h percorrida numa bicicleta Gira se tornam cerca de 17 minutos.
 
-No que toca à distância mínima, há 10 estações GIRA que se encontram a 30 metros ou menos de uma estação de autocarro, a 50 metros ou menos de uma estação de metro, a 200 metros ou menos de uma estação de comboio e a 4 metros ou menos de uma ciclovia.
+No que toca à distância mínima, há 10 estações GIRA que se encontram a:
+- 30 metros ou menos de uma estação de autocarro, 
+- 50 metros ou menos de uma estação de metro, 
+- 200 metros ou menos de uma estação de comboio, 
+- e a 4 metros ou menos de uma ciclovia.
 
 Todas as distâncias referidas anteriormente, refletem-se num tempo percorrido inferior a 1 minuto numa Gira a 15km/h.
 
-Por fim, observando de forma mais geral, não por estação de GIRA mas por freguesias do concelho de Lisboa, 18 das 22 freguesias têm uma estação de autocarro a menos de 500 metros de estações GIRA e 16 freguesias apresentam uma estação de metro a menos de 300 metros. Além disso, 18 freguesias demonstram uma estação de comboio a menos de 1 km e todas as 22 freguesias têm uma ciclovia a menos de 300 metros de uma estação GIRA.
+Por fim, observando de forma mais geral, não por estação de GIRA mas por freguesias do concelho de Lisboa: 
+- 18 das 22 freguesias têm uma estação de autocarro a menos de 500 metros de estações GIRA,
+-  16 freguesias apresentam uma estação de metro a menos de 300 metros, 
+-  18 freguesias demonstram uma estação de comboio a menos de 1 km, 
+-  e todas as 22 freguesias têm uma ciclovia a menos de 300 metros de uma estação GIRA.
 
-Baseados nos dados recolhidos e na pesquisa por nós efectuada, a rede GIRA pode ser considerada um bom complemento para a rede de transportes públicos e ciclovias de Lisboa.
+Baseados nos dados recolhidos e na pesquisa por nós efectuada, a rede GIRA pode ser considerada um bom 
+complemento para a rede de transportes públicos e ciclovias de Lisboa.
